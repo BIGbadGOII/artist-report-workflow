@@ -44,6 +44,10 @@ scripts/
 sugimoto-current-version.png
 requirements-export.txt
 
+# Local product research outside the report-generation core
+product-spec/artist-report-corpus-analysis.md
+product-spec/report-value-review-01.md
+
 # Codex extraction and review scratch data
 .codex_tmp_*/
 
