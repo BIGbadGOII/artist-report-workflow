@@ -51,5 +51,5 @@ product-spec/report-value-review-01.md
 # Codex extraction and review scratch data
 .codex_tmp_*/
 
-# Local backup of the former nested repository metadata
-report-app/.git.pre-monorepo-backup/
+# Local backups of former nested repository metadata
+**/.git.pre-monorepo-backup/
