@@ -1,0 +1,51 @@
+# macOS and editors
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# JavaScript / TypeScript
+node_modules/
+.next/
+.vinext/
+.wrangler/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Expo
+.expo/
+expo-preview-qr*.png
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated reports, renders, and working files
+output/
+tmp/
+**/output/
+*.mp4
+
+# Product and presentation prototypes are outside this repository's scope
+collector-report-app/
+report-app/
+sugimoto-video/
+scripts/
+sugimoto-current-version.png
+requirements-export.txt
+
+# Codex extraction and review scratch data
+.codex_tmp_*/
+
+# Local backup of the former nested repository metadata
+report-app/.git.pre-monorepo-backup/

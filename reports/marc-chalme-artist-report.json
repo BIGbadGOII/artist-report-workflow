@@ -1,0 +1,759 @@
+{
+  "report_metadata": {
+    "report_id": "AR-20260805-MC-001",
+    "artist_entity_id": "artist-marc-chalme-1969-lorient",
+    "generated_at": "2026-08-05T02:20:40+08:00",
+    "information_cutoff": "2026-08-05T02:20:40+08:00",
+    "report_version": "0.1",
+    "coverage_state": "limited",
+    "source_counts_by_tier": {
+      "tier_1": 9,
+      "tier_2": 2,
+      "tier_3": 0
+    },
+    "automated_generation_disclosure": "This report was generated automatically from publicly accessible sources. It is a research aid, not an authentication, appraisal, purchase recommendation, or investment opinion."
+  },
+  "artist_identity": {
+    "preferred_name": "Marc Chalmé",
+    "native_language_name": "Marc Chalmé",
+    "name_variants": ["Marc Chalmé", "Marc Chalme"],
+    "birth": {
+      "date": {"year": 1969, "display": "1969", "precision": "year"},
+      "place": "Lorient, Brittany, France"
+    },
+    "current_bases": [],
+    "documented_nationalities_or_cultural_identifications": [
+      {"label": "French", "claim_ids": ["C002"]}
+    ],
+    "education": [
+      {
+        "institution": "Unspecified art schools in Nantes and Rennes",
+        "degree": null,
+        "field": "Art",
+        "claim_ids": ["C003"]
+      },
+      {
+        "institution": "Study with Georges Pichon",
+        "degree": null,
+        "field": "Painting",
+        "claim_ids": ["C003"]
+      }
+    ],
+    "primary_media": ["painting", "drawing", "oil on canvas", "oil on board"],
+    "current_representation_names": [
+      "M Fine Arts Galerie",
+      "Catto Gallery",
+      "Galerie Claudine Legrand"
+    ],
+    "disambiguation_note": "Resolved as the French figurative painter born in Lorient in 1969. Birth data, media, gallery relationships, and exhibition history distinguish this entity from other people named Marc Chalme or Chalmé.",
+    "claim_ids": ["C001", "C002", "C003", "C004"]
+  },
+  "at_a_glance": {
+    "state": "available",
+    "state_note": "Practice and gallery activity are documented; institutional and auction evidence are sparse.",
+    "title": "At a glance",
+    "summary": "Marc Chalmé is a French figurative painter whose constructed interiors, quiet streets, landscapes, still lifes, and occasional figures are organized around controlled light and suspended time. Recent documented works are mainly oil on canvas, with drawings and oil on board also present. His career record is primarily commercial-gallery based, with solo presentations in Paris, New York, Boston, London, Zurich, and St. Moritz. No public-museum collection record was verified, and accessible public-auction coverage consists of one price-restricted 2021 record, preventing meaningful price statistics or trend analysis.",
+    "claim_ids": ["C001", "C005", "C006", "C012", "C013"]
+  },
+  "biography_and_career": {
+    "state": "limited",
+    "state_note": "Schools, degrees, teaching post, current base, and the venue of the reported 2005 first solo exhibition are not specified.",
+    "title": "Biography and career development",
+    "summary": "Artist and gallery biographies state that Chalmé studied in Nantes and Rennes, later studied with Georges Pichon, and has divided his time between painting and teaching since 1991. The published career chronology is structured around commercial galleries in France, the United States, the United Kingdom, and Switzerland.",
+    "claim_ids": ["C003", "C007", "C008"]
+  },
+  "artistic_practice": {
+    "state": "available",
+    "state_note": "Supported by documented works, two gallery accounts, and one independent specialist review; no artist-authored statement was located.",
+    "title": "Artistic practice",
+    "summary": "Chalmé repeatedly uses legible, carefully constructed architecture, objects, and landscapes while minimizing narrative action. Dusk, night, artificial illumination, windows, reflections, empty rooms, and partly deserted streets recur. An independent review identifies the construction of interior and exterior space and the interaction of shadow and light as central. Galleries extend this reading toward dream, temporal suspension, and the uncanny. The synthesis that light functions as the primary event is system-generated, not an artist statement.",
+    "claim_ids": ["C005", "C006", "C009", "C010"]
+  },
+  "practice_timeline": {
+    "state": "limited",
+    "state_note": "Dated works and exhibitions exist, but the evidence does not establish two defensible phases with documented transitions.",
+    "phases": []
+  },
+  "selected_works": {
+    "state": "available",
+    "state_note": "Selection documents recurring concerns and media; it is not a ranking.",
+    "items": [
+      {
+        "work_id": "work-macondo",
+        "title": "Macondo",
+        "series": null,
+        "medium": "painting",
+        "dimensions_display": "89 × 116 cm",
+        "description": "Reproduced with the 2022 independent review as an example of Chalmé's nocturnal constructed spaces.",
+        "role_in_practice": "Documents the recurring nocturnal architectural setting.",
+        "image_source_id": "S006",
+        "image_rights_status": "Not reproduced; copyright credited to Marc Chalmé by source.",
+        "related_entity_ids": ["exhibition-paris-2022"],
+        "claim_ids": ["C006"]
+      },
+      {
+        "work_id": "work-in-the-mirror-2023",
+        "title": "In the Mirror",
+        "series": null,
+        "date": {"year": 2023, "display": "2023", "precision": "year"},
+        "medium": "oil on canvas",
+        "dimensions_display": "97 × 130 cm",
+        "description": "An interior work listed as sold by Catto Gallery without a disclosed transaction price.",
+        "role_in_practice": "Connects interior, reflection, and staged domestic-space motifs.",
+        "image_source_id": "S004",
+        "image_rights_status": "Not reproduced; rights remain with artist or stated holder.",
+        "related_entity_ids": ["exhibition-catto-2023"],
+        "claim_ids": ["C011"]
+      },
+      {
+        "work_id": "work-nightfall-2023",
+        "title": "Nightfall",
+        "series": null,
+        "date": {"year": 2023, "display": "2023", "precision": "year"},
+        "medium": "oil on canvas",
+        "dimensions_display": "97 × 130 cm",
+        "description": "Listed by Catto Gallery at an asking price of GBP 8,950 at the information cutoff.",
+        "role_in_practice": "Representative of the twilight landscape group in Catto's exhibition text.",
+        "image_source_id": "S004",
+        "image_rights_status": "Not reproduced; rights remain with artist or stated holder.",
+        "related_entity_ids": ["exhibition-catto-2023"],
+        "claim_ids": ["C011", "C014"]
+      },
+      {
+        "work_id": "work-dreamers-ii-2023",
+        "title": "Dreamers II",
+        "series": null,
+        "date": {"year": 2023, "display": "2023", "precision": "year"},
+        "medium": "oil on canvas",
+        "dimensions_display": "130 × 162 cm",
+        "description": "A large-format Catto exhibition work listed as sold, with no price disclosed.",
+        "role_in_practice": "Documents the recurring dream vocabulary in recent work and exhibition titles.",
+        "image_source_id": "S004",
+        "image_rights_status": "Not reproduced; rights remain with artist or stated holder.",
+        "related_entity_ids": ["exhibition-catto-2023"],
+        "claim_ids": ["C011"]
+      },
+      {
+        "work_id": "work-sisters-in-the-mirror-2023",
+        "title": "Sisters in the Mirror",
+        "series": null,
+        "date": {"year": 2023, "display": "2023", "precision": "year"},
+        "medium": "oil on canvas",
+        "dimensions_display": "160 × 200 cm",
+        "description": "A large figurative/interior work listed as sold, with no price disclosed.",
+        "role_in_practice": "Shows that the 2023 presentation was not exclusively unpopulated landscape.",
+        "image_source_id": "S004",
+        "image_rights_status": "Not reproduced; rights remain with artist or stated holder.",
+        "related_entity_ids": ["exhibition-catto-2023"],
+        "claim_ids": ["C011"]
+      },
+      {
+        "work_id": "work-into-the-dream-drawing-2023",
+        "title": "Into the Dream (drawing)",
+        "series": null,
+        "date": {"year": 2023, "display": "2023", "precision": "year"},
+        "medium": "drawing",
+        "dimensions_display": "124 × 145 cm",
+        "description": "A drawing listed by Catto Gallery.",
+        "role_in_practice": "Documents drawing as a parallel medium for the exhibition's interior imagery.",
+        "image_source_id": "S009",
+        "image_rights_status": "Not reproduced; rights remain with artist or stated holder.",
+        "related_entity_ids": ["exhibition-catto-2023"],
+        "claim_ids": ["C011"]
+      },
+      {
+        "work_id": "work-blue-neon-2023",
+        "title": "Blue Neon",
+        "series": null,
+        "date": {"year": 2023, "display": "2023", "precision": "year"},
+        "medium": "oil on board",
+        "dimensions_display": "27 × 35 cm",
+        "description": "Listed by Catto Gallery at an asking price of GBP 2,500 at the information cutoff.",
+        "role_in_practice": "Documents a small board format and artificial urban light.",
+        "image_source_id": "S009",
+        "image_rights_status": "Not reproduced; rights remain with artist or stated holder.",
+        "related_entity_ids": ["exhibition-catto-2023"],
+        "claim_ids": ["C011", "C014"]
+      }
+    ]
+  },
+  "exhibitions": {
+    "state": "conflicting",
+    "state_note": "Historical gallery chronology is usable, but recent dates conflict between the artist website and gallery archives.",
+    "items": [
+      {
+        "title": "Dreamers",
+        "venue": "Gallery Elle",
+        "venue_type": "commercial_gallery",
+        "city": "St. Moritz",
+        "country": "Switzerland",
+        "start": {"year": 2025, "display": "2023 or 2025", "precision": "approximate"},
+        "classification": "solo",
+        "status": "completed",
+        "claim_ids": ["C015"]
+      },
+      {
+        "title": "Marc Chalmé exhibition",
+        "venue": "Catto Gallery",
+        "venue_type": "commercial_gallery",
+        "city": "London",
+        "country": "United Kingdom",
+        "start": {"iso": "2023-11-09", "year": 2023, "display": "9 November 2023", "precision": "day"},
+        "end": {"iso": "2023-11-30", "year": 2023, "display": "30 November 2023", "precision": "day"},
+        "classification": "solo",
+        "status": "completed",
+        "claim_ids": ["C008", "C016"]
+      },
+      {
+        "title": "Marc Chalmé",
+        "venue": "Galerie Claudine Legrand",
+        "venue_type": "commercial_gallery",
+        "city": "Paris",
+        "country": "France",
+        "start": {"iso": "2022-03-10", "year": 2022, "display": "10 March 2022", "precision": "day"},
+        "end": {"iso": "2022-04-02", "year": 2022, "display": "2 April 2022", "precision": "day"},
+        "classification": "solo",
+        "status": "completed",
+        "claim_ids": ["C006"]
+      },
+      {
+        "title": "Those Who Dream by Day",
+        "venue": "M Fine Arts Galerie",
+        "venue_type": "commercial_gallery",
+        "city": "Boston",
+        "country": "United States",
+        "start": {"year": 2018, "display": "November 2018", "precision": "month"},
+        "classification": "solo",
+        "status": "completed",
+        "claim_ids": ["C017"]
+      },
+      {
+        "title": "Moderne Art Fair 2022",
+        "venue": "Moderne Art Fair",
+        "venue_type": "art_fair",
+        "city": "Paris",
+        "country": "France",
+        "start": {"year": 2022, "display": "20–24 October 2022", "precision": "day"},
+        "classification": "group",
+        "status": "completed",
+        "claim_ids": ["C018"]
+      }
+    ]
+  },
+  "institutional_presence": {
+    "state": "not_found",
+    "state_note": "No public-museum collection record, institutional exhibition, public commission, catalogue raisonné, or major scholarly monograph was verified in the reviewed sources.",
+    "collections": [],
+    "institutional_exhibitions": [],
+    "commissions": [],
+    "scholarly_publications": []
+  },
+  "gallery_representation": {
+    "state": "conflicting",
+    "state_note": "The artist contact page names three representatives; Gallery Elle also maintains the artist on its roster but is omitted from that contact page.",
+    "current": [
+      {
+        "gallery": "M Fine Arts Galerie",
+        "relationship_type": "representation",
+        "locations": ["Boston, United States"],
+        "solo_exhibition_count": null,
+        "group_exhibition_count": null,
+        "verified_at": "2026-08-05T02:20:40+08:00",
+        "claim_ids": ["C004"]
+      },
+      {
+        "gallery": "Catto Gallery",
+        "relationship_type": "representation",
+        "locations": ["London, United Kingdom"],
+        "solo_exhibition_count": 1,
+        "group_exhibition_count": null,
+        "verified_at": "2026-08-05T02:20:40+08:00",
+        "claim_ids": ["C004", "C016"]
+      },
+      {
+        "gallery": "Galerie Claudine Legrand",
+        "relationship_type": "representation",
+        "locations": ["Paris, France"],
+        "solo_exhibition_count": null,
+        "group_exhibition_count": null,
+        "verified_at": "2026-08-05T02:20:40+08:00",
+        "claim_ids": ["C004", "C006"]
+      },
+      {
+        "gallery": "Gallery Elle",
+        "relationship_type": "collaboration",
+        "locations": ["Zurich, Switzerland", "St. Moritz, Switzerland"],
+        "solo_exhibition_count": null,
+        "group_exhibition_count": null,
+        "verified_at": "2026-08-05T02:20:40+08:00",
+        "claim_ids": ["C019"]
+      }
+    ],
+    "previous": []
+  },
+  "public_market": {
+    "state": "limited",
+    "state_note": "One visible database record has restricted price and auction-house fields; no meaningful price statistics can be calculated.",
+    "provider": "askART",
+    "cutoff": "2026-08-05T02:20:40+08:00",
+    "first_recorded_auction": {"iso": "2021-10-05", "year": 2021, "display": "5 October 2021", "precision": "day"},
+    "offered_lots": 1,
+    "sold_lots": 1,
+    "withdrawn_or_canceled_lots": null,
+    "sell_through_rate": 1.0,
+    "medium_distribution": [],
+    "creation_period_distribution": [],
+    "auction_house_distribution": [],
+    "geography_distribution": [],
+    "annual_history": [],
+    "top_results": [],
+    "sample_size_note": "The provider exposes one record and displays a 100% sold rate. One observation is insufficient for a trend, and the visible page withholds price and auction-house data.",
+    "methodology_note": "No median, average, total sales value, or top-result table was calculated. Primary-market gallery asking prices were kept separate from public-auction data.",
+    "claim_ids": ["C013", "C014"]
+  },
+  "recent_activity": {
+    "state": "conflicting",
+    "state_note": "Sparse artist-supplied activity for 2024–2025 conflicts with gallery date labels or lacks event pages.",
+    "window_start": {"iso": "2024-08-05", "year": 2024, "display": "5 August 2024", "precision": "day"},
+    "window_end": {"iso": "2026-08-05", "year": 2026, "display": "5 August 2026", "precision": "day"},
+    "events": [
+      {
+        "event_type": "exhibition",
+        "title": "Dreamers",
+        "date": {"year": 2025, "display": "2023 or 2025", "precision": "approximate"},
+        "description": "Artist biography assigns 2025; Gallery Elle exhibition index assigns 2023.",
+        "related_entity_ids": ["gallery-elle"],
+        "claim_ids": ["C015"]
+      },
+      {
+        "event_type": "exhibition",
+        "title": "Solo show, M Fine Arts Galerie",
+        "date": {"year": 2025, "display": "2025", "precision": "year"},
+        "description": "Listed by the artist biography without title or dates; no matching current event page was verified.",
+        "related_entity_ids": ["m-fine-arts"],
+        "claim_ids": ["C020"]
+      },
+      {
+        "event_type": "exhibition",
+        "title": "Solo show, Gallery Elle Zurich",
+        "date": {"year": 2024, "display": "2024", "precision": "year"},
+        "description": "Listed by the artist biography without title or dates; Gallery Elle's index does not independently resolve the event.",
+        "related_entity_ids": ["gallery-elle"],
+        "claim_ids": ["C021"]
+      },
+      {
+        "event_type": "exhibition",
+        "title": "Solo show, Catto Gallery",
+        "date": {"year": 2024, "display": "2024 claim; documented Catto event is 2023", "precision": "approximate"},
+        "description": "Artist biography lists 2024, while Catto's archive documents its exhibition in November 2023; a separate 2024 event was not verified.",
+        "related_entity_ids": ["catto-gallery"],
+        "claim_ids": ["C022"]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source_id": "S001",
+      "title": "Bio",
+      "url": "https://marcchalme.com/bio/",
+      "tier": 1,
+      "source_type": "artist_website",
+      "publisher": "Marc Chalmé",
+      "author": null,
+      "published_at": null,
+      "accessed_at": "2026-08-05T02:20:40+08:00",
+      "archived_url": null,
+      "rights_note": "Artist-supplied biography and exhibition chronology."
+    },
+    {
+      "source_id": "S002",
+      "title": "Contact",
+      "url": "https://marcchalme.com/contact/",
+      "tier": 1,
+      "source_type": "artist_website",
+      "publisher": "Marc Chalmé",
+      "author": null,
+      "published_at": null,
+      "accessed_at": "2026-08-05T02:20:40+08:00",
+      "archived_url": null,
+      "rights_note": "Current representation statement."
+    },
+    {
+      "source_id": "S003",
+      "title": "Marc Chalmé",
+      "url": "https://cattogallery.co.uk/artists/marc-chalme/",
+      "tier": 1,
+      "source_type": "representing_gallery_artist_page",
+      "publisher": "Catto Gallery",
+      "author": null,
+      "published_at": null,
+      "accessed_at": "2026-08-05T02:20:40+08:00",
+      "archived_url": null,
+      "rights_note": "Current roster, biography, and exhibition history."
+    },
+    {
+      "source_id": "S004",
+      "title": "Marc Chalmé exhibition 2023",
+      "url": "https://cattogallery.co.uk/artists/marc-chalme/marc-chalme-exhibition-2023/",
+      "tier": 1,
+      "source_type": "gallery_exhibition_page",
+      "publisher": "Catto Gallery",
+      "author": null,
+      "published_at": null,
+      "accessed_at": "2026-08-05T02:20:40+08:00",
+      "archived_url": null,
+      "rights_note": "Exhibition text, dates, works, media, dimensions, and listing status."
+    },
+    {
+      "source_id": "S005",
+      "title": "Marc Chalmé",
+      "url": "https://www.mfinearts.com/marc-chalme",
+      "tier": 1,
+      "source_type": "representing_gallery_artist_page",
+      "publisher": "M Fine Arts Galerie",
+      "author": null,
+      "published_at": null,
+      "accessed_at": "2026-08-05T02:20:40+08:00",
+      "archived_url": null,
+      "rights_note": "Biography and gallery interpretation."
+    },
+    {
+      "source_id": "S006",
+      "title": "Les cadres nocturnes du peintre Marc Chalmé",
+      "url": "https://officiel-galeries-musees.fr/les-cadres-nocturnes-du-peintre-marc-chalme/",
+      "tier": 2,
+      "source_type": "specialist_publication",
+      "publisher": "Galeries & Musées",
+      "author": "Quentin Didier",
+      "published_at": "2022-03-03T00:00:00+01:00",
+      "accessed_at": "2026-08-05T02:20:40+08:00",
+      "archived_url": null,
+      "rights_note": "Independent exhibition review and dates."
+    },
+    {
+      "source_id": "S007",
+      "title": "Marc Chalme | Those Who Dream By Day",
+      "url": "https://www.mfinearts.com/exhibtions",
+      "tier": 1,
+      "source_type": "gallery_exhibition_archive",
+      "publisher": "M Fine Arts Galerie",
+      "author": null,
+      "published_at": "2018-11-01T00:00:00-04:00",
+      "accessed_at": "2026-08-05T02:20:40+08:00",
+      "archived_url": null,
+      "rights_note": "Gallery exhibition archive."
+    },
+    {
+      "source_id": "S008",
+      "title": "Artists and Exhibitions",
+      "url": "https://galleryelle.com/exhibitions",
+      "tier": 1,
+      "source_type": "gallery_roster_and_exhibition_archive",
+      "publisher": "Gallery Elle",
+      "author": null,
+      "published_at": null,
+      "accessed_at": "2026-08-05T02:20:40+08:00",
+      "archived_url": null,
+      "rights_note": "Artist roster and exhibition index."
+    },
+    {
+      "source_id": "S009",
+      "title": "Marc Chalmé Available artwork",
+      "url": "https://cattogallery.co.uk/artists/marc-chalme/marc-chalm%C3%A9-available-artwork.html",
+      "tier": 1,
+      "source_type": "gallery_inventory",
+      "publisher": "Catto Gallery",
+      "author": null,
+      "published_at": null,
+      "accessed_at": "2026-08-05T02:20:40+08:00",
+      "archived_url": null,
+      "rights_note": "Media, dimensions, listing status, and gallery asking prices."
+    },
+    {
+      "source_id": "S010",
+      "title": "Marc Chalme Auction Records",
+      "url": "https://www.askart.com/auction_records/Marc_Chalme/11368212/Marc_Chalme",
+      "tier": 2,
+      "source_type": "specialist_market_database",
+      "publisher": "askART",
+      "author": null,
+      "published_at": null,
+      "accessed_at": "2026-08-05T02:20:40+08:00",
+      "archived_url": null,
+      "rights_note": "One visible lot record; price and auction-house data restricted."
+    },
+    {
+      "source_id": "S011",
+      "title": "Moderne Art Fair 2022 catalogue",
+      "url": "https://moderneartfair.com/wp-content/uploads/2022/10/catalogue_MAF22.pdf",
+      "tier": 1,
+      "source_type": "official_art_fair_catalogue",
+      "publisher": "Moderne Art Fair",
+      "author": null,
+      "published_at": "2022-10-01T00:00:00+02:00",
+      "accessed_at": "2026-08-05T02:20:40+08:00",
+      "archived_url": null,
+      "rights_note": "Official fair catalogue."
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C001",
+      "statement": "Marc Chalmé is the French painter born in Lorient in 1969.",
+      "claim_type": "fact",
+      "status": "verified_multiple_sources",
+      "source_ids": ["S001", "S003", "S004", "S005", "S010"],
+      "confidence_basis": "Identity attributes agree across artist, current galleries, and specialist database.",
+      "related_entity_ids": ["artist-marc-chalme-1969-lorient"],
+      "generated_at": "2026-08-05T02:20:40+08:00"
+    },
+    {
+      "claim_id": "C002",
+      "statement": "Current galleries describe Marc Chalmé as French.",
+      "claim_type": "fact",
+      "status": "verified_multiple_sources",
+      "source_ids": ["S003", "S005"],
+      "confidence_basis": "Consistent current gallery descriptions; citizenship documentation was not reviewed.",
+      "related_entity_ids": ["artist-marc-chalme-1969-lorient"],
+      "generated_at": "2026-08-05T02:20:40+08:00"
+    },
+    {
+      "claim_id": "C003",
+      "statement": "Biographies state that Chalmé studied art in Nantes and Rennes and later studied with Georges Pichon; institutions, degrees, and dates are not specified.",
+      "claim_type": "fact",
+      "status": "verified_multiple_sources",
+      "source_ids": ["S001", "S003", "S005"],
+      "confidence_basis": "Repeated in artist and gallery biographies, all of which may share source copy.",
+      "related_entity_ids": ["artist-marc-chalme-1969-lorient"],
+      "generated_at": "2026-08-05T02:20:40+08:00"
+    },
+    {
+      "claim_id": "C004",
+      "statement": "The artist's current contact page names M Fine Arts Galerie, Catto Gallery, and Galerie Claudine Legrand as representatives.",
+      "claim_type": "fact",
+      "status": "verified_single_source",
+      "source_ids": ["S002"],
+      "confidence_basis": "Current primary artist source, cross-checked against active M Fine Arts and Catto roster pages.",
+      "related_entity_ids": ["m-fine-arts", "catto-gallery", "galerie-claudine-legrand"],
+      "generated_at": "2026-08-05T02:20:40+08:00"
+    },
+    {
+      "claim_id": "C005",
+      "statement": "Recent documented works are principally oil on canvas, with drawings and oil on board also present.",
+      "claim_type": "fact",
+      "status": "verified_multiple_sources",
+      "source_ids": ["S004", "S009"],
+      "confidence_basis": "Media are listed on current gallery inventory and exhibition records.",
+      "related_entity_ids": ["artist-marc-chalme-1969-lorient"],
+      "generated_at": "2026-08-05T02:20:40+08:00"
+    },
+    {
+      "claim_id": "C006",
+      "statement": "A 2022 specialist review describes a fully figurative practice centered on carefully constructed interiors and exteriors, empty streets, shadow, and light.",
+      "claim_type": "independent_criticism",
+      "status": "verified_single_source",
+      "source_ids": ["S006"],
+      "confidence_basis": "Attributed to an identified author in a specialist art publication.",
+      "related_entity_ids": ["artist-marc-chalme-1969-lorient", "exhibition-paris-2022"],
+      "generated_at": "2026-08-05T02:20:40+08:00"
+    },
+    {
+      "claim_id": "C007",
+      "statement": "Biographies state that Chalmé has divided his time between painting and teaching since 1991 and held his first solo exhibition in 2005.",
+      "claim_type": "fact",
+      "status": "verified_multiple_sources",
+      "source_ids": ["S001", "S003", "S005"],
+      "confidence_basis": "Repeated across sources but likely derived from shared biography copy; exact teaching post and first-solo venue are unspecified.",
+      "related_entity_ids": ["artist-marc-chalme-1969-lorient"],
+      "generated_at": "2026-08-05T02:20:40+08:00"
+    },
+    {
+      "claim_id": "C008",
+      "statement": "Chalmé's documented gallery activity extends across France, the United States, the United Kingdom, and Switzerland.",
+      "claim_type": "fact",
+      "status": "verified_multiple_sources",
+      "source_ids": ["S001", "S003", "S004", "S007", "S008"],
+      "confidence_basis": "Supported by dated gallery chronologies and exhibition pages.",
+      "related_entity_ids": ["artist-marc-chalme-1969-lorient"],
+      "generated_at": "2026-08-05T02:20:40+08:00"
+    },
+    {
+      "claim_id": "C009",
+      "statement": "M Fine Arts interprets Chalmé's familiar domestic and street scenes as dreamlike, temporally suspended, and at times eerie.",
+      "claim_type": "gallery_interpretation",
+      "status": "verified_single_source",
+      "source_ids": ["S005"],
+      "confidence_basis": "Explicitly attributed gallery interpretation.",
+      "related_entity_ids": ["artist-marc-chalme-1969-lorient", "m-fine-arts"],
+      "generated_at": "2026-08-05T02:20:40+08:00"
+    },
+    {
+      "claim_id": "C010",
+      "statement": "The evidence supports a synthesis in which light functions as the primary event, marking thresholds between inside and outside, day and night, presence and absence.",
+      "claim_type": "system_synthesis",
+      "status": "verified_multiple_sources",
+      "source_ids": ["S004", "S005", "S006"],
+      "confidence_basis": "Synthesis grounded in work descriptions, one independent review, and two gallery interpretations; not presented as artist intent.",
+      "related_entity_ids": ["artist-marc-chalme-1969-lorient"],
+      "generated_at": "2026-08-05T02:20:40+08:00"
+    },
+    {
+      "claim_id": "C011",
+      "statement": "Catto's 2023 exhibition records works in oil on canvas, drawing, and oil on board, with several works marked sold but without transaction prices.",
+      "claim_type": "fact",
+      "status": "verified_multiple_sources",
+      "source_ids": ["S004", "S009"],
+      "confidence_basis": "Primary gallery exhibition and inventory records.",
+      "related_entity_ids": ["exhibition-catto-2023"],
+      "generated_at": "2026-08-05T02:20:40+08:00"
+    },
+    {
+      "claim_id": "C012",
+      "statement": "No public-museum collection record or institutional solo exhibition was verified in the reviewed sources.",
+      "claim_type": "fact",
+      "status": "not_found",
+      "source_ids": [],
+      "confidence_basis": "Negative finding limited to the disclosed research window and reviewed public sources.",
+      "related_entity_ids": ["artist-marc-chalme-1969-lorient"],
+      "generated_at": "2026-08-05T02:20:40+08:00"
+    },
+    {
+      "claim_id": "C013",
+      "statement": "askART exposes one auction record for Nature morte au pichet d’étain, lot 195, dated 5 October 2021, while withholding the hammer price and estimate on the visible page.",
+      "claim_type": "market_observation",
+      "status": "verified_single_source",
+      "source_ids": ["S010"],
+      "confidence_basis": "Visible specialist database record; primary auction-house record was not identified.",
+      "related_entity_ids": ["artist-marc-chalme-1969-lorient"],
+      "generated_at": "2026-08-05T02:20:40+08:00"
+    },
+    {
+      "claim_id": "C014",
+      "statement": "Catto gallery asking prices are primary-market offers and must not be combined with public-auction results.",
+      "claim_type": "market_observation",
+      "status": "verified_multiple_sources",
+      "source_ids": ["S004", "S009", "S010"],
+      "confidence_basis": "Source types and price bases are explicitly different.",
+      "related_entity_ids": ["catto-gallery"],
+      "generated_at": "2026-08-05T02:20:40+08:00"
+    },
+    {
+      "claim_id": "C015",
+      "statement": "The artist biography dates Dreamers at Gallery Elle St. Moritz to 2025, while Gallery Elle's exhibition index dates it to 2023.",
+      "claim_type": "fact",
+      "status": "conflicting",
+      "source_ids": ["S001", "S008"],
+      "confidence_basis": "Direct conflict between two primary sources.",
+      "related_entity_ids": ["gallery-elle"],
+      "generated_at": "2026-08-05T02:20:40+08:00"
+    },
+    {
+      "claim_id": "C016",
+      "statement": "Catto Gallery documents a Marc Chalmé exhibition in London from 9 to 30 November 2023 and describes it as his first UK exhibition.",
+      "claim_type": "fact",
+      "status": "verified_multiple_sources",
+      "source_ids": ["S003", "S004"],
+      "confidence_basis": "Current gallery artist page and dedicated exhibition archive agree.",
+      "related_entity_ids": ["catto-gallery", "exhibition-catto-2023"],
+      "generated_at": "2026-08-05T02:20:40+08:00"
+    },
+    {
+      "claim_id": "C017",
+      "statement": "M Fine Arts presented Those Who Dream by Day in Boston in November 2018.",
+      "claim_type": "fact",
+      "status": "verified_single_source",
+      "source_ids": ["S007"],
+      "confidence_basis": "Primary gallery exhibition archive.",
+      "related_entity_ids": ["m-fine-arts"],
+      "generated_at": "2026-08-05T02:20:40+08:00"
+    },
+    {
+      "claim_id": "C018",
+      "statement": "The official 2022 Moderne Art Fair catalogue lists Marc Chalmé among Galerie Claudine Legrand's artists at Stand 402.",
+      "claim_type": "fact",
+      "status": "verified_single_source",
+      "source_ids": ["S011"],
+      "confidence_basis": "Official fair catalogue.",
+      "related_entity_ids": ["galerie-claudine-legrand"],
+      "generated_at": "2026-08-05T02:20:40+08:00"
+    },
+    {
+      "claim_id": "C019",
+      "statement": "Gallery Elle continues to list Chalmé on its artist roster, but the artist's current contact page omits Gallery Elle from its representation list.",
+      "claim_type": "fact",
+      "status": "conflicting",
+      "source_ids": ["S002", "S008"],
+      "confidence_basis": "Current primary pages differ; the distinction between representation and active collaboration is not published.",
+      "related_entity_ids": ["gallery-elle"],
+      "generated_at": "2026-08-05T02:20:40+08:00"
+    },
+    {
+      "claim_id": "C020",
+      "statement": "The artist biography lists a 2025 M Fine Arts solo show, but no title, dates, or matching event page were verified.",
+      "claim_type": "fact",
+      "status": "unverified",
+      "source_ids": ["S001"],
+      "confidence_basis": "Single artist-supplied chronology entry without an event page.",
+      "related_entity_ids": ["m-fine-arts"],
+      "generated_at": "2026-08-05T02:20:40+08:00"
+    },
+    {
+      "claim_id": "C021",
+      "statement": "The artist biography lists a 2024 Gallery Elle Zurich solo show without title or dates, and the reviewed Gallery Elle index does not independently resolve it.",
+      "claim_type": "fact",
+      "status": "unverified",
+      "source_ids": ["S001", "S008"],
+      "confidence_basis": "Incomplete artist chronology entry and non-resolving gallery archive.",
+      "related_entity_ids": ["gallery-elle"],
+      "generated_at": "2026-08-05T02:20:40+08:00"
+    },
+    {
+      "claim_id": "C022",
+      "statement": "The artist biography lists a Catto solo in 2024, while Catto's archive documents its major exhibition in November 2023; a separate 2024 event was not verified.",
+      "claim_type": "fact",
+      "status": "conflicting",
+      "source_ids": ["S001", "S003", "S004"],
+      "confidence_basis": "Recent primary sources disagree or leave open the possibility of two events.",
+      "related_entity_ids": ["catto-gallery"],
+      "generated_at": "2026-08-05T02:20:40+08:00"
+    }
+  ],
+  "limitations": [
+    {
+      "code": "RECENT_DATE_CONFLICTS",
+      "message": "Artist and gallery pages conflict on dates for Dreamers, Still Life, and the Catto presentation.",
+      "affected_sections": ["exhibitions", "recent_activity"],
+      "severity": "material"
+    },
+    {
+      "code": "REPRESENTATION_STATUS_CONFLICT",
+      "message": "Gallery Elle lists the artist, while the artist's current representation page omits Gallery Elle.",
+      "affected_sections": ["gallery_representation"],
+      "severity": "warning"
+    },
+    {
+      "code": "NO_VERIFIED_INSTITUTIONAL_RECORDS",
+      "message": "No public-museum collection record or institutional exhibition was verified in the reviewed sources.",
+      "affected_sections": ["institutional_presence"],
+      "severity": "warning"
+    },
+    {
+      "code": "THIN_INDEPENDENT_CRITICISM",
+      "message": "Only one specialist editorial article was found; much interpretive language originates with galleries.",
+      "affected_sections": ["artistic_practice"],
+      "severity": "warning"
+    },
+    {
+      "code": "INSUFFICIENT_PUBLIC_MARKET_SAMPLE",
+      "message": "One price-restricted database record cannot support robust auction statistics, comparisons, or trend analysis.",
+      "affected_sections": ["public_market"],
+      "severity": "material"
+    },
+    {
+      "code": "BIOGRAPHY_FIELDS_UNSPECIFIED",
+      "message": "Schools, degrees, teaching posts, current base, and the venue of the reported 2005 first solo exhibition were not established.",
+      "affected_sections": ["artist_identity", "biography_and_career"],
+      "severity": "info"
+    }
+  ]
+}
