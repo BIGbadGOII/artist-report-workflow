@@ -2,9 +2,9 @@
 
 艺术家研究报告的核心生成规范：从艺术家身份确认开始，经多源检索、结构化事实抽取、冲突检查和引用核验，最终生成 JSON、可读报告与浏览器交付页面。
 
-这个仓库只保留“生成报告”本身及轻量浏览器查看器，不包含完整 Web 产品、移动端、视频或后台业务系统。
+这个仓库只保留“生成报告”本身、可安装的 Codex Skill 及轻量浏览器查看器，不包含完整 Web 产品、移动端、视频或后台业务系统。
 
-> 当前版本是一套可实现的生成规范、JSON Schema 和参考样例，还不是已经接通搜索服务与模型 API 的一键运行程序。
+> 推荐通过 `skills/artist-report` 在 Codex 中运行。Codex 使用自身的联网检索能力完成研究，不需要额外部署模型 API。
 
 ## 生成流程
 
@@ -39,8 +39,19 @@ product-spec/artist-report-spec-v0.1.md          内容、证据和写作规则
 product-spec/artist-report-schema-v0.1.json      结构化报告 schema
 product-spec/search-and-generation-architecture.md  检索与生成管线
 reports/                                         JSON / Markdown 参考样例
+skills/artist-report/                             可安装的 Codex 艺术家报告 Skill
 viewer/                                          浏览器报告查看器
 ```
+
+## 在 Codex 中使用
+
+把 `skills/artist-report` 安装到 Codex 的 skills 目录，重新打开 Codex 后即可调用：
+
+```text
+使用 $artist-report 研究 Louise Bourgeois，并输出中英文网页报告。
+```
+
+Skill 会执行身份消歧、实时联网检索、来源分级、冲突检查和双语写作，并输出 `report.json`、`sources.md` 与单文件 `report.html`。网页默认中文，章节全部展开，只保留中英文切换与“保存 PDF”。
 
 ## 浏览器查看与保存 PDF
 

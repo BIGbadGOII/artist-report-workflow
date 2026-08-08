@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Artist Report Skill Output",
+  "type": "object",
+  "required": ["metadata", "artist", "quickRead", "identityFacts", "career", "practice", "works", "exhibitions", "institutions", "market", "evidence", "sources"],
+  "$defs": {
+    "bilingual": {
+      "type": "object",
+      "required": ["zh", "en"],
+      "properties": { "zh": {"type": "string"}, "en": {"type": "string"} },
+      "additionalProperties": false
+    }
+  },
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["reportVersion", "generatedAt", "informationCutoff", "coverageStatus", "sourceCount"],
+      "properties": {
+        "reportVersion": {"type": "string"},
+        "generatedAt": {"type": "string"},
+        "informationCutoff": {"type": "string"},
+        "coverageStatus": {"$ref": "#/$defs/bilingual"},
+        "coverageDetail": {"$ref": "#/$defs/bilingual"},
+        "sourceCount": {"type": "integer", "minimum": 0}
+      }
+    },
+    "artist": {
+      "type": "object",
+      "required": ["displayName", "secondaryName", "birth", "locations", "nationality", "disciplines"],
+      "properties": {
+        "displayName": {"$ref": "#/$defs/bilingual"}, "secondaryName": {"$ref": "#/$defs/bilingual"},
+        "birth": {"$ref": "#/$defs/bilingual"}, "locations": {"$ref": "#/$defs/bilingual"},
+        "nationality": {"$ref": "#/$defs/bilingual"}, "disciplines": {"$ref": "#/$defs/bilingual"},
+        "heroImage": {"type": ["object", "null"]}
+      }
+    },
+    "quickRead": {"type": "object", "required": ["lead", "body"], "properties": {"lead": {"$ref": "#/$defs/bilingual"}, "body": {"$ref": "#/$defs/bilingual"}}},
+    "identityFacts": {"type": "array", "items": {"$ref": "#/$defs/bilingual"}},
+    "career": {"type": "array", "items": {"type": "object", "required": ["year", "title", "description"], "properties": {"year": {"type": "string"}, "title": {"$ref": "#/$defs/bilingual"}, "description": {"$ref": "#/$defs/bilingual"}}}},
+    "practice": {"type": "object", "required": ["summary", "methods"], "properties": {"summary": {"$ref": "#/$defs/bilingual"}, "methods": {"type": "array", "items": {"type": "object", "required": ["title", "detail"], "properties": {"title": {"$ref": "#/$defs/bilingual"}, "detail": {"$ref": "#/$defs/bilingual"}}}}}},
+    "works": {"type": "array", "items": {"type": "object", "required": ["title", "year", "medium", "note"], "properties": {"title": {"$ref": "#/$defs/bilingual"}, "year": {"type": "string"}, "medium": {"$ref": "#/$defs/bilingual"}, "note": {"$ref": "#/$defs/bilingual"}, "image": {"type": ["object", "null"]}}}},
+    "exhibitions": {"type": "array", "items": {"type": "object", "required": ["status", "title", "venue", "date", "type"], "properties": {"status": {"enum": ["current", "upcoming", "past"]}, "title": {"$ref": "#/$defs/bilingual"}, "venue": {"$ref": "#/$defs/bilingual"}, "date": {"$ref": "#/$defs/bilingual"}, "type": {"$ref": "#/$defs/bilingual"}}}},
+    "institutions": {"type": "object", "required": ["collections", "galleries"], "properties": {"collections": {"type": "array", "items": {"$ref": "#/$defs/bilingual"}}, "galleries": {"type": "array", "items": {"$ref": "#/$defs/bilingual"}}}},
+    "market": {"type": "object", "required": ["status", "record", "notes"], "properties": {"status": {"$ref": "#/$defs/bilingual"}, "record": {"oneOf": [{"$ref": "#/$defs/bilingual"}, {"type": "null"}]}, "notes": {"type": "array", "items": {"$ref": "#/$defs/bilingual"}}}},
+    "evidence": {"type": "array", "items": {"type": "object", "required": ["title", "detail"], "properties": {"title": {"$ref": "#/$defs/bilingual"}, "detail": {"$ref": "#/$defs/bilingual"}}}},
+    "sources": {"type": "array", "items": {"type": "object", "required": ["title", "url", "publisher", "accessed", "tier", "supports"], "properties": {"title": {"type": "string"}, "url": {"type": "string"}, "publisher": {"type": "string"}, "accessed": {"type": "string"}, "tier": {"type": "integer", "minimum": 1, "maximum": 5}, "supports": {"type": "array", "items": {"type": "string"}}}}}
+  },
+  "additionalProperties": false
+}
