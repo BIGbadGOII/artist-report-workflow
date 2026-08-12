@@ -46,6 +46,28 @@ Each non-null image contains:
 
 The renderer embeds `path` as a data URI. It never hotlinks `sourceUrl`.
 
+## Semantic image audit and placement
+
+Inspect every downloaded image itself before writing the image object. Do not treat a successful download, filename, URL slug, page order, or alt text as proof of content.
+
+For each image, verify together:
+
+- **Visible content** — portrait, studio, single artwork, multi-work installation, exhibition view, document, or auction lot.
+- **Identity** — artist and, for a single work or lot, exact title, year, medium/panel count, and source-page caption. Reject mismatches.
+- **Usability** — adequate resolution, meaningful crop, correct orientation, no loading placeholder, logo, cookie banner, unrelated work, or excessive interface chrome.
+- **Placement** — assign one primary semantic role before rendering; write bilingual alt text from what is actually visible.
+
+Place by content:
+
+- Artist or studio portrait → cover or identity/biography. A portrait may be reused in the artist-voice block when appropriate.
+- Wide, legible installation view → cover, practice context, practice-development anchor, or exhibition header according to its documented exhibition.
+- Single artwork with exact caption match → that work's representative-work card only. A visually similar work from the same series is not a substitute.
+- Auction-house image with exact sale and lot match → that market record or lot card only.
+- Multi-work installation or an image whose individual works cannot be identified → context/exhibition only, never a single-work card.
+- Ambiguous, mislabeled, low-quality, unrelated, or unverifiable image → exclude and record the gap when it affects required coverage.
+
+After rendering, visually scan the page again. Confirm that neighboring text describes the displayed image, cards do not repeat the wrong work, crops preserve the subject, and no image has migrated to a semantically incorrect section.
+
 ## Information placement rules
 
 - Identity fields contain identity, not interpretive prose.
@@ -61,6 +83,7 @@ The renderer embeds `path` as a data URI. It never hotlinks `sourceUrl`.
 
 - Desktop report is fully expanded and approximately 1200 px wide.
 - No broken images; every displayed image has a visible credit.
+- Every displayed image has passed content inspection and appears beside semantically matching text.
 - Chinese and English views contain equivalent information.
 - Current/upcoming exhibition labels agree with cutoff dates.
 - Print preview does not clip cards or show the toolbar.
