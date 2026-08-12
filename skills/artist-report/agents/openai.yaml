@@ -1,4 +1,4 @@
 interface:
   display_name: "艺术家研究报告"
-  short_description: "联网研究艺术家并生成含署名图片的双语网页档案"
-  default_prompt: "Use $artist-report to research an artist and generate a canonical image-rich bilingual browser dossier with PDF export."
+  short_description: "联网研究艺术家并生成来源可追、图片语义匹配的双语网页档案"
+  default_prompt: "Use $artist-report to research an artist and generate a source-linked, semantically image-audited bilingual browser dossier with PDF export."

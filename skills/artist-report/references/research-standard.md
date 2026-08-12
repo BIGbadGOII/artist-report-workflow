@@ -38,6 +38,7 @@ Do not use aggregators to support a claim when the underlying primary page is av
 - When the user has an existing logged-in session on Sotheby's, Christie's, Phillips, or MutualArt, reading, extracting, and recording data visible in that session is allowed for the requested report. Use the existing browser session; do not ask the user to send credentials.
 - Treat screenshots as evidence capture, not as the final data model. Transcribe each relevant lot into the structured market fields and retain the page URL, access date, auction house, sale, lot number, currency, and result basis.
 - Mark login-only evidence in the lot note and `sources.md` as `authenticated session / 已登录会话`. Do not reproduce account identifiers, subscription details, unrelated saved lots, browsing history, or other private account data.
+- Access to a gated page does not grant permission to redistribute its screenshots or images. Keep authenticated screenshots out of the self-contained report unless independent reuse permission is documented; prefer a public auction-house asset or leave the image empty and record the gap.
 - Do not bypass login, paywalls, CAPTCHA, geographic restrictions, access controls, rate limits, or anti-bot measures. If the existing session is unavailable, continue with public evidence and record the coverage gap.
 - A logged-in result list is not automatically a complete population. Record the applied artist identity, filters, sort order, visible result count, pagination coverage, and access date before calculating aggregate statistics.
 - Do not calculate sell-through, turnover, median, or trends from any incomplete sample, whether public or authenticated.
@@ -53,3 +54,5 @@ Do not use aggregators to support a claim when the underlying primary page is av
 ## Sources file
 
 Write `sources.md` as a numbered audit trail. For each source include title, publisher, URL, accessed date, source tier, and the report sections it supports.
+
+Keep URLs directly actionable in the HTML. Link artist statements, institutional interpretations, collection records, gallery records, auction lots, image credits, and reference entries to their original pages. When fewer than 12 sources are available, explain the constrained coverage in both `metadata.coverageDetail` and the evidence section.

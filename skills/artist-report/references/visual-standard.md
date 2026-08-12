@@ -1,6 +1,6 @@
 # Canonical visual and section standard
 
-The canonical product reference is the Hiroshi Sugimoto browser report in `/Users/bigbadgoii/Documents/ARTSREARCH/viewer/`. Match its information architecture and editorial density, not its artist-specific facts.
+This file is the portable product contract. The Hiroshi Sugimoto report is the design lineage, not a runtime dependency or an artist-specific template. Keep the information architecture consistent while allowing the art direction to respond to each artist's work.
 
 ## Required section order
 
@@ -27,10 +27,10 @@ Default target:
 - 1–2 credited exhibition or installation images.
 - One image per displayed market lot when the auction house exposes it publicly.
 
-The renderer accepts missing individual images, but validation applies these states:
+The renderer accepts missing individual images. These are coverage tiers, not claims of literal completeness:
 
-- `complete`: at least 8 total local images, including a hero and at least 6 work images.
-- `partial`: at least 4 total local images and an explicit gap note for every missing category.
+- `complete`: the visual baseline is met: at least 8 unique local image hashes, hero, identity portrait, 2 context images, 6 unique work images, an exhibition image, and an image for every displayed market object.
+- `partial`: at least 4 unique local image hashes and an explicit gap note for every missing category.
 - `limited`: 1–3 total local images with explicit reasons.
 - `unavailable`: no images; explain the access/licensing limitation. Never describe this as equivalent to the canonical visual report.
 
@@ -38,7 +38,7 @@ The renderer accepts missing individual images, but validation applies these sta
 
 Each non-null image contains:
 
-- `path`: path relative to `report.json`; it must resolve to a local file.
+- `path`: path below the report's `assets/` directory. Absolute paths, parent traversal, symlink escape, and non-image payloads are invalid.
 - `sourceUrl`: direct authoritative page or asset URL used to obtain it.
 - `credit`: visible credit naming artist/photographer, work or context, and supplying institution where known.
 - `alt.zh` and `alt.en`: descriptive bilingual alternative text.
@@ -68,6 +68,10 @@ Place by content:
 
 After rendering, visually scan the page again. Confirm that neighboring text describes the displayed image, cards do not repeat the wrong work, crops preserve the subject, and no image has migrated to a semantically incorrect section.
 
+Record the inspection in `image-audit.md`. Use one row per unique SHA-256 asset and include visible content, semantic role, identity/caption match, crop decision, source URL, and reuse basis. Reusing a portrait in another artist-identity block is allowed, but duplicate bytes never increase visual coverage.
+
+Display single artworks and auction objects with `object-fit: contain` or an equivalent uncropped treatment. A hero or documented installation view may use a cover crop only after the crop is visually checked and recorded.
+
 ## Information placement rules
 
 - Identity fields contain identity, not interpretive prose.
@@ -82,9 +86,10 @@ After rendering, visually scan the page again. Confirm that neighboring text des
 ## Browser acceptance checklist
 
 - Desktop report is fully expanded and approximately 1200 px wide.
+- A compact chapter navigation lets readers reach every canonical section; it is hidden in print.
 - No broken images; every displayed image has a visible credit.
 - Every displayed image has passed content inspection and appears beside semantically matching text.
 - Chinese and English views contain equivalent information.
 - Current/upcoming exhibition labels agree with cutoff dates.
 - Print preview does not clip cards or show the toolbar.
-- Only language and print controls are interactive.
+- Chapter navigation, source links, language switching, and print are the only interactive elements.
