@@ -1,50 +1,54 @@
 ---
 name: artist-report
-description: Research an artist from current public sources and generate a source-transparent bilingual Chinese-English browser report with the established editorial visual style and browser PDF export. Use when a user asks for an 艺术家报告, artist dossier, artist research, market-and-exhibition overview, bilingual artist profile, or says “研究/生成报告 + 艺术家姓名”.
+description: Research an artist from current public sources and generate a source-transparent, image-rich bilingual Chinese-English browser dossier in the canonical Hiroshi Sugimoto editorial format, with local credited visual assets and browser PDF export. Use for 艺术家报告, artist dossiers, artist research, market-and-exhibition overviews, bilingual artist profiles, or “研究/生成报告 + 艺术家姓名”.
 ---
 
 # Artist Report
 
-Create a complete research artifact, not a chat-only summary. The normal deliverables are `report.json`, `report.html`, and `sources.md` in a new artist-specific output folder.
+Create `report.json`, `report.html`, `sources.md`, and a local `assets/` image folder. Match the canonical section logic and visual density defined in [visual-standard.md](references/visual-standard.md); do not treat it as optional inspiration.
 
 ## Required workflow
 
-1. Read [research-standard.md](references/research-standard.md) and [report-schema.json](references/report-schema.json) completely before researching.
-2. Resolve the requested artist’s identity before collecting facts. Search aliases, dates, nationality, medium, location, and official identifiers. Ask one concise question only when multiple plausible people remain.
-3. Browse the live web. Prioritize artist/foundation sites, museums, public institutions, exhibition organizers, representing galleries, and auction-house original records. Never rely on search snippets as evidence.
-4. Record every source used. Preserve conflicts, unavailable data, access dates, and information cutoff. Do not infer gated auction results from estimates.
-5. Write the report JSON to the schema. Every reader-facing field must contain both `zh` and `en`; keep proper names in their authoritative form where useful.
-6. Create a new output directory named `artist-reports/<artist-slug>-<YYYYMMDD>/`. Do not overwrite an existing report unless the user explicitly asks.
-7. Run:
+1. Read [research-standard.md](references/research-standard.md), [visual-standard.md](references/visual-standard.md), and [report-schema.json](references/report-schema.json) completely.
+2. Resolve identity before collecting facts. Search aliases, dates, nationality, medium, location, and official identifiers. Ask one concise question only if multiple plausible people remain.
+3. Browse the live web. Prefer artist/foundation sites, museums, organizers, representing galleries, and original auction records. Open source pages; search snippets are discovery aids only. If the user has an existing authenticated session on Sotheby's, Christie's, Phillips, or MutualArt, use that session to read and extract report-relevant secondary-market data under the authenticated-access rules in [research-standard.md](references/research-standard.md).
+4. Research text and visuals together. Build a credited visual set from authoritative pages: artist portrait, practice/context images, 6–9 representative works, exhibition/installations, and object-level auction images when market examples exist.
+5. Save approved images under `<output-dir>/assets/`. Record for every image: local `path`, original `sourceUrl`, `credit`, bilingual `alt`, and `rightsNote`. Never use image search thumbnails, hotlinked mystery files, or uncredited images.
+6. If an expected visual category is unavailable or reuse is not supportable, leave it empty and record the exact reason in `visuals.gaps`. Do not silently downgrade to typography-only. A report with fewer than four usable images must use `visuals.status: limited` or `unavailable`.
+7. Separate verified fact, attributed artist voice, institutional interpretation, and system synthesis in their dedicated schema fields. Do not collapse them into one undifferentiated paragraph.
+8. Write JSON exactly to the schema. Keep all reader-facing prose bilingual. Use structured objects for collections, exhibitions, and auction lots; do not place an entire record into one long string.
+9. Create a new directory `artist-reports/<artist-slug>-<YYYYMMDD>/`. Never overwrite an existing report unless explicitly asked.
+10. Render and validate:
 
    ```bash
    python3 <skill-dir>/scripts/render_report.py \
      --input <output-dir>/report.json \
      --output <output-dir>/report.html
-   ```
-
-8. Validate JSON and rendering:
-
-   ```bash
    python3 -m json.tool <output-dir>/report.json >/dev/null
-   python3 <skill-dir>/scripts/render_report.py --check --input <output-dir>/report.json
+   python3 <skill-dir>/scripts/render_report.py --check \
+     --input <output-dir>/report.json
    ```
 
-9. Open `report.html` in the Codex browser for the user. The report must be desktop-width, fully expanded, and expose only Chinese/English switching and browser “Save PDF” interaction.
-10. Return clickable paths to `report.html`, `report.json`, and `sources.md`. State the information cutoff and material coverage gaps.
+11. Inspect the rendered report in a desktop-width browser. Confirm: images load; credits are visible; Chinese is default; language switching works; every canonical section is present and expanded; market lots remain object-level; “保存 PDF / SAVE PDF” invokes print; print hides the toolbar. If browser policy blocks `file://`, serve the output directory on localhost with a read-only local HTTP server and inspect that URL.
+12. Return clickable paths to `report.html`, `report.json`, and `sources.md`. State the cutoff, visual coverage, material gaps, and any categories downgraded under the visual exception rule.
 
-## Research constraints
+## Non-negotiable editorial rules
 
-- Separate verified fact, attributed interpretation, and system synthesis.
-- Label current/upcoming exhibitions with exact dates and source access dates.
-- Treat aggregate market coverage as unavailable unless a complete normalized lot population exists.
-- Never provide authentication, appraisal, buying advice, price forecasts, or investment opinions.
-- Use images only when their source and credit are recorded. A typography-only report is preferable to an unattributed image.
-- If live browsing is unavailable, stop and explain that current-source research cannot be completed reliably; do not fabricate a report.
+- Use the section order and semantic roles in [visual-standard.md](references/visual-standard.md).
+- Present artist voice, institutional reading, and system synthesis as visibly distinct blocks.
+- Keep “life/career chronology” separate from “practice development”.
+- Separate current/upcoming exhibitions from the historical archive; give exact dates and access dates for current/upcoming items.
+- Present public collections with evidence and online-count caveats. Museum participation is not collection ownership.
+- Present market evidence as structured lots with title, year, medium, dimensions, edition, sale, lot, currency, estimate, hammer/result basis, URL, and image where available.
+- Authenticated market pages may be used only through the user's already logged-in browser session. Never request, expose, store, or replay credentials; never bypass login, paywalls, CAPTCHA, access controls, or anti-bot measures.
+- Do not calculate turnover, sell-through, median, or trends without a complete normalized population.
+- Never provide authentication, appraisal, buying advice, forecasts, or investment opinions.
+- Use images only with recorded source and credit. Prefer authoritative reusable press/collection/auction imagery; copyright remains with the named rightsholder.
+- If live browsing is unavailable, stop rather than fabricate a current report.
 
 ## Output behavior
 
-- Default report language: Chinese.
-- Browser report: one self-contained HTML file; remote credited images are optional.
-- PDF: the report’s “保存 PDF / SAVE PDF” button invokes the browser print dialog and hides the toolbar in print.
-- Existing example reports may guide depth, but never reuse their facts for another artist.
+- Default language: Chinese.
+- Output: one self-contained HTML file. The renderer embeds local image files as data URIs; remote URLs remain audit metadata, not runtime dependencies.
+- Controls: only Chinese/English switching and browser “Save PDF”.
+- Existing reports may supply facts only through their cited sources. Never copy one artist’s factual content into another report.

@@ -5,8 +5,9 @@
 1. Artist, estate, foundation, catalogue raisonné, or official archive.
 2. Museums, public collections, universities, public agencies, and exhibition organizers.
 3. Representing galleries and established institutional publishers.
-4. Auction-house original lot pages for object-level market evidence.
-5. Reputable independent criticism or journalism for attributed context only.
+4. Auction-house original lot pages for object-level market evidence, including authenticated pages the user can already access on Sotheby's, Christie's, and Phillips.
+5. MutualArt authenticated pages for supplementary object-level records and cross-checking; preserve the underlying auction-house attribution.
+6. Reputable independent criticism or journalism for attributed context only.
 
 Do not use aggregators to support a claim when the underlying primary page is available. Search results are discovery aids, not sources.
 
@@ -34,8 +35,13 @@ Do not use aggregators to support a claim when the underlying primary page is av
 
 - Never equate matching titles with matching objects.
 - Record medium, dimensions, edition, printing/casting date, sale, lot, currency, estimate, result basis, and URL when available.
-- Do not calculate sell-through, turnover, median, or trends from a partial public sample.
-- Do not infer a result when a site requires login.
+- When the user has an existing logged-in session on Sotheby's, Christie's, Phillips, or MutualArt, reading, extracting, and recording data visible in that session is allowed for the requested report. Use the existing browser session; do not ask the user to send credentials.
+- Treat screenshots as evidence capture, not as the final data model. Transcribe each relevant lot into the structured market fields and retain the page URL, access date, auction house, sale, lot number, currency, and result basis.
+- Mark login-only evidence in the lot note and `sources.md` as `authenticated session / 已登录会话`. Do not reproduce account identifiers, subscription details, unrelated saved lots, browsing history, or other private account data.
+- Do not bypass login, paywalls, CAPTCHA, geographic restrictions, access controls, rate limits, or anti-bot measures. If the existing session is unavailable, continue with public evidence and record the coverage gap.
+- A logged-in result list is not automatically a complete population. Record the applied artist identity, filters, sort order, visible result count, pagination coverage, and access date before calculating aggregate statistics.
+- Do not calculate sell-through, turnover, median, or trends from any incomplete sample, whether public or authenticated.
+- Do not infer a result when it is not visible in either public evidence or the user's authenticated session.
 
 ## Bilingual writing
 

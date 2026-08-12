@@ -1,49 +1,267 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Artist Report Skill Output",
+  "title": "Artist Report Skill Output v2",
   "type": "object",
-  "required": ["metadata", "artist", "quickRead", "identityFacts", "career", "practice", "works", "exhibitions", "institutions", "market", "evidence", "sources"],
+  "required": ["metadata", "visuals", "artist", "quickRead", "biography", "practice", "works", "developments", "exhibitions", "institutions", "market", "evidence", "sources"],
   "$defs": {
     "bilingual": {
       "type": "object",
       "required": ["zh", "en"],
-      "properties": { "zh": {"type": "string"}, "en": {"type": "string"} },
+      "properties": {"zh": {"type": "string"}, "en": {"type": "string"}},
+      "additionalProperties": false
+    },
+    "image": {
+      "type": "object",
+      "required": ["path", "sourceUrl", "credit", "alt", "rightsNote"],
+      "properties": {
+        "path": {"type": "string", "minLength": 1},
+        "sourceUrl": {"type": "string", "minLength": 1},
+        "credit": {"type": "string", "minLength": 1},
+        "alt": {"$ref": "#/$defs/bilingual"},
+        "rightsNote": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": false
+    },
+    "nullableImage": {"oneOf": [{"$ref": "#/$defs/image"}, {"type": "null"}]},
+    "timelineEntry": {
+      "type": "object",
+      "required": ["year", "title", "description"],
+      "properties": {
+        "year": {"type": "string"},
+        "title": {"$ref": "#/$defs/bilingual"},
+        "description": {"$ref": "#/$defs/bilingual"}
+      },
+      "additionalProperties": false
+    },
+    "sourceRef": {
+      "type": "object",
+      "required": ["label", "url"],
+      "properties": {"label": {"type": "string"}, "url": {"type": "string"}},
+      "additionalProperties": false
+    },
+    "lot": {
+      "type": "object",
+      "required": ["title", "workYear", "medium", "dimensions", "edition", "house", "saleTitle", "saleDate", "city", "lotNumber", "currency", "estimate", "hammer", "priceWithPremium", "resultBasis", "url", "note", "image"],
+      "properties": {
+        "title": {"$ref": "#/$defs/bilingual"},
+        "workYear": {"type": "string"},
+        "medium": {"$ref": "#/$defs/bilingual"},
+        "dimensions": {"$ref": "#/$defs/bilingual"},
+        "edition": {"$ref": "#/$defs/bilingual"},
+        "house": {"type": "string"},
+        "saleTitle": {"type": "string"},
+        "saleDate": {"type": "string"},
+        "city": {"type": "string"},
+        "lotNumber": {"type": "string"},
+        "currency": {"type": "string"},
+        "estimate": {"$ref": "#/$defs/bilingual"},
+        "hammer": {"oneOf": [{"$ref": "#/$defs/bilingual"}, {"type": "null"}]},
+        "priceWithPremium": {"oneOf": [{"$ref": "#/$defs/bilingual"}, {"type": "null"}]},
+        "resultBasis": {"$ref": "#/$defs/bilingual"},
+        "url": {"type": "string"},
+        "note": {"$ref": "#/$defs/bilingual"},
+        "image": {"$ref": "#/$defs/nullableImage"}
+      },
       "additionalProperties": false
     }
   },
   "properties": {
     "metadata": {
       "type": "object",
-      "required": ["reportVersion", "generatedAt", "informationCutoff", "coverageStatus", "sourceCount"],
+      "required": ["reportVersion", "generatedAt", "informationCutoff", "coverageStatus", "coverageDetail", "sourceCount"],
       "properties": {
-        "reportVersion": {"type": "string"},
+        "reportVersion": {"const": "2.0"},
         "generatedAt": {"type": "string"},
         "informationCutoff": {"type": "string"},
         "coverageStatus": {"$ref": "#/$defs/bilingual"},
         "coverageDetail": {"$ref": "#/$defs/bilingual"},
         "sourceCount": {"type": "integer", "minimum": 0}
-      }
+      },
+      "additionalProperties": false
+    },
+    "visuals": {
+      "type": "object",
+      "required": ["status", "summary", "gaps"],
+      "properties": {
+        "status": {"enum": ["complete", "partial", "limited", "unavailable"]},
+        "summary": {"$ref": "#/$defs/bilingual"},
+        "gaps": {"type": "array", "items": {"$ref": "#/$defs/bilingual"}}
+      },
+      "additionalProperties": false
     },
     "artist": {
       "type": "object",
-      "required": ["displayName", "secondaryName", "birth", "locations", "nationality", "disciplines"],
+      "required": ["displayName", "secondaryName", "birth", "locations", "nationality", "disciplines", "heroImage", "identityImage"],
       "properties": {
-        "displayName": {"$ref": "#/$defs/bilingual"}, "secondaryName": {"$ref": "#/$defs/bilingual"},
-        "birth": {"$ref": "#/$defs/bilingual"}, "locations": {"$ref": "#/$defs/bilingual"},
-        "nationality": {"$ref": "#/$defs/bilingual"}, "disciplines": {"$ref": "#/$defs/bilingual"},
-        "heroImage": {"type": ["object", "null"]}
+        "displayName": {"$ref": "#/$defs/bilingual"},
+        "secondaryName": {"$ref": "#/$defs/bilingual"},
+        "birth": {"$ref": "#/$defs/bilingual"},
+        "locations": {"$ref": "#/$defs/bilingual"},
+        "nationality": {"$ref": "#/$defs/bilingual"},
+        "disciplines": {"$ref": "#/$defs/bilingual"},
+        "heroImage": {"$ref": "#/$defs/nullableImage"},
+        "identityImage": {"$ref": "#/$defs/nullableImage"}
+      },
+      "additionalProperties": false
+    },
+    "quickRead": {
+      "type": "object",
+      "required": ["lead", "emphasis", "body"],
+      "properties": {"lead": {"$ref": "#/$defs/bilingual"}, "emphasis": {"$ref": "#/$defs/bilingual"}, "body": {"$ref": "#/$defs/bilingual"}},
+      "additionalProperties": false
+    },
+    "biography": {
+      "type": "object",
+      "required": ["identityFacts", "personal", "career", "interactionLead", "interactionBody"],
+      "properties": {
+        "identityFacts": {"type": "array", "minItems": 5, "items": {"$ref": "#/$defs/bilingual"}},
+        "personal": {"type": "array", "minItems": 2, "items": {"$ref": "#/$defs/timelineEntry"}},
+        "career": {"type": "array", "minItems": 4, "items": {"$ref": "#/$defs/timelineEntry"}},
+        "interactionLead": {"$ref": "#/$defs/bilingual"},
+        "interactionBody": {"$ref": "#/$defs/bilingual"}
+      },
+      "additionalProperties": false
+    },
+    "practice": {
+      "type": "object",
+      "required": ["axisLeft", "axisRight", "summary", "contextImages", "methods", "artistVoice", "institutionalViews", "synthesis"],
+      "properties": {
+        "axisLeft": {"$ref": "#/$defs/bilingual"},
+        "axisRight": {"$ref": "#/$defs/bilingual"},
+        "summary": {"$ref": "#/$defs/bilingual"},
+        "contextImages": {"type": "array", "maxItems": 2, "items": {"$ref": "#/$defs/image"}},
+        "methods": {
+          "type": "array", "minItems": 3,
+          "items": {
+            "type": "object", "required": ["title", "detail"],
+            "properties": {"title": {"$ref": "#/$defs/bilingual"}, "detail": {"$ref": "#/$defs/bilingual"}},
+            "additionalProperties": false
+          }
+        },
+        "artistVoice": {
+          "type": "object", "required": ["quote", "context", "source"],
+          "properties": {"quote": {"$ref": "#/$defs/bilingual"}, "context": {"$ref": "#/$defs/bilingual"}, "source": {"$ref": "#/$defs/sourceRef"}},
+          "additionalProperties": false
+        },
+        "institutionalViews": {
+          "type": "array", "minItems": 1,
+          "items": {
+            "type": "object", "required": ["institution", "interpretation", "source"],
+            "properties": {"institution": {"type": "string"}, "interpretation": {"$ref": "#/$defs/bilingual"}, "source": {"$ref": "#/$defs/sourceRef"}},
+            "additionalProperties": false
+          }
+        },
+        "synthesis": {"$ref": "#/$defs/bilingual"}
+      },
+      "additionalProperties": false
+    },
+    "works": {
+      "type": "array", "minItems": 6, "maxItems": 9,
+      "items": {
+        "type": "object", "required": ["title", "year", "medium", "dimensions", "note", "image"],
+        "properties": {
+          "title": {"$ref": "#/$defs/bilingual"}, "year": {"type": "string"}, "medium": {"$ref": "#/$defs/bilingual"},
+          "dimensions": {"$ref": "#/$defs/bilingual"}, "note": {"$ref": "#/$defs/bilingual"}, "image": {"$ref": "#/$defs/nullableImage"}
+        },
+        "additionalProperties": false
       }
     },
-    "quickRead": {"type": "object", "required": ["lead", "body"], "properties": {"lead": {"$ref": "#/$defs/bilingual"}, "body": {"$ref": "#/$defs/bilingual"}}},
-    "identityFacts": {"type": "array", "items": {"$ref": "#/$defs/bilingual"}},
-    "career": {"type": "array", "items": {"type": "object", "required": ["year", "title", "description"], "properties": {"year": {"type": "string"}, "title": {"$ref": "#/$defs/bilingual"}, "description": {"$ref": "#/$defs/bilingual"}}}},
-    "practice": {"type": "object", "required": ["summary", "methods"], "properties": {"summary": {"$ref": "#/$defs/bilingual"}, "methods": {"type": "array", "items": {"type": "object", "required": ["title", "detail"], "properties": {"title": {"$ref": "#/$defs/bilingual"}, "detail": {"$ref": "#/$defs/bilingual"}}}}}},
-    "works": {"type": "array", "items": {"type": "object", "required": ["title", "year", "medium", "note"], "properties": {"title": {"$ref": "#/$defs/bilingual"}, "year": {"type": "string"}, "medium": {"$ref": "#/$defs/bilingual"}, "note": {"$ref": "#/$defs/bilingual"}, "image": {"type": ["object", "null"]}}}},
-    "exhibitions": {"type": "array", "items": {"type": "object", "required": ["status", "title", "venue", "date", "type"], "properties": {"status": {"enum": ["current", "upcoming", "past"]}, "title": {"$ref": "#/$defs/bilingual"}, "venue": {"$ref": "#/$defs/bilingual"}, "date": {"$ref": "#/$defs/bilingual"}, "type": {"$ref": "#/$defs/bilingual"}}}},
-    "institutions": {"type": "object", "required": ["collections", "galleries"], "properties": {"collections": {"type": "array", "items": {"$ref": "#/$defs/bilingual"}}, "galleries": {"type": "array", "items": {"$ref": "#/$defs/bilingual"}}}},
-    "market": {"type": "object", "required": ["status", "record", "notes"], "properties": {"status": {"$ref": "#/$defs/bilingual"}, "record": {"oneOf": [{"$ref": "#/$defs/bilingual"}, {"type": "null"}]}, "notes": {"type": "array", "items": {"$ref": "#/$defs/bilingual"}}}},
-    "evidence": {"type": "array", "items": {"type": "object", "required": ["title", "detail"], "properties": {"title": {"$ref": "#/$defs/bilingual"}, "detail": {"$ref": "#/$defs/bilingual"}}}},
-    "sources": {"type": "array", "items": {"type": "object", "required": ["title", "url", "publisher", "accessed", "tier", "supports"], "properties": {"title": {"type": "string"}, "url": {"type": "string"}, "publisher": {"type": "string"}, "accessed": {"type": "string"}, "tier": {"type": "integer", "minimum": 1, "maximum": 5}, "supports": {"type": "array", "items": {"type": "string"}}}}}
+    "developments": {
+      "type": "object", "required": ["intro", "image", "entries"],
+      "properties": {
+        "intro": {"$ref": "#/$defs/bilingual"},
+        "image": {"$ref": "#/$defs/nullableImage"},
+        "entries": {"type": "array", "minItems": 4, "maxItems": 6, "items": {"$ref": "#/$defs/timelineEntry"}}
+      },
+      "additionalProperties": false
+    },
+    "exhibitions": {
+      "type": "object", "required": ["heroImages", "currentUpcoming", "historyGroups"],
+      "properties": {
+        "heroImages": {"type": "array", "maxItems": 2, "items": {"$ref": "#/$defs/image"}},
+        "currentUpcoming": {
+          "type": "array",
+          "items": {
+            "type": "object", "required": ["status", "title", "venue", "date", "type", "accessed"],
+            "properties": {
+              "status": {"enum": ["current", "upcoming"]}, "title": {"$ref": "#/$defs/bilingual"}, "venue": {"$ref": "#/$defs/bilingual"},
+              "date": {"$ref": "#/$defs/bilingual"}, "type": {"$ref": "#/$defs/bilingual"}, "accessed": {"type": "string"}
+            },
+            "additionalProperties": false
+          }
+        },
+        "historyGroups": {
+          "type": "array", "minItems": 1,
+          "items": {
+            "type": "object", "required": ["label", "entries"],
+            "properties": {
+              "label": {"$ref": "#/$defs/bilingual"},
+              "entries": {"type": "array", "items": {"$ref": "#/$defs/timelineEntry"}}
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "institutions": {
+      "type": "object", "required": ["intro", "collections", "artistVoice", "galleries", "recentSignals"],
+      "properties": {
+        "intro": {"$ref": "#/$defs/bilingual"},
+        "collections": {
+          "type": "array",
+          "items": {
+            "type": "object", "required": ["institution", "metric", "detail", "url", "accessed"],
+            "properties": {"institution": {"type": "string"}, "metric": {"type": "string"}, "detail": {"$ref": "#/$defs/bilingual"}, "url": {"type": "string"}, "accessed": {"type": "string"}},
+            "additionalProperties": false
+          }
+        },
+        "artistVoice": {
+          "type": "object", "required": ["quote", "source", "image"],
+          "properties": {"quote": {"$ref": "#/$defs/bilingual"}, "source": {"$ref": "#/$defs/sourceRef"}, "image": {"$ref": "#/$defs/nullableImage"}},
+          "additionalProperties": false
+        },
+        "galleries": {
+          "type": "array",
+          "items": {
+            "type": "object", "required": ["name", "detail", "url"],
+            "properties": {"name": {"type": "string"}, "detail": {"$ref": "#/$defs/bilingual"}, "url": {"type": "string"}},
+            "additionalProperties": false
+          }
+        },
+        "recentSignals": {"type": "array", "items": {"$ref": "#/$defs/bilingual"}}
+      },
+      "additionalProperties": false
+    },
+    "market": {
+      "type": "object", "required": ["status", "record", "lots", "comparisonTitle", "comparisonBody", "aggregateStatus", "aggregateReason"],
+      "properties": {
+        "status": {"$ref": "#/$defs/bilingual"},
+        "record": {"oneOf": [{"$ref": "#/$defs/lot"}, {"type": "null"}]},
+        "lots": {"type": "array", "maxItems": 6, "items": {"$ref": "#/$defs/lot"}},
+        "comparisonTitle": {"$ref": "#/$defs/bilingual"},
+        "comparisonBody": {"$ref": "#/$defs/bilingual"},
+        "aggregateStatus": {"$ref": "#/$defs/bilingual"},
+        "aggregateReason": {"$ref": "#/$defs/bilingual"}
+      },
+      "additionalProperties": false
+    },
+    "evidence": {
+      "type": "array", "minItems": 3,
+      "items": {
+        "type": "object", "required": ["title", "category", "detail"],
+        "properties": {"title": {"$ref": "#/$defs/bilingual"}, "category": {"$ref": "#/$defs/bilingual"}, "detail": {"$ref": "#/$defs/bilingual"}},
+        "additionalProperties": false
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["title", "url", "publisher", "accessed", "tier", "supports"],
+        "properties": {"title": {"type": "string"}, "url": {"type": "string"}, "publisher": {"type": "string"}, "accessed": {"type": "string"}, "tier": {"type": "integer", "minimum": 1, "maximum": 5}, "supports": {"type": "array", "items": {"type": "string"}}},
+        "additionalProperties": false
+      }
+    }
   },
   "additionalProperties": false
 }
