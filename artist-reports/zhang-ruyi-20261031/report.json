@@ -1,0 +1,1999 @@
+{
+  "metadata": {
+    "reportVersion": "2.1",
+    "generatedAt": "2026-10-31T23:30:00+08:00",
+    "informationCutoff": "2026-10-31",
+    "coverageStatus": {
+      "zh": "文字覆盖较完整；图像不可用；二级市场与馆藏为缺口",
+      "en": "Text coverage substantial; images unavailable; secondary market and collections are gaps"
+    },
+    "coverageDetail": {
+      "zh": "本报告基于2026年10月31日实际访问的公开网页：博览会主办方页面、UCCA、亚洲文化协会、圣达菲SITE、里昂双年展等机构页面，以及东画廊的艺术家页、新闻与出版物页面。许多展览与日期来自代理画廊新闻稿，已尽量用机构或第三方页面交叉核对；大馆当代美术馆与余德耀美术馆的官网页面在访问时未能加载，相关信息仅来自画廊转载。未使用任何拍卖行登录会话。",
+      "en": "Built from public pages actually fetched on 31 October 2026: fair-organizer pages, institutional pages (UCCA, Asian Cultural Council, SITE SANTA FE, Biennale de Lyon), and Don Gallery's artist, news and publication pages. Many exhibitions and dates come from the representing gallery's news posts and were cross-checked against institutional or third-party pages where possible; the Tai Kwun Contemporary and Yuz Museum websites did not load during research, so those items rest on gallery reproductions. No authenticated auction-house session was used."
+    },
+    "sourceCount": 48
+  },
+  "visuals": {
+    "status": "unavailable",
+    "summary": {
+      "zh": "本报告不嵌入任何图像。所核查的图像（东画廊、UCCA、台北市立美术馆、圣达菲SITE等提供的展览现场与作品图）均有明确出处与摄影署名，但页面未载明允许第三方再发布的条款；而本报告的HTML会作为自包含文件提交到代码仓库，构成再分发。按技能规则，改为在下列缺口说明中提供原始页面链接。",
+      "en": "No images are embedded. The images reviewed (installation and work views supplied by Don Gallery, UCCA, Taipei Fine Arts Museum, SITE SANTA FE and others) have clear provenance and photo credits, but none of the pages states terms permitting third-party redistribution, and this self-contained HTML is committed to a repository, which is redistribution. Following the skill's rules, the gaps below link out to the original pages instead."
+    },
+    "gaps": [
+      {
+        "zh": "艺术家肖像：亚洲文化协会/ArtAsiaPacific页面有肖像（“Courtesy the Asian Cultural Council, Hong Kong”），但无再发布授权。见 https://www.artasiapacific.com/news/asian-cultural-council-names-2025-fellows/",
+        "en": "Artist portrait: a portrait appears on the ACC/ArtAsiaPacific page (\"Courtesy the Asian Cultural Council, Hong Kong\") without redistribution terms. See https://www.artasiapacific.com/news/asian-cultural-council-names-2025-fellows/"
+      },
+      {
+        "zh": "实践语境与展览现场：UCCA“低声细语”现场图（摄影：孙诗，UCCA提供）仅供在原页面查看。见 https://www.ucca.org.cn/en/exhibition/zhang-ruyi/",
+        "en": "Practice context and exhibition views: UCCA 'Speaking Softly' installation views (photo Sun Shi, courtesy UCCA) are viewable on the source page only. See https://www.ucca.org.cn/en/exhibition/zhang-ruyi/"
+      },
+      {
+        "zh": "代表作品图：作品图见东画廊艺术家页与台北双年展新闻页（台北市立美术馆提供，摄影吕国玮），未获再发布授权。见 https://www.dongallery.net/artists/49-zhang-ruyi/ 及 https://www.dongallery.net/news/103-news-zhang-ruyis-participation-in-the-14th-taipei/",
+        "en": "Representative-work images: see Don Gallery's artist page and Taipei Biennial news page (courtesy Taipei Fine Arts Museum, photo Lu Guo-Way); no redistribution permission. See https://www.dongallery.net/artists/49-zhang-ruyi/ and https://www.dongallery.net/news/103-news-zhang-ruyis-participation-in-the-14th-taipei/"
+      },
+      {
+        "zh": "市场拍品图：未找到可核实的公开拍卖拍品，因此该类别不适用。",
+        "en": "Market lot images: no verifiable public auction lots were found, so this category does not apply."
+      }
+    ]
+  },
+  "artist": {
+    "displayName": {
+      "zh": "张如怡",
+      "en": "Zhang Ruyi"
+    },
+    "secondaryName": {
+      "zh": "Zhang Ruyi",
+      "en": "张如怡"
+    },
+    "birth": {
+      "zh": "1985年生于上海",
+      "en": "Born 1985, Shanghai"
+    },
+    "locations": {
+      "zh": "工作生活于上海",
+      "en": "Lives and works in Shanghai"
+    },
+    "nationality": {
+      "zh": "中国（亚洲文化协会2025年名单列为中国内地艺术家）",
+      "en": "China (listed in the ACC 2025 Mainland China cohort)"
+    },
+    "disciplines": {
+      "zh": "装置、雕塑、场域特定作品、综合媒介平面作品、影像",
+      "en": "Installation, sculpture, site-specific work, mixed-media two-dimensional work, video"
+    },
+    "heroImage": null,
+    "identityImage": null
+  },
+  "quickRead": {
+    "lead": {
+      "zh": "张如怡用混凝土、瓷砖、建筑碎石与仙人掌，把上海城市更新中的建材与废料转化为关于个体处境的雕塑与空间装置。",
+      "en": "Zhang Ruyi turns the building materials and debris of Shanghai's urban renewal — concrete, tiles, rubble, cacti — into sculptures and spatial installations about individual circumstance."
+    },
+    "emphasis": {
+      "zh": "2022–2026年间，她的机构展出从UCCA个展延伸到里昂、圣达菲、台北三个国际双年展/国际展，以及大馆和余德耀美术馆的展览，并获2025年亚洲文化协会纽约奖助金。",
+      "en": "Between 2022 and 2026 her institutional record extended from a UCCA solo show to three international biennials/survey exhibitions (Lyon, Santa Fe, Taipei) plus shows at Tai Kwun and Yuz Museum, alongside a 2025 Asian Cultural Council New York Fellowship."
+    },
+    "body": {
+      "zh": "她1985年生于上海，在上海大学美术学院先后学习版画与综合材料，自2012年起与东画廊合作，2026年11月将在东画廊西岸艺博会展位1D01展出。公开记录中的机构展览与奖助金信号清楚；缺口同样明显：未找到机构自有的馆藏记录页面，也未找到可核实的公开拍卖记录，相当一部分评论文本经由画廊发布。",
+      "en": "Born in Shanghai in 1985, she studied printmaking and then integrated materials at Shanghai University's fine arts school and has shown with Don Gallery since 2012; in November 2026 her work appears on Don Gallery's West Bund booth 1D01. The public record shows clear institutional and fellowship signals. The gaps are just as clear: no institution-owned collection record was found, no verifiable public auction record was found, and much of the critical writing is published through the gallery."
+    }
+  },
+  "biography": {
+    "identityFacts": [
+      {
+        "zh": "1985年生于上海，现工作生活于上海（UCCA、东画廊、SITE SANTA FE）。",
+        "en": "Born 1985 in Shanghai; lives and works in Shanghai (UCCA, Don Gallery, SITE SANTA FE)."
+      },
+      {
+        "zh": "2007年本科毕业于上海大学美术学院版画系，2012年硕士毕业于该院综合材料系（东画廊转载的中文简介）；余德耀美术馆展览文本称其2007年毕业于“上海美术学院版画系”，二者应指同一院校的不同称谓。",
+        "en": "BA in printmaking (2007) and MA in integrated materials (2012), Shanghai University School of Fine Arts (Chinese biography reproduced by Don Gallery); Yuz Museum's text names the 'Shanghai Academy of Fine Arts' printmaking department (2007), apparently a different name for the same school."
+      },
+      {
+        "zh": "合作画廊：东画廊（上海），2012年起参加该画廊群展，2014年起举办个展；香港刺点画廊（Blindspot Gallery）网站亦列其为艺术家。",
+        "en": "Galleries: Don Gallery, Shanghai (group shows from 2012, solo shows from 2014); Blindspot Gallery, Hong Kong, also lists her as an artist."
+      },
+      {
+        "zh": "主要媒介：混凝土、瓷砖、钢筋、建筑碎石、仙人掌（及其刺）、塑料薄膜、鱼缸等日常与工业材料。",
+        "en": "Main materials: concrete, ceramic tiles, rebar, construction debris, cacti and cactus spines, plastic film, aquariums and other everyday and industrial materials."
+      },
+      {
+        "zh": "首部专著《ZHANG Ruyi》2024年由Skira出版（ISBN 978-88-572-4889-9），Manuela Lietti编，Karen Smith、吴墨、邱韵撰文。",
+        "en": "First monograph, ZHANG Ruyi, published by Skira in 2024 (ISBN 978-88-572-4889-9), edited by Manuela Lietti, with essays by Karen Smith, Wu Mo and Qiu Yun."
+      },
+      {
+        "zh": "与艺术家刘任为伴侣；二人2007年同时从版画系毕业，2026年在余德耀美术馆举办双人展。",
+        "en": "Partner of artist Liu Ren; both graduated from the printmaking department in 2007 and held a duo exhibition at Yuz Museum in 2026."
+      }
+    ],
+    "personal": [
+      {
+        "year": "1985",
+        "title": {
+          "zh": "生于上海",
+          "en": "Born in Shanghai"
+        },
+        "description": {
+          "zh": "UCCA与东画廊资料均载其1985年生于上海。",
+          "en": "UCCA and Don Gallery both record her birth in Shanghai in 1985."
+        }
+      },
+      {
+        "year": "2005",
+        "title": {
+          "zh": "版画专业时期的格纸绘画",
+          "en": "Graph-paper drawings as a printmaking student"
+        },
+        "description": {
+          "zh": "据邱韵文章，2005年她在上海大学美术学院版画专业二年级时，在标准格纸上绘制女性形象并做成经折装艺术家书。",
+          "en": "According to Qiu Yun, in 2005, as a second-year printmaking student at Shanghai University's fine arts school, she drew female figures on standard graph paper and bound them as an accordion-fold artist's book."
+        }
+      },
+      {
+        "year": "2007",
+        "title": {
+          "zh": "本科毕业；与刘任结为伴侣",
+          "en": "Graduates; partnership with Liu Ren"
+        },
+        "description": {
+          "zh": "2007年版画系本科毕业；余德耀美术馆文本称她与刘任毕业后成为生活伴侣。UCCA称她毕业后不久在租住的破旧公寓中发现前租客留下的仙人掌，由此开始关注这一植物。",
+          "en": "Graduated in printmaking in 2007; Yuz Museum's text says she and Liu Ren became life partners after graduating. UCCA says that shortly after graduation she found a cactus left by a previous tenant in a run-down rented flat, which started her interest in the plant."
+        }
+      },
+      {
+        "year": "2012",
+        "title": {
+          "zh": "综合材料硕士毕业",
+          "en": "MA in integrated materials"
+        },
+        "description": {
+          "zh": "2012年硕士毕业于上海大学美术学院综合材料系。",
+          "en": "Completed an MA in integrated materials at Shanghai University School of Fine Arts in 2012."
+        }
+      }
+    ],
+    "career": [
+      {
+        "year": "2011",
+        "title": {
+          "zh": "《我所不能了解的事》",
+          "en": "Things That I Don't Understand"
+        },
+        "description": {
+          "zh": "研究生期间在上海虹口一处老房子里用混凝土封住门窗与通道（ARTnews中文版访谈）；东画廊将此列为其2011年的项目。",
+          "en": "As a graduate student she sealed the doors, windows and passages of an old house in Hongkou, Shanghai, with concrete (ARTnews China interview); Don Gallery dates the project to 2011."
+        }
+      },
+      {
+        "year": "2014",
+        "title": {
+          "zh": "东画廊首次个展“隔 | 断”",
+          "en": "First Don Gallery solo, 'Cut | Off'"
+        },
+        "description": {
+          "zh": "2014年9月12日—10月26日。",
+          "en": "12 September – 26 October 2014."
+        }
+      },
+      {
+        "year": "2016",
+        "title": {
+          "zh": "“对面的楼与对面的楼”",
+          "en": "'Building Opposite Building'"
+        },
+        "description": {
+          "zh": "2016年11月3日—12月25日东画廊第二次个展；同年参加西岸艺博会ArtReview Asia Xiàn Chǎng单元（王懿泉采访）。",
+          "en": "Second Don Gallery solo, 3 November – 25 December 2016; the same year she took part in West Bund's ArtReview Asia Xiàn Chǎng section (Wang Yiquan interview)."
+        }
+      },
+      {
+        "year": "2017",
+        "title": {
+          "zh": "艺术8中国青年艺术家奖；格兰菲迪驻留",
+          "en": "Prix Yishu 8 Chine; Glenfiddich residency"
+        },
+        "description": {
+          "zh": "获2017年“艺术8”中国奖（Prix Yishu 8 Chine，提名人为上海当代艺术馆策展人王维卫）；参加苏格兰达夫镇格兰菲迪驻留项目；参展UCCA“新常态：艺术与2017”。",
+          "en": "Won Prix Yishu 8 Chine 2017 (nominated by MoCA Shanghai curator Wang Weiwei); joined the Glenfiddich Artists in Residence programme in Dufftown, Scotland; showed in UCCA's 'The New Normal: China, Art and 2017'."
+        }
+      },
+      {
+        "year": "2018",
+        "title": {
+          "zh": "巴塞尔香港“艺术探新”项目",
+          "en": "Art Basel Hong Kong Discoveries"
+        },
+        "description": {
+          "zh": "2018年3月27—31日在巴塞尔艺术展香港展会“艺术探新”单元呈现个人项目“侧面”；同年参展上海外滩美术馆、香港K11艺术基金会。",
+          "en": "Solo project 'Profile' in the Discoveries sector of Art Basel Hong Kong, 27–31 March 2018; also shown that year at Rockbund Art Museum and K11 Art Foundation, Hong Kong."
+        }
+      },
+      {
+        "year": "2019",
+        "title": {
+          "zh": "美国首次个展“盆栽”",
+          "en": "First US solo, 'Bonsai'"
+        },
+        "description": {
+          "zh": "在洛杉矶François Ghebaly画廊举办首个美国个展；11月在东画廊举办“以为何处”。",
+          "en": "First US solo exhibition at François Ghebaly, Los Angeles; 'Consciousness of Location' at Don Gallery opened in November."
+        }
+      },
+      {
+        "year": "2022",
+        "title": {
+          "zh": "里昂双年展与UCCA个展",
+          "en": "Lyon Biennale and UCCA solo"
+        },
+        "description": {
+          "zh": "参展第16届里昂双年展“脆弱宣言”（9月14日—12月31日）；12月23日UCCA北京开幕其迄今规模最大的机构个展“低声细语”。",
+          "en": "Took part in the 16th Lyon Biennale, 'Manifesto of Fragility' (14 September – 31 December); her largest institutional solo to date, 'Speaking Softly', opened at UCCA Beijing on 23 December."
+        }
+      },
+      {
+        "year": "2024",
+        "title": {
+          "zh": "外滩美术馆项目、斯普鲁斯·马格斯群展、Skira专著",
+          "en": "Rockbund project, Sprüth Magers group show, Skira monograph"
+        },
+        "description": {
+          "zh": "作为特邀合作艺术家参与上海外滩美术馆“覆写上海”（3月23日—8月25日）；参加柏林Sprüth Magers群展“territory”（4月26日—6月29日）；Skira出版专著。",
+          "en": "Featured collaborator in Rockbund Art Museum's 'Shanghai Palimpsest' (23 March – 25 August); group show 'territory' at Sprüth Magers, Berlin (26 April – 29 June); Skira monograph published."
+        }
+      },
+      {
+        "year": "2025",
+        "title": {
+          "zh": "亚洲文化协会奖助金；圣达菲与台北",
+          "en": "ACC fellowship; Santa Fe and Taipei"
+        },
+        "description": {
+          "zh": "5月获亚洲文化协会2025年纽约奖助金；参展第12届SITE SANTA FE国际展“曾几何时”（6月27日—2026年1月12日）与第14届台北双年展“地平线上的低吟”（11月1日—2026年3月29日）。",
+          "en": "Awarded an Asian Cultural Council 2025 New York Fellowship in May; showed in the 12th SITE SANTA FE International, 'Once Within a Time' (27 June 2025 – 12 January 2026), and the 14th Taipei Biennial, 'Whispers on the Horizon' (1 November 2025 – 29 March 2026)."
+        }
+      },
+      {
+        "year": "2026",
+        "title": {
+          "zh": "大馆、余德耀；纽约研究期",
+          "en": "Tai Kwun, Yuz; New York research period"
+        },
+        "description": {
+          "zh": "参展大馆当代美术馆“保持在线：全球供应”（2月27日—5月31日）；与刘任在余德耀美术馆举办双人展（3月22日—6月21日）；按东画廊发布，亚洲文化协会资助其于2026年7—12月赴美研究。",
+          "en": "Showed in Tai Kwun Contemporary's 'Stay Connected: Supplying the Globe' (27 February – 31 May); duo exhibition with Liu Ren at Yuz Museum (22 March – 21 June); per Don Gallery, the ACC funds her US research from July to December 2026."
+        }
+      }
+    ],
+    "interactionLead": {
+      "zh": "在上海出生、求学和工作，使城市更新成为她作品的直接素材。",
+      "en": "Being born, trained and based in Shanghai has made urban renewal the direct material of her work."
+    },
+    "interactionBody": {
+      "zh": "公开资料显示，她的若干核心母题都可追溯到具体的生活经历：版画训练带来的网格与重复（UCCA），毕业后租住毛坯房时遇到的仙人掌（UCCA），以及她在访谈中提到的“住的地方完全毛坯……就好似水泥包裹着我”（ARTnews中文版）。她收集的建筑碎石多来自工作室附近的拆迁现场（François Ghebaly展览文本）。这些说法均出自已注明的来源；“生活经验塑造了材料选择”是本报告的综合判断。",
+      "en": "Public sources trace several core motifs to specific experiences: grids and repetition from printmaking training (UCCA), the cactus found in an unfinished rented flat after graduation (UCCA), and, in her own words, living in a bare-concrete flat felt 'as if cement wrapped around me' (ARTnews China). Her construction rubble is often collected from demolition sites near her studio (François Ghebaly exhibition text). Each of these statements comes from a named source; the claim that lived experience shaped her material choices is this report's synthesis."
+    }
+  },
+  "practice": {
+    "axisLeft": {
+      "zh": "城市建材与工业秩序（混凝土、瓷砖、网格、钢筋）",
+      "en": "Urban building materials and industrial order (concrete, tiles, grids, rebar)"
+    },
+    "axisRight": {
+      "zh": "个体感知与有机生命（仙人掌、刺、鱼、水汽）",
+      "en": "Individual perception and organic life (cacti, spines, fish, vapour)"
+    },
+    "summary": {
+      "zh": "她的作品处于建设与破坏之间：把日常建材从功能中剥离，与仙人掌等有机物翻模、嫁接或并置，以场域特定的方式改造展厅，讨论城市空间对个体情绪的塑造。近年作品更多使用透明薄膜、砂纸等标准化材料，并把拆迁碎料作为“城市记忆”的载体。",
+      "en": "Her work sits between construction and destruction: everyday building materials are stripped of function and cast with, grafted onto or set beside organic forms such as cacti, often reshaping the gallery site itself, to examine how urban space shapes individual emotion. Recent work makes more use of standardized materials such as transparent film and sandpaper, and treats demolition debris as a carrier of urban memory."
+    },
+    "contextImages": [],
+    "methods": [
+      {
+        "title": {
+          "zh": "混凝土翻模的仙人掌",
+          "en": "Concrete-cast cacti"
+        },
+        "detail": {
+          "zh": "以混凝土翻制仙人掌，有时以螺纹钢支撑或贯穿，使有机形态转为工业材料（UCCA；ARTnews中文版访谈）。",
+          "en": "Cacti are cast in concrete, sometimes propped up or pierced by rebar, turning organic form into industrial material (UCCA; ARTnews China interview)."
+        }
+      },
+      {
+        "title": {
+          "zh": "封堵与改造空间",
+          "en": "Blocking and re-forming space"
+        },
+        "detail": {
+          "zh": "用混凝土封住门窗通道、以瓷砖墙重新分隔展厅，改变身体在空间中的状态（《我所不能了解的事》、“隔 | 断”、“对面的楼与对面的楼”）。",
+          "en": "Sealing doors and passages with concrete and re-dividing galleries with tiled walls to change how the body occupies space ('Things That I Don't Understand', 'Cut | Off', 'Building Opposite Building')."
+        }
+      },
+      {
+        "title": {
+          "zh": "收集拆迁碎料",
+          "en": "Collecting demolition debris"
+        },
+        "detail": {
+          "zh": "从工作室附近拆迁现场收集碎石，嵌入仙人掌刺、指甲油等，形成《种植》系列（François Ghebaly文本；ARTnews中文版访谈）。",
+          "en": "Rubble collected from demolition sites near the studio is embedded with cactus spines, nail polish and similar materials, as in the 'Planter' series (François Ghebaly text; ARTnews China interview)."
+        }
+      },
+      {
+        "title": {
+          "zh": "层叠的平面“装饰物”",
+          "en": "Layered two-dimensional 'Decoration' works"
+        },
+        "detail": {
+          "zh": "以铝箔、UV打印、砂纸、尼龙网、胶带等装修耗材层叠成平面作品，延续版画训练中的网格（UCCA；台北双年展作品信息）。",
+          "en": "Two-dimensional works layered from renovation consumables such as aluminium foil, UV print, sandpaper, nylon mesh and tape, continuing the grid from her printmaking training (UCCA; Taipei Biennial work data)."
+        }
+      },
+      {
+        "title": {
+          "zh": "活体与水汽系统",
+          "en": "Living and vapour systems"
+        },
+        "detail": {
+          "zh": "把混凝土雕塑浸入养有清道夫的鱼缸，或以蒸汽装置让水汽在塑料薄膜上凝结（《浸泡景观》《幽暗的灯箱》《水渍》）。",
+          "en": "Concrete sculptures are submerged in aquariums with suckermouth catfish, or a steam generator makes vapour condense on plastic film ('Submerged Landscape', 'Dim Light Box', 'Water Stain')."
+        }
+      }
+    ],
+    "artistVoice": {
+      "quote": {
+        "zh": "“‘装修’是我2017年全年艺术实践的主要方向……这一概念更涉及破坏与重建之间的双重关系，社会的种种终端都包含在这一过程中。这种关系为个体与现实的直接相遇提供了一个‘场所’。”（英文原文，本报告中译）",
+        "en": "\"'Decoration' is the primary orientation for my artistic practice throughout the whole year of 2017. … the notion rather involves the duality of the relationship between destruction and reconstruction, in the process of which the very ends of the society are included. Such a relationship provides a location for a direct encounter between the individual and the reality.\""
+      },
+      "context": {
+        "zh": "艺术家为“装修：场所”（UCCA“新常态：艺术与2017”）所写的创作陈述，东画廊2017年发布。",
+        "en": "Artist's statement for 'Decoration: Location' (UCCA, 'The New Normal: China, Art and 2017'), published by Don Gallery in 2017."
+      },
+      "source": {
+        "label": "Don Gallery – Review on 'Decoration: Location' by ZHANG Ruyi",
+        "url": "https://www.dongallery.net/news/44-review-on-decoration-location-by-zhang-ruyi/"
+      }
+    },
+    "institutionalViews": [
+      {
+        "institution": "UCCA Center for Contemporary Art（策展人：张南 Neil Zhang）",
+        "interpretation": {
+          "zh": "UCCA称“低声细语”是其迄今规模最大的机构个展，系统梳理她如何以仙人掌、混凝土、网格为符号，探讨人与社会、人与建筑、自然与工业的关系，并首次集中呈现她对玻璃、塑料薄膜等透明材料的使用。",
+          "en": "UCCA describes 'Speaking Softly' as her largest institutional solo to date, a systematic overview of how she uses cacti, concrete and grids as symbols for relations between people and society, people and architecture, and the natural and industrial worlds, and the first focused presentation of her transparent materials such as glass and plastic film."
+        },
+        "source": {
+          "label": "UCCA – Zhang Ruyi: Speaking Softly",
+          "url": "https://www.ucca.org.cn/en/exhibition/zhang-ruyi/"
+        }
+      },
+      {
+        "institution": "Biennale de Lyon（第16届，策展：Sam Bardaouil、Till Fellrath）",
+        "interpretation": {
+          "zh": "里昂双年展称其装置《空地》贯穿废弃的吉美博物馆展厅，源自上海隔离与封控期间的经历，以空调外机、厨房铝材与卫浴瓷砖“连根拔起”熟悉的现实。",
+          "en": "The Biennale says her installation Vacant Lot, running through the rooms of the abandoned Musée Guimet, draws on her experience of isolation and lockdown in Shanghai, using an outdoor air-conditioning unit, kitchen aluminium and bathroom tiles to uproot familiar realities."
+        },
+        "source": {
+          "label": "Biennale de Lyon – Zhang Ruyi",
+          "url": "https://www.labiennaledelyon.com/en/biennale/16e-biennale-dart-contemporain-2022/manifesto-of-fragility/zhang-ruyi"
+        }
+      },
+      {
+        "institution": "Yuz Museum 余德耀美术馆（经东画廊转载）",
+        "interpretation": {
+          "zh": "余德耀美术馆文本认为她以仙人掌、混凝土、瓷砖等日常材料揭示城市生活中秩序与无序并存的隐形结构；网格、阻隔、封堵等母题暗示城市被压缩、固化的空间。",
+          "en": "Yuz Museum's text says she uses cacti, concrete, tiles and other everyday materials to reveal the invisible structures of urban life where order and disorder coexist; grids, barriers and blockages evoke the compressed, solidified spaces of the city."
+        },
+        "source": {
+          "label": "Don Gallery – Yuz Museum duo exhibition",
+          "url": "https://www.dongallery.net/news/121-newsliu-ren-zhang-ruyi-duo-exhibition-everything-shanghai-china/"
+        }
+      },
+      {
+        "institution": "Rockbund Art Museum 上海外滩美术馆（经东画廊转载）",
+        "interpretation": {
+          "zh": "外滩美术馆称她将三楼展厅重构为“动态文献库”，其作品是“充盈着潜藏于过往岁月和生活故事的活档案”。",
+          "en": "Rockbund says she reconceived its third-floor galleries as a 'dynamic archive', her works being 'living archives' of past years and life stories."
+        },
+        "source": {
+          "label": "Don Gallery – Shanghai Palimpsest at Rockbund",
+          "url": "https://www.dongallery.net/news/84-news-zhang-ruyi-s-participation-in-shanghai-palimpsest-shanghai/"
+        }
+      }
+    ],
+    "synthesis": {
+      "zh": "【系统综合】从上述来源看，她的实践有两条稳定线索：一是以建材与网格代表的城市秩序，二是以仙人掌为代表、在恶劣条件中存活的个体。2011年以来的作品不断调整这两者的比例：早期以封堵空间为主，2017年后转向“装修”与碎料，2022年后加入透明材料、水汽与砂纸。这一概括由本报告根据所引来源归纳，并非任何机构或艺术家的原话。",
+      "en": "[System synthesis] Across the cited sources her practice holds two steady threads: urban order, represented by building materials and grids, and the individual, represented by the cactus that survives harsh conditions. Since 2011 the balance between them has shifted: early work centred on blocking space, after 2017 it moved to 'decoration' and debris, and after 2022 it added transparent materials, vapour and sandpaper. This summary is drawn by this report from the cited sources; it is not a statement by any institution or by the artist."
+    }
+  },
+  "works": [
+    {
+      "title": {
+        "zh": "我所不能了解的事",
+        "en": "Things That I Don't Understand"
+      },
+      "year": "2011",
+      "medium": {
+        "zh": "混凝土，封堵上海虹口一处住宅的门窗与通道（场域特定）",
+        "en": "Concrete sealing the doors, windows and passages of a residence in Hongkou, Shanghai (site-specific)"
+      },
+      "dimensions": {
+        "zh": "场域特定；尺寸未公开",
+        "en": "Site-specific; dimensions not published"
+      },
+      "note": {
+        "zh": "她首次以混凝土介入空间的项目（ARTnews中文版访谈；东画廊“隔 | 断”文本）。",
+        "en": "Her first use of concrete to intervene in space (ARTnews China interview; Don Gallery 'Cut | Off' text)."
+      },
+      "image": null
+    },
+    {
+      "title": {
+        "zh": "镶嵌",
+        "en": "Mount"
+      },
+      "year": "2018",
+      "medium": {
+        "zh": "混凝土、钢筋、树脂和地漏",
+        "en": "Concrete, steel, resin and floor drain"
+      },
+      "dimensions": {
+        "zh": "尺寸可变；门 199.5 × 84.5 × 4.6 cm，地漏 10 × 10 × 8 cm；唯一版本",
+        "en": "Dimensions variable; door 199.5 × 84.5 × 4.6 cm, floor drain 10 × 10 × 8 cm; unique"
+      },
+      "note": {
+        "zh": "门与地漏等住宅构件被混凝土化，体现“封堵与改造空间”的方法（东画廊作品信息）。",
+        "en": "Domestic fittings such as a door and floor drain rendered in concrete, an example of her space-blocking method (Don Gallery work data)."
+      },
+      "image": null
+    },
+    {
+      "title": {
+        "zh": "浸泡景观–1",
+        "en": "Submerged Landscape-1"
+      },
+      "year": "2019",
+      "medium": {
+        "zh": "空调冷凝器、鱼缸、混凝土、清道夫、加热棒、过滤器、灯、木托板",
+        "en": "Air conditioner condenser, aquarium, concrete, suckermouth catfish, heater, filter, light, wood pallet"
+      },
+      "dimensions": {
+        "zh": "43 × 63 × 33 cm；含木托板 80 × 90 × 55 cm",
+        "en": "43 × 63 × 33 cm; 80 × 90 × 55 cm with wood pallet"
+      },
+      "note": {
+        "zh": "活体鱼与混凝土仙人掌共处的鱼缸系列；Sprüth Magers“territory”展出同系列作品（东画廊作品信息；Sprüth Magers展讯）。",
+        "en": "Part of the aquarium series in which live fish share a tank with concrete cacti; a work from the series was shown in Sprüth Magers' 'territory' (Don Gallery work data; Sprüth Magers text)."
+      },
+      "image": null
+    },
+    {
+      "title": {
+        "zh": "水渍",
+        "en": "Water Stain"
+      },
+      "year": "2022（2025年重新装置）",
+      "medium": {
+        "zh": "瓷砖、塑胶薄膜、金属、蒸汽设备、灯",
+        "en": "Ceramic tiles, plastic, film, metal, steam generator, lighting tube"
+      },
+      "dimensions": {
+        "zh": "尺寸可变",
+        "en": "Variable dimensions"
+      },
+      "note": {
+        "zh": "UCCA“低声细语”新作：蒸汽在塑料薄膜内凝结滑落；2025年为第14届台北双年展重新装置（UCCA；东画廊台北双年展新闻）。",
+        "en": "New work for UCCA's 'Speaking Softly', in which vapour condenses and runs down a plastic-film enclosure; reinstalled in 2025 for the 14th Taipei Biennial (UCCA; Don Gallery Taipei Biennial news)."
+      },
+      "image": null
+    },
+    {
+      "title": {
+        "zh": "种植-7",
+        "en": "Planter-7"
+      },
+      "year": "2022",
+      "medium": {
+        "zh": "建筑碎石、仙人掌刺、指甲油、进口胶",
+        "en": "Construction debris, cactus thorns, nail polish, imported glue"
+      },
+      "dimensions": {
+        "zh": "27 × 25 × 18 cm",
+        "en": "27 × 25 × 18 cm"
+      },
+      "note": {
+        "zh": "拆迁碎石植入仙人掌刺并以指甲油包裹；曾在东画廊“或废或更”与上海外滩美术馆“覆写上海”展出（东画廊；ARTnews中文版访谈）。",
+        "en": "Demolition rubble planted with cactus spines coated in nail polish; shown in 'Once Remain, Once Remould' at Don Gallery and 'Shanghai Palimpsest' at Rockbund (Don Gallery; ARTnews China interview)."
+      },
+      "image": null
+    },
+    {
+      "title": {
+        "zh": "易逝的现代-2",
+        "en": "Perishable Modernity-2"
+      },
+      "year": "2023",
+      "medium": {
+        "zh": "混凝土、螺纹钢筋、热轧板、碎石、金属、改制椅子",
+        "en": "Concrete, threaded rebar, hot-rolled steel sheet, construction debris, metal, remodeled stool"
+      },
+      "dimensions": {
+        "zh": "雕塑 20 × 13 × 81 cm（高）；桌子及碎石 88 × 30 × 40 cm（高）",
+        "en": "Sculpture 20 × 13 × 81 cm (H); table and debris 88 × 30 × 40 cm (H)"
+      },
+      "note": {
+        "zh": "新闻稿称其以微倾的钢筋、碎砖与倒扣椅面影射勒·柯布西耶的萨伏伊别墅（夏天，东画廊新闻稿）。",
+        "en": "The press release reads its tilted rebar, broken bricks and inverted chair seat as an allusion to Le Corbusier's Villa Savoye (Xia Tian, Don Gallery press release)."
+      },
+      "image": null
+    },
+    {
+      "title": {
+        "zh": "兼捕尘埃",
+        "en": "Bycatch the Dust"
+      },
+      "year": "2023",
+      "medium": {
+        "zh": "混凝土、钢筋、钢丝绳、电线",
+        "en": "Concrete, rebar, steel wire, electric wires"
+      },
+      "dimensions": {
+        "zh": "雕塑 21 × 18 × 50 cm（高）；版数 2 + 1 AP",
+        "en": "Sculpture 21 × 18 × 50 cm (H); edition of 2 + 1 AP"
+      },
+      "note": {
+        "zh": "“或废或更”展览入口作品，悬挂的混凝土植物雕塑（东画廊展览页与新闻稿）。",
+        "en": "Opening work of 'Once Remain, Once Remould': a suspended concrete plant sculpture (Don Gallery exhibition page and press release)."
+      },
+      "image": null
+    },
+    {
+      "title": {
+        "zh": "抛光（代谢）",
+        "en": "Polish (Metabolism)"
+      },
+      "year": "2025",
+      "medium": {
+        "zh": "木板、铝板、砂纸、UV印刷、油性水彩笔、彩色雪梨纸、尼龙网、彩色铅笔、彩色卡纸、灰卡纸、水泥、计算纸、胶带、博物馆级无光玻璃、柚木框",
+        "en": "Wood panel, aluminum panel, sandpaper, UV print, oil-based marker, colored tissue paper, nylon mesh, colored pencil, colored cardstock, grey board, cement, drafting paper, adhesive tape, museum-quality non-reflective acrylic, teak frame"
+      },
+      "dimensions": {
+        "zh": "122 × 82 × 4.6 cm（含框）",
+        "en": "122 × 82 × 4.6 cm (with frame)"
+      },
+      "note": {
+        "zh": "以砂纸为核心的新平面系列，见于第14届台北双年展；同年巴黎Paris Internationale展出同系列《抛光（伤疤）》（东画廊；Paris Internationale）。",
+        "en": "New sandpaper-based two-dimensional series, shown at the 14th Taipei Biennial; works from the related 'Polish (Scar)' series appeared at Paris Internationale the same year (Don Gallery; Paris Internationale)."
+      },
+      "image": null
+    },
+    {
+      "title": {
+        "zh": "倚靠",
+        "en": "Leaning"
+      },
+      "year": "2022/2026",
+      "medium": {
+        "zh": "橡胶管、混凝土、改装木制椅子、沥青、金属",
+        "en": "Rubber pipes, concrete, remodeled wooden chair, bitumen, metal"
+      },
+      "dimensions": {
+        "zh": "尺寸可变",
+        "en": "Variable size"
+      },
+      "note": {
+        "zh": "拆迁现场的破椅与仙人掌雕塑相互倚靠，2026年为大馆当代美术馆F仓展厅调整装置（东画廊大馆新闻）。",
+        "en": "Broken chairs from a demolition site lean together with sculptural cacti; adapted in 2026 for Tai Kwun's F Hall Gallery (Don Gallery Tai Kwun news)."
+      },
+      "image": null
+    }
+  ],
+  "developments": {
+    "intro": {
+      "zh": "以下分期由本报告根据所引作品与展览资料归纳（系统综合），与上文生平年表分开。",
+      "en": "The phases below are this report's synthesis from the cited works and exhibitions, kept separate from the biographical chronology above."
+    },
+    "image": null,
+    "entries": [
+      {
+        "year": "2005–2010",
+        "title": {
+          "zh": "格纸与版画",
+          "en": "Graph paper and printmaking"
+        },
+        "description": {
+          "zh": "在格纸上绘制女性形象与植物，以木刻转印制作灯罩装置《微弱的希望》（2006–2007）；网格与重复成为此后作品的底层结构（邱韵；UCCA）。",
+          "en": "Drawings of figures and plants on graph paper; woodblock-printed lampshade installation A Faint Hope (2006–2007). Grid and repetition became the underlying structure of later work (Qiu Yun; UCCA)."
+        }
+      },
+      {
+        "year": "2011–2016",
+        "title": {
+          "zh": "以混凝土封堵空间",
+          "en": "Sealing space with concrete"
+        },
+        "description": {
+          "zh": "从《我所不能了解的事》（2011）到“隔 | 断”（2014）与“对面的楼与对面的楼”（2016），以混凝土和瓷砖墙阻隔门窗、重构展厅（东画廊；王懿泉采访）。",
+          "en": "From Things That I Don't Understand (2011) to 'Cut | Off' (2014) and 'Building Opposite Building' (2016), concrete and tiled walls block openings and restructure the gallery (Don Gallery; Wang Yiquan interview)."
+        }
+      },
+      {
+        "year": "2017–2020",
+        "title": {
+          "zh": "“装修”与活体系统",
+          "en": "'Decoration' and living systems"
+        },
+        "description": {
+          "zh": "2017年以“装修”为全年方向（UCCA“装修：场所”）；鱼缸与清道夫的《浸泡景观》（2019）、《幽暗的灯箱》（UCCA沙丘，2020）。",
+          "en": "2017 organised around 'Decoration' (UCCA, 'Decoration: Location'); aquarium works with catfish such as Submerged Landscape (2019) and Dim Light Box (UCCA Dune, 2020)."
+        }
+      },
+      {
+        "year": "2021–2023",
+        "title": {
+          "zh": "透明材料与“现代化石”",
+          "en": "Transparency and 'Modern Fossil'"
+        },
+        "description": {
+          "zh": "“现代化石”（星美术馆，2022）、里昂双年展《空地》（2022）、UCCA“低声细语”中的塑料薄膜温室与《水渍》，以及“或废或更”（2023）中的拆迁碎料。",
+          "en": "'Modern Fossil' (SSSSTART, 2022), Vacant Lot at the Lyon Biennale (2022), the plastic-film greenhouse and Water Stain in UCCA's 'Speaking Softly', and the demolition debris of 'Once Remain, Once Remould' (2023)."
+        }
+      },
+      {
+        "year": "2024–2026",
+        "title": {
+          "zh": "档案、砂纸与场地改编",
+          "en": "Archives, sandpaper and site adaptation"
+        },
+        "description": {
+          "zh": "外滩美术馆“覆写上海”中把展厅改作“动态文献库”（2024）；以砂纸为主的“抛光”系列（2025）；为大馆改编《倚靠》（2026）。",
+          "en": "Reconceiving Rockbund's galleries as a 'dynamic archive' in 'Shanghai Palimpsest' (2024); the sandpaper-based 'Polish' series (2025); Leaning adapted for Tai Kwun (2026)."
+        }
+      }
+    ]
+  },
+  "exhibitions": {
+    "heroImages": [],
+    "currentUpcoming": [
+      {
+        "status": "upcoming",
+        "title": {
+          "zh": "2026西岸艺术与设计博览会（东画廊展位）",
+          "en": "West Bund Art & Design 2026 (Don Gallery booth)"
+        },
+        "venue": {
+          "zh": "西岸国际会展中心，上海龙耀路7号，展位1D01",
+          "en": "West Bund International Convention and Exhibition Center, 7 Longyao Rd, Shanghai, booth 1D01"
+        },
+        "date": {
+          "zh": "2026年11月10日—15日（贵宾预览11月10—11日，公众日11月12—15日）",
+          "en": "10–15 November 2026 (VIP preview 10–11 Nov; public days 12–15 Nov)"
+        },
+        "type": {
+          "zh": "艺博会画廊展位（群展）",
+          "en": "Art-fair gallery booth (group presentation)"
+        },
+        "accessed": "2026-10-31",
+        "startDate": "2026-11-10",
+        "endDate": "2026-11-15"
+      }
+    ],
+    "historyGroups": [
+      {
+        "label": {
+          "zh": "2011–2016 早期个展",
+          "en": "2011–2016 Early solo shows"
+        },
+        "entries": [
+          {
+            "year": "2014",
+            "title": {
+              "zh": "“隔 | 断”，东画廊，上海",
+              "en": "'Cut | Off', Don Gallery, Shanghai"
+            },
+            "description": {
+              "zh": "个展，2014年9月12日—10月26日。",
+              "en": "Solo, 12 September – 26 October 2014."
+            }
+          },
+          {
+            "year": "2016",
+            "title": {
+              "zh": "“对面的楼与对面的楼”，东画廊，上海",
+              "en": "'Building Opposite Building', Don Gallery, Shanghai"
+            },
+            "description": {
+              "zh": "个展，2016年11月3日—12月25日。",
+              "en": "Solo, 3 November – 25 December 2016."
+            }
+          }
+        ]
+      },
+      {
+        "label": {
+          "zh": "2017–2020 机构群展与海外首展",
+          "en": "2017–2020 Institutional group shows and first US solo"
+        },
+        "entries": [
+          {
+            "year": "2017",
+            "title": {
+              "zh": "“新常态：艺术与2017”，UCCA，北京",
+              "en": "'The New Normal: China, Art and 2017', UCCA, Beijing"
+            },
+            "description": {
+              "zh": "群展，2017年3月19日—7月9日，呈现“装修：场所”。",
+              "en": "Group show, 19 March – 9 July 2017, presenting 'Decoration: Location'."
+            }
+          },
+          {
+            "year": "2018",
+            "title": {
+              "zh": "“侧面”，巴塞尔艺术展香港展会“艺术探新”",
+              "en": "'Profile', Art Basel Hong Kong Discoveries"
+            },
+            "description": {
+              "zh": "个人项目，2018年3月27—31日。",
+              "en": "Solo project, 27–31 March 2018."
+            }
+          },
+          {
+            "year": "2019",
+            "title": {
+              "zh": "“盆栽”，François Ghebaly，洛杉矶",
+              "en": "'Bonsai', François Ghebaly, Los Angeles"
+            },
+            "description": {
+              "zh": "美国首次个展。",
+              "en": "First US solo exhibition."
+            }
+          },
+          {
+            "year": "2019–2020",
+            "title": {
+              "zh": "“以为何处”，东画廊，上海",
+              "en": "'Consciousness of Location', Don Gallery, Shanghai"
+            },
+            "description": {
+              "zh": "个展，2019年11月6日—2020年1月12日。",
+              "en": "Solo, 6 November 2019 – 12 January 2020."
+            }
+          },
+          {
+            "year": "2020",
+            "title": {
+              "zh": "“沉睡者的抵抗”，UCCA沙丘美术馆，秦皇岛",
+              "en": "'Resistance of the Sleepers', UCCA Dune, Qinhuangdao"
+            },
+            "description": {
+              "zh": "群展，两件委约作品。",
+              "en": "Group show with two commissioned works."
+            }
+          }
+        ]
+      },
+      {
+        "label": {
+          "zh": "2021–2023 个展与国际双年展",
+          "en": "2021–2023 Solo shows and an international biennial"
+        },
+        "entries": [
+          {
+            "year": "2022",
+            "title": {
+              "zh": "“现代化石”，星美术馆（SSSSTART），上海",
+              "en": "'Modern Fossil', SSSSTART, Shanghai"
+            },
+            "description": {
+              "zh": "“艺术家谱系研究”第十展，2022年1月15日—3月25日。",
+              "en": "Tenth 'Genealogy Study of Artists' exhibition, 15 January – 25 March 2022."
+            }
+          },
+          {
+            "year": "2022",
+            "title": {
+              "zh": "第16届里昂双年展“脆弱宣言”",
+              "en": "16th Biennale de Lyon, 'Manifesto of Fragility'"
+            },
+            "description": {
+              "zh": "2022年9月14日—12月31日，吉美博物馆与富维耶宗教艺术博物馆。",
+              "en": "14 September – 31 December 2022, Musée Guimet and the Fourvière Museum of Religious Art."
+            }
+          },
+          {
+            "year": "2022–2023",
+            "title": {
+              "zh": "“张如怡：低声细语”，UCCA，北京",
+              "en": "'Zhang Ruyi: Speaking Softly', UCCA, Beijing"
+            },
+            "description": {
+              "zh": "机构个展，2022年12月23日—2023年4月9日，20余件委约新作。",
+              "en": "Institutional solo, 23 December 2022 – 9 April 2023, with more than 20 commissioned works."
+            }
+          },
+          {
+            "year": "2023–2024",
+            "title": {
+              "zh": "“或废或更”，东画廊，上海",
+              "en": "'Once Remain, Once Remould', Don Gallery, Shanghai"
+            },
+            "description": {
+              "zh": "个展，2023年11月3日—2024年1月31日。",
+              "en": "Solo, 3 November 2023 – 31 January 2024."
+            }
+          }
+        ]
+      },
+      {
+        "label": {
+          "zh": "2024–2026 近期机构展览",
+          "en": "2024–2026 Recent institutional exhibitions"
+        },
+        "entries": [
+          {
+            "year": "2024",
+            "title": {
+              "zh": "“覆写上海：重构20世纪初的亚洲文会图书馆”，上海外滩美术馆",
+              "en": "'Shanghai Palimpsest: Restaging the R.A.S. Library', Rockbund Art Museum"
+            },
+            "description": {
+              "zh": "特邀合作艺术家，2024年3月23日—8月25日。",
+              "en": "Featured collaborator, 23 March – 25 August 2024."
+            }
+          },
+          {
+            "year": "2024",
+            "title": {
+              "zh": "“跟着感觉走”，时代美术馆，广州",
+              "en": "'Follow the Feeling', Times Museum, Guangzhou"
+            },
+            "description": {
+              "zh": "群展，2024年3月23日—6月23日。",
+              "en": "Group show, 23 March – 23 June 2024."
+            }
+          },
+          {
+            "year": "2024",
+            "title": {
+              "zh": "“territory”，Sprüth Magers，柏林",
+              "en": "'territory', Sprüth Magers, Berlin"
+            },
+            "description": {
+              "zh": "画廊群展，2024年4月26日—6月29日。",
+              "en": "Gallery group show, 26 April – 29 June 2024."
+            }
+          },
+          {
+            "year": "2024–2025",
+            "title": {
+              "zh": "“80后图鉴——代际跃迁”，油罐艺术中心，上海",
+              "en": "'Pictures of the Post-80s Generation – Generational Leap', TANK Shanghai"
+            },
+            "description": {
+              "zh": "群展，2024年11月6日—2025年5月4日。",
+              "en": "Group show, 6 November 2024 – 4 May 2025."
+            }
+          },
+          {
+            "year": "2025–2026",
+            "title": {
+              "zh": "第12届SITE SANTA FE国际展“曾几何时”",
+              "en": "12th SITE SANTA FE International, 'Once Within a Time'"
+            },
+            "description": {
+              "zh": "策展人Cecilia Alemani，2025年6月27日—2026年1月12日。",
+              "en": "Curated by Cecilia Alemani, 27 June 2025 – 12 January 2026."
+            }
+          },
+          {
+            "year": "2025–2026",
+            "title": {
+              "zh": "第14届台北双年展“地平线上的低吟”，台北市立美术馆",
+              "en": "14th Taipei Biennial, 'Whispers on the Horizon', Taipei Fine Arts Museum"
+            },
+            "description": {
+              "zh": "2025年11月1日—2026年3月29日。",
+              "en": "1 November 2025 – 29 March 2026."
+            }
+          },
+          {
+            "year": "2026",
+            "title": {
+              "zh": "“保持在线：全球供应”，大馆当代美术馆，香港",
+              "en": "'Stay Connected: Supplying the Globe', Tai Kwun Contemporary, Hong Kong"
+            },
+            "description": {
+              "zh": "群展，2026年2月27日—5月31日（日期来自东画廊）。",
+              "en": "Group show, 27 February – 31 May 2026 (dates per Don Gallery)."
+            }
+          },
+          {
+            "year": "2026",
+            "title": {
+              "zh": "“刘任 & 张如怡：一切都准时，只是时间从未属于我们。”，余德耀美术馆，上海",
+              "en": "'Liu Ren & Zhang Ruyi: Everything is on time, only time was never ours.', Yuz Museum, Shanghai"
+            },
+            "description": {
+              "zh": "双人展，2026年3月22日—6月21日，近五十件作品（日期来自东画廊转载）。",
+              "en": "Duo exhibition, 22 March – 21 June 2026, nearly fifty works (dates per Don Gallery's reproduction)."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "institutions": {
+    "intro": {
+      "zh": "本次检索未找到任何机构自有的馆藏记录页面。东画廊与刺点画廊的资料提到四方当代美术馆、复星艺术基金会、英国卡斯雕塑基金会的收藏，2018年复星基金会收藏展亦展出其作品，但这些都属画廊或展览层面的说法，不能代替馆藏记录，因此下方馆藏列表为空。参加机构展览也不等于被机构收藏。",
+      "en": "No institution-owned collection record page was found. Don Gallery and Blindspot materials mention holdings at Sifang Art Museum, Fosun Foundation and Cass Sculpture Foundation (UK), and a 2018 Fosun Foundation collection exhibition included her works, but these are gallery- or exhibition-level claims rather than collection records, so the collection list below is left empty. Taking part in museum exhibitions is not the same as being in a collection."
+    },
+    "collections": [],
+    "artistVoice": {
+      "quote": {
+        "zh": "“对我来说，水泥无处不在，它也许一直在潜移默化地给我养分，所以我开始思考能不能把这种常见但又不被肉眼轻易见到的廉价材料更明白地还给空间？”",
+        "en": "\"For me, cement is everywhere; perhaps it has been quietly nourishing me all along. So I began to wonder whether I could return this common, cheap material, which the eye seldom really sees, to space more clearly.\" (Chinese original; English translation by this report)"
+      },
+      "source": {
+        "label": "ARTnews 中文版 interview (17 Jan 2024), via Don Gallery",
+        "url": "https://www.dongallery.net/press/6-artnews-once-remain-once-remouldzhang-ruyi-at/"
+      },
+      "image": null
+    },
+    "galleries": [
+      {
+        "name": "Don Gallery 东画廊（上海）",
+        "detail": {
+          "zh": "自2012年起参加其群展，2014、2016、2019、2023年举办个展，代理其参加巴塞尔香港、Paris Internationale与2026西岸艺博会（展位1D01）等。",
+          "en": "Group shows from 2012; solo shows in 2014, 2016, 2019 and 2023; presented her at Art Basel Hong Kong, Paris Internationale and West Bund 2026 (booth 1D01), among others."
+        },
+        "url": "https://www.dongallery.net/artists/49-zhang-ruyi/"
+      },
+      {
+        "name": "Blindspot Gallery 刺点画廊（香港）",
+        "detail": {
+          "zh": "画廊网站将她列为艺术家并提供作品与履历；合作起始年份未公开核实。",
+          "en": "The gallery's website lists her as an artist with works and a CV; the start date of the relationship is not publicly verified."
+        },
+        "url": "https://blindspotgallery.com/artist/zhang-ruyi/"
+      },
+      {
+        "name": "François Ghebaly（洛杉矶）",
+        "detail": {
+          "zh": "2019年举办其美国首次个展“盆栽”；当前是否仍为合作画廊未核实。",
+          "en": "Hosted her first US solo, 'Bonsai', in 2019; whether the relationship is current is not verified."
+        },
+        "url": "https://www.dongallery.net/news/39-bonsai-zhang-ruyi-s-solo-exhibition-at-francois/"
+      },
+      {
+        "name": "Sprüth Magers（柏林）",
+        "detail": {
+          "zh": "2024年群展“territory”参展艺术家；未见代理关系的公开说明。",
+          "en": "Exhibited in the 2024 group show 'territory'; no public statement of representation found."
+        },
+        "url": "https://spruethmagers.com/exhibitions/territory/"
+      }
+    ],
+    "recentSignals": [
+      {
+        "zh": "2025年5月：亚洲文化协会2025年纽约奖助金（ACC数据库）。",
+        "en": "May 2025: Asian Cultural Council 2025 New York Fellowship (ACC database)."
+      },
+      {
+        "zh": "2025—2026年：SITE SANTA FE国际展、台北双年展、大馆、余德耀美术馆。",
+        "en": "2025–2026: SITE SANTA FE International, Taipei Biennial, Tai Kwun, Yuz Museum."
+      },
+      {
+        "zh": "2025年11月：西岸艺博会“west bund voice”论坛围绕其Skira专著对谈。",
+        "en": "November 2025: West Bund Voice panel on her Skira monograph."
+      },
+      {
+        "zh": "2026年11月：东画廊西岸艺博会展位1D01参展艺术家。",
+        "en": "November 2026: on the artist list of Don Gallery's West Bund booth 1D01."
+      }
+    ]
+  },
+  "market": {
+    "status": {
+      "zh": "未找到可核实的公开拍卖记录",
+      "en": "No verifiable public auction records found"
+    },
+    "record": null,
+    "lots": [],
+    "comparisonTitle": {
+      "zh": "为何没有拍品卡片",
+      "en": "Why there are no lot cards"
+    },
+    "comparisonBody": {
+      "zh": "截至2026年10月31日，对英文与中文名称结合苏富比、佳士得、富艺斯、嘉德、保利的公开检索均未找到属于这位艺术家的拍品；检索结果中出现的是同音或近名的其他人物（如明代书法家张瑞图）。本报告未使用任何拍卖行或MutualArt的登录会话，因此“未找到”只针对公开页面。画廊作品页未公开价格，本报告不推测任何价格。",
+      "en": "As of 31 October 2026, public searches combining her English and Chinese names with Sotheby's, Christie's, Phillips, China Guardian and Poly found no lots by this artist; results showed other people with similar names (for example the Ming calligrapher Zhang Ruitu). No authenticated auction-house or MutualArt session was used, so 'not found' covers public pages only. Gallery work pages do not publish prices, and this report does not estimate any."
+    },
+    "aggregateStatus": {
+      "zh": "未计算",
+      "en": "Not calculated"
+    },
+    "aggregateReason": {
+      "zh": "没有可核实的拍品样本，任何成交率、均价或趋势都无从计算。",
+      "en": "There is no verifiable lot sample, so no sell-through, average or trend can be calculated."
+    }
+  },
+  "potential": {
+    "summary": {
+      "zh": "公开记录显示一条清晰的机构上升线：2022年UCCA个展与里昂双年展之后，2025—2026年相继进入SITE SANTA FE国际展、台北双年展、大馆和余德耀美术馆的展览，并获亚洲文化协会纽约奖助金与Skira专著。反向信号同样需要看到：没有核实到机构馆藏记录和公开拍卖记录，部分日期与评论文本仅来自代理画廊，最近一次评审类奖项为2017年。以上为证据摘要，不构成任何预测。",
+      "en": "The public record shows a clear institutional trajectory: after a UCCA solo and the Lyon Biennale in 2022, she showed in 2025–2026 at the SITE SANTA FE International, the Taipei Biennial, Tai Kwun and Yuz Museum, and received an Asian Cultural Council New York Fellowship and a Skira monograph. The counter-signals matter too: no institutional collection record or public auction record was verified, some dates and critical texts come only from the representing gallery, and the most recent juried prize found dates from 2017. This is an evidence summary, not a forecast."
+    },
+    "signals": [
+      {
+        "category": "institutional-exhibition",
+        "title": {
+          "zh": "UCCA机构个展“低声细语”",
+          "en": "UCCA institutional solo 'Speaking Softly'"
+        },
+        "detail": {
+          "zh": "UCCA北京，2022年12月23日—2023年4月9日，UCCA称其为艺术家迄今规模最大的机构个展，含20余件委约新作。",
+          "en": "UCCA Beijing, 23 December 2022 – 9 April 2023; UCCA calls it her largest institutional solo to date, with more than 20 commissioned works."
+        },
+        "date": "2022-12-23",
+        "sourceRefs": [
+          {
+            "label": "UCCA exhibition page",
+            "url": "https://www.ucca.org.cn/en/exhibition/zhang-ruyi/"
+          },
+          {
+            "label": "UCCA press release",
+            "url": "https://www.ucca.org.cn/en/download/1/e/2/594524-949f28-281153/221222%20Zhang%20Ruyi%20Press%20Release%20EN.pdf"
+          }
+        ]
+      },
+      {
+        "category": "institutional-exhibition",
+        "title": {
+          "zh": "第16届里昂双年展",
+          "en": "16th Biennale de Lyon"
+        },
+        "detail": {
+          "zh": "“脆弱宣言”，2022年9月14日—12月31日，装置《空地》在吉美博物馆展出。",
+          "en": "'Manifesto of Fragility', 14 September – 31 December 2022; installation Vacant Lot at the Musée Guimet."
+        },
+        "date": "2022",
+        "sourceRefs": [
+          {
+            "label": "Biennale de Lyon artist page",
+            "url": "https://www.labiennaledelyon.com/en/biennale/16e-biennale-dart-contemporain-2022/manifesto-of-fragility/zhang-ruyi"
+          },
+          {
+            "label": "Don Gallery news",
+            "url": "https://www.dongallery.net/news/6-news-zhang-ruyi-s-participation-in-the-16th-lyon-france/"
+          }
+        ]
+      },
+      {
+        "category": "institutional-exhibition",
+        "title": {
+          "zh": "第12届SITE SANTA FE国际展",
+          "en": "12th SITE SANTA FE International"
+        },
+        "detail": {
+          "zh": "“曾几何时”，策展人Cecilia Alemani，2025年6月27日—2026年1月12日。",
+          "en": "'Once Within a Time', curated by Cecilia Alemani, 27 June 2025 – 12 January 2026."
+        },
+        "date": "2025-06-27",
+        "sourceRefs": [
+          {
+            "label": "SITE SANTA FE artist page",
+            "url": "https://www.sitesantafe.org/en/artists/zhang-ruyi/"
+          },
+          {
+            "label": "Don Gallery news",
+            "url": "https://www.dongallery.net/news/107-news-zhang-ruyi-and-zhang-yunyaos-participation-santa-fe-us/"
+          }
+        ]
+      },
+      {
+        "category": "institutional-exhibition",
+        "title": {
+          "zh": "第14届台北双年展",
+          "en": "14th Taipei Biennial"
+        },
+        "detail": {
+          "zh": "“地平线上的低吟”，台北市立美术馆，2025年11月1日—2026年3月29日；Artforum参展名单列有其名。",
+          "en": "'Whispers on the Horizon', Taipei Fine Arts Museum, 1 November 2025 – 29 March 2026; listed in Artforum's participant list."
+        },
+        "date": "2025-11-01",
+        "sourceRefs": [
+          {
+            "label": "Artforum participant list",
+            "url": "https://www.artforum.com/news/theme-participating-artists-revealed-2025-taipei-biennial-1234728660/"
+          },
+          {
+            "label": "Don Gallery news",
+            "url": "https://www.dongallery.net/news/103-news-zhang-ruyis-participation-in-the-14th-taipei/"
+          }
+        ]
+      },
+      {
+        "category": "institutional-exhibition",
+        "title": {
+          "zh": "大馆当代美术馆与余德耀美术馆（2026）",
+          "en": "Tai Kwun Contemporary and Yuz Museum (2026)"
+        },
+        "detail": {
+          "zh": "大馆“保持在线：全球供应”（2月27日—5月31日）；余德耀美术馆与刘任双人展（3月22日—6月21日）。两项日期均来自东画廊，机构官网访问时未加载。",
+          "en": "Tai Kwun's 'Stay Connected: Supplying the Globe' (27 Feb – 31 May); duo show with Liu Ren at Yuz Museum (22 Mar – 21 Jun). Both sets of dates come from Don Gallery; the institutions' websites did not load during research."
+        },
+        "date": "2026",
+        "sourceRefs": [
+          {
+            "label": "Don Gallery – Tai Kwun",
+            "url": "https://www.dongallery.net/news/118-newszhang-ruyi-s-participation-in-stay-connected-supplying-the-hong-kong/"
+          },
+          {
+            "label": "Don Gallery – Yuz Museum",
+            "url": "https://www.dongallery.net/news/121-newsliu-ren-zhang-ruyi-duo-exhibition-everything-shanghai-china/"
+          },
+          {
+            "label": "VOGUE via Don Gallery",
+            "url": "https://www.dongallery.net/press/13-voguezhang-ruyi-and-liu-ren-an-atypical-artistic/"
+          }
+        ]
+      },
+      {
+        "category": "residency-grant",
+        "title": {
+          "zh": "亚洲文化协会2025年纽约奖助金",
+          "en": "Asian Cultural Council 2025 New York Fellowship"
+        },
+        "detail": {
+          "zh": "ACC数据库载其2025年视觉艺术资助（中国至美国），赴纽约研究居住空间如何影响城市化中的个体；ArtAsiaPacific称ACC于2025年5月14日公布，共34项奖助金。",
+          "en": "The ACC database records a 2025 visual-art grant (China to United States) for fieldwork in New York on how residential spaces shape individuals amid urbanization; ArtAsiaPacific reports the 34 fellowships were announced on 14 May 2025."
+        },
+        "date": "2025-05",
+        "sourceRefs": [
+          {
+            "label": "ACC grantee database",
+            "url": "https://www.asianculturalcouncil.org/our-work/grantee-database/zhang-ruyi"
+          },
+          {
+            "label": "ArtAsiaPacific",
+            "url": "https://www.artasiapacific.com/news/asian-cultural-council-names-2025-fellows/"
+          },
+          {
+            "label": "Hyperallergic",
+            "url": "https://hyperallergic.com/1012624/2025-asian-cultural-council-artist-grant-recipients/"
+          }
+        ]
+      },
+      {
+        "category": "prize-award",
+        "title": {
+          "zh": "2017年“艺术8”中国奖",
+          "en": "Prix Yishu 8 Chine 2017"
+        },
+        "detail": {
+          "zh": "评委包括隋建国、苏新平、黄笃、Larys Frogier、田霏宇等；信息来自东画廊公告。",
+          "en": "Jury included Sui Jianguo, Su Xinping, Huang Du, Larys Frogier and Philip Tinari; per Don Gallery's announcement."
+        },
+        "date": "2017-04",
+        "sourceRefs": [
+          {
+            "label": "Don Gallery – Prix Yishu 8",
+            "url": "https://www.dongallery.net/news/55-zhang-ruyi-wins-prix-yishu-8-chine-2017/"
+          }
+        ]
+      },
+      {
+        "category": "representation",
+        "title": {
+          "zh": "东画廊与刺点画廊",
+          "en": "Don Gallery and Blindspot Gallery"
+        },
+        "detail": {
+          "zh": "东画廊（上海）自2012年起展出其作品并多次举办个展；刺点画廊（香港）网站列其为艺术家。",
+          "en": "Don Gallery (Shanghai) has shown her since 2012 with repeated solo shows; Blindspot Gallery (Hong Kong) lists her as an artist."
+        },
+        "date": "2012–2026",
+        "sourceRefs": [
+          {
+            "label": "Don Gallery artist page",
+            "url": "https://www.dongallery.net/artists/49-zhang-ruyi/"
+          },
+          {
+            "label": "Blindspot artist page",
+            "url": "https://blindspotgallery.com/artist/zhang-ruyi/"
+          }
+        ]
+      },
+      {
+        "category": "art-fair",
+        "title": {
+          "zh": "2026西岸艺博会东画廊展位1D01",
+          "en": "West Bund 2026, Don Gallery booth 1D01"
+        },
+        "detail": {
+          "zh": "东画廊公布的1D01展位艺术家名单包括张如怡；东画廊在主办方2026画廊名单之列。2025年东画廊在Paris Internationale以张如怡与张云垚双人项目参展（展位0.19）。",
+          "en": "Don Gallery's booth 1D01 artist list includes Zhang Ruyi, and Don Gallery is on the organizer's 2026 gallery list. In 2025 Don Gallery showed a Zhang Ruyi & Zhang Yunyao duo project at Paris Internationale (booth 0.19)."
+        },
+        "date": "2026-11-10",
+        "sourceRefs": [
+          {
+            "label": "Don Gallery – West Bund 2026",
+            "url": "https://www.dongallery.net/art-fairs/49-westbund-art-design-2026-shanghai/"
+          },
+          {
+            "label": "West Bund official gallery list",
+            "url": "https://www.westbundshanghai.com/index.php/Index/galleries"
+          },
+          {
+            "label": "Paris Internationale 2025",
+            "url": "https://parisinternationale.com/artfairs/2025/exhibitors/don"
+          }
+        ]
+      },
+      {
+        "category": "critical-attention",
+        "title": {
+          "zh": "Skira专著与公开对谈",
+          "en": "Skira monograph and public panel"
+        },
+        "detail": {
+          "zh": "2024年Skira出版专著（Karen Smith、吴墨、邱韵撰文）；2025年11月20日西岸艺博会“west bund voice”论坛以此书为题；ARTnews中文版（2024）与VOGUE（2026）有专题报道。",
+          "en": "2024 Skira monograph (essays by Karen Smith, Wu Mo, Qiu Yun); West Bund Voice panel on the book, 20 November 2025; features in ARTnews China (2024) and VOGUE (2026)."
+        },
+        "date": "2024–2026",
+        "sourceRefs": [
+          {
+            "label": "Don Gallery – publication",
+            "url": "https://www.dongallery.net/publications/4-zhang-ruyi/"
+          },
+          {
+            "label": "Don Gallery – West Bund Voice",
+            "url": "https://www.dongallery.net/news/114-news-zhang-ruyi-the-things-that-i-west-bund-voice-panel/"
+          },
+          {
+            "label": "ARTnews China via Don Gallery",
+            "url": "https://www.dongallery.net/press/6-artnews-once-remain-once-remouldzhang-ruyi-at/"
+          }
+        ]
+      },
+      {
+        "category": "gallery-exhibition",
+        "title": {
+          "zh": "Sprüth Magers柏林群展",
+          "en": "Sprüth Magers group show, Berlin"
+        },
+        "detail": {
+          "zh": "“territory”，2024年4月26日—6月29日，画廊称这是其首个专注亚洲女性艺术家的群展。属商业画廊展览，不作机构展计。",
+          "en": "'territory', 26 April – 29 June 2024, described by the gallery as its first group show focused exclusively on female Asian artists. A commercial gallery show, not counted as institutional."
+        },
+        "date": "2024-04-26",
+        "sourceRefs": [
+          {
+            "label": "Sprüth Magers – territory",
+            "url": "https://spruethmagers.com/exhibitions/territory/"
+          }
+        ]
+      }
+    ],
+    "counterSignals": [
+      {
+        "category": "collection",
+        "title": {
+          "zh": "未核实到机构馆藏记录",
+          "en": "No institutional collection record verified"
+        },
+        "detail": {
+          "zh": "四方当代美术馆、复星艺术基金会、卡斯雕塑基金会等收藏仅见于画廊资料，未找到机构自有的馆藏页面。",
+          "en": "Holdings at Sifang, Fosun Foundation and Cass Sculpture Foundation appear only in gallery materials; no institution-owned record page was found."
+        },
+        "date": "2026-10-31",
+        "sourceRefs": [
+          {
+            "label": "Don Gallery – Fosun collection exhibition",
+            "url": "https://www.dongallery.net/news/36-zhang-ruyi-is-participating-a-world-in-a/"
+          }
+        ]
+      },
+      {
+        "category": "market-activity",
+        "title": {
+          "zh": "未找到公开拍卖记录",
+          "en": "No public auction records found"
+        },
+        "detail": {
+          "zh": "对中英文名称结合主要国际与中国拍卖行的公开检索未找到其拍品；未使用登录会话。",
+          "en": "Public searches of her Chinese and English names with major international and Chinese auction houses found no lots; no authenticated session was used."
+        },
+        "date": "2026-10-31",
+        "sourceRefs": []
+      },
+      {
+        "category": "critical-attention",
+        "title": {
+          "zh": "评论文本多经画廊发布",
+          "en": "Much criticism is published via the gallery"
+        },
+        "detail": {
+          "zh": "所读的ARTnews中文版、VOGUE、邱韵、王懿泉等文本均为东画廊网站转载或委托；所审阅来源中独立刊物对其的评论较少。",
+          "en": "The ARTnews China, VOGUE, Qiu Yun and Wang Yiquan texts reviewed are reproduced or commissioned on Don Gallery's site; little independent criticism appeared in the reviewed sources."
+        },
+        "date": "2026-10-31",
+        "sourceRefs": [
+          {
+            "label": "ARTnews China via Don Gallery",
+            "url": "https://www.dongallery.net/press/6-artnews-once-remain-once-remouldzhang-ruyi-at/"
+          },
+          {
+            "label": "Qiu Yun via Don Gallery",
+            "url": "https://www.dongallery.net/press/5-article-zhang-ruyi-fluid-cross-sections/"
+          }
+        ]
+      },
+      {
+        "category": "prize-award",
+        "title": {
+          "zh": "近期评审类奖项缺失",
+          "en": "No recent juried prize found"
+        },
+        "detail": {
+          "zh": "所见最近的评审奖项是2017年“艺术8”中国奖；亚洲文化协会项目属奖助金而非奖项。",
+          "en": "The most recent juried prize found is Prix Yishu 8 Chine 2017; the ACC award is a fellowship, not a prize."
+        },
+        "date": "2017–2026",
+        "sourceRefs": [
+          {
+            "label": "Don Gallery – Prix Yishu 8",
+            "url": "https://www.dongallery.net/news/55-zhang-ruyi-wins-prix-yishu-8-chine-2017/"
+          }
+        ]
+      },
+      {
+        "category": "other",
+        "title": {
+          "zh": "部分机构信息依赖画廊转载",
+          "en": "Some institutional data rests on gallery reproductions"
+        },
+        "detail": {
+          "zh": "大馆、余德耀美术馆、外滩美术馆的展讯与日期来自东画廊页面；大馆与余德耀官网在研究时未能加载。",
+          "en": "Exhibition texts and dates for Tai Kwun, Yuz Museum and Rockbund come from Don Gallery pages; the Tai Kwun and Yuz websites did not load during research."
+        },
+        "date": "2026-10-31",
+        "sourceRefs": [
+          {
+            "label": "Don Gallery – Tai Kwun",
+            "url": "https://www.dongallery.net/news/118-newszhang-ruyi-s-participation-in-stay-connected-supplying-the-hong-kong/"
+          },
+          {
+            "label": "Don Gallery – Yuz Museum",
+            "url": "https://www.dongallery.net/news/121-newsliu-ren-zhang-ruyi-duo-exhibition-everything-shanghai-china/"
+          }
+        ]
+      }
+    ],
+    "gaps": [
+      {
+        "zh": "二级市场：未访问苏富比、佳士得、富艺斯或MutualArt的登录会话，亦未直接检索嘉德、保利数据库。",
+        "en": "Secondary market: no authenticated Sotheby's, Christie's, Phillips or MutualArt session was used, and China Guardian and Poly databases were not searched directly."
+      },
+      {
+        "zh": "馆藏：未逐一查询M+、龙美术馆、上海当代艺术博物馆等机构的在线馆藏数据库。",
+        "en": "Collections: online collection databases of M+, Long Museum, Power Station of Art and others were not searched one by one."
+      },
+      {
+        "zh": "一级市场：画廊未公开价格，本报告不涉及价格。",
+        "en": "Primary market: the galleries do not publish prices, and this report does not address them."
+      },
+      {
+        "zh": "西岸2026展位将展出哪些具体作品尚未公布。",
+        "en": "Which specific works will be on the West Bund 2026 booth has not been published."
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": {
+        "zh": "院校名称表述不一",
+        "en": "Inconsistent school name"
+      },
+      "category": {
+        "zh": "冲突",
+        "en": "Conflict"
+      },
+      "detail": {
+        "zh": "东画廊转载的中文简介写“上海大学美术学院版画系（2007）、综合材料系硕士（2012）”；余德耀美术馆文本写“上海美术学院版画系”。上海大学美术学院现亦称上海美术学院，本报告按前者表述并注明。",
+        "en": "The Chinese biography reproduced by Don Gallery gives 'Shanghai University School of Fine Arts, printmaking (2007), MA integrated materials (2012)'; Yuz Museum's text says 'Shanghai Academy of Fine Arts'. The Shanghai University fine arts school is also known as the Shanghai Academy of Fine Arts; this report uses the former wording and notes the difference."
+      }
+    },
+    {
+      "title": {
+        "zh": "亚洲文化协会奖助金名称",
+        "en": "ACC fellowship naming"
+      },
+      "category": {
+        "zh": "冲突",
+        "en": "Conflict"
+      },
+      "detail": {
+        "zh": "ACC数据库、ArtAsiaPacific、Hyperallergic与东画廊均称其为“纽约奖助金”（New York Fellowship）；检索摘要中出现ACC香港通讯将其列于另一名目，但本报告未能打开该PDF核实，故采用前者。",
+        "en": "The ACC database, ArtAsiaPacific, Hyperallergic and Don Gallery all call it a New York Fellowship. A search snippet suggested an ACC Hong Kong newsletter lists it under a different name, but that PDF was not opened and verified, so the former is used."
+      }
+    },
+    {
+      "title": {
+        "zh": "图像不可用",
+        "en": "Images unavailable"
+      },
+      "category": {
+        "zh": "图像缺口",
+        "en": "Image gap"
+      },
+      "detail": {
+        "zh": "所有候选图像都缺少可再发布授权，本报告不嵌入图像，改为链接原页面，详见 image-audit.md。",
+        "en": "Every candidate image lacks redistribution permission, so none is embedded; the report links to the original pages instead. See image-audit.md."
+      }
+    },
+    {
+      "title": {
+        "zh": "尚未确定日期的展览",
+        "en": "Exhibitions without confirmed dates"
+      },
+      "category": {
+        "zh": "缺失数据",
+        "en": "Missing data"
+      },
+      "detail": {
+        "zh": "东画廊2026年7月9日公告她与刘任参加油罐艺术中心“建筑的铭文”，未给出展期，故未列入当前/即将展览。",
+        "en": "Don Gallery announced on 9 July 2026 that she and Liu Ren are in TANK Shanghai's 'Architecture's Inscriptions', without giving dates, so it is not listed as current or upcoming."
+      }
+    },
+    {
+      "title": {
+        "zh": "方法与选择说明",
+        "en": "Method and selection"
+      },
+      "category": {
+        "zh": "方法",
+        "en": "Methodology"
+      },
+      "detail": {
+        "zh": "艺术家依据西岸2026主办方画廊名单与东画廊展位名单入选，候选与理由见 selection-notes.md。所有事实均来自2026年10月31日实际访问的页面；搜索摘要只用于发现线索。",
+        "en": "The artist was selected via the organizer's West Bund 2026 gallery list and Don Gallery's booth list; candidates and reasons are in selection-notes.md. All facts come from pages actually fetched on 31 October 2026; search snippets were used only for discovery."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "West Bund Art & Design 2026 – galleries list",
+      "url": "https://www.westbundshanghai.com/index.php/Index/galleries",
+      "publisher": "West Bund Art & Design (organizer)",
+      "accessed": "2026-10-31",
+      "tier": 2,
+      "supports": [
+        "selection",
+        "exhibitions",
+        "potential"
+      ]
+    },
+    {
+      "title": "West Bund Art & Design – about us / VIP preview and public hours",
+      "url": "https://www.westbundshanghai.com/index.php/Index/contact",
+      "publisher": "West Bund Art & Design (organizer)",
+      "accessed": "2026-10-31",
+      "tier": 2,
+      "supports": [
+        "selection",
+        "exhibitions"
+      ]
+    },
+    {
+      "title": "West Bund Art & Design 2026 – xiàn chǎng section artist list",
+      "url": "https://www.westbundshanghai.com/index.php/Index/xianchang",
+      "publisher": "West Bund Art & Design (organizer)",
+      "accessed": "2026-10-31",
+      "tier": 2,
+      "supports": [
+        "selection"
+      ]
+    },
+    {
+      "title": "西岸艺术与设计博览会公布2026年参展阵容及首批亮点",
+      "url": "https://www.artforum.com.cn/news/16532",
+      "publisher": "Artforum 艺术论坛 (artforum.com.cn)",
+      "accessed": "2026-10-31",
+      "tier": 6,
+      "supports": [
+        "selection",
+        "exhibitions"
+      ]
+    },
+    {
+      "title": "Westbund Art & Design 2026: Shanghai – Don Gallery booth 1D01",
+      "url": "https://www.dongallery.net/art-fairs/49-westbund-art-design-2026-shanghai/",
+      "publisher": "Don Gallery",
+      "accessed": "2026-10-31",
+      "tier": 3,
+      "supports": [
+        "selection",
+        "exhibitions",
+        "potential"
+      ]
+    },
+    {
+      "title": "Westbund Art & Design 2026, Booth 1B03 – ShanghART artist list",
+      "url": "https://www.shanghartgallery.com/galleryarchive/exhibition.htm?exbId=19058",
+      "publisher": "ShanghART Gallery",
+      "accessed": "2026-10-31",
+      "tier": 3,
+      "supports": [
+        "selection"
+      ]
+    },
+    {
+      "title": "ZHANG Ruyi 张如怡 – artist page (biography, works, exhibitions, news, press)",
+      "url": "https://www.dongallery.net/artists/49-zhang-ruyi/",
+      "publisher": "Don Gallery",
+      "accessed": "2026-10-31",
+      "tier": 3,
+      "supports": [
+        "identity",
+        "works",
+        "exhibitions",
+        "institutions",
+        "potential"
+      ]
+    },
+    {
+      "title": "Zhang Ruyi: Speaking Softly (exhibition page)",
+      "url": "https://www.ucca.org.cn/en/exhibition/zhang-ruyi/",
+      "publisher": "UCCA Center for Contemporary Art",
+      "accessed": "2026-10-31",
+      "tier": 2,
+      "supports": [
+        "identity",
+        "practice",
+        "works",
+        "exhibitions",
+        "potential"
+      ]
+    },
+    {
+      "title": "Zhang Ruyi: Speaking Softly – press release (22 Dec 2022, PDF)",
+      "url": "https://www.ucca.org.cn/en/download/1/e/2/594524-949f28-281153/221222%20Zhang%20Ruyi%20Press%20Release%20EN.pdf",
+      "publisher": "UCCA Center for Contemporary Art",
+      "accessed": "2026-10-31",
+      "tier": 2,
+      "supports": [
+        "practice",
+        "exhibitions"
+      ]
+    },
+    {
+      "title": "Grantee Database – ZHANG Ruyi (2025, Visual Art, China to United States)",
+      "url": "https://www.asianculturalcouncil.org/our-work/grantee-database/zhang-ruyi",
+      "publisher": "Asian Cultural Council",
+      "accessed": "2026-10-31",
+      "tier": 2,
+      "supports": [
+        "biography",
+        "potential"
+      ]
+    },
+    {
+      "title": "Asian Cultural Council Names 2025 Fellows",
+      "url": "https://www.artasiapacific.com/news/asian-cultural-council-names-2025-fellows/",
+      "publisher": "ArtAsiaPacific",
+      "accessed": "2026-10-31",
+      "tier": 6,
+      "supports": [
+        "biography",
+        "potential"
+      ]
+    },
+    {
+      "title": "Meet the Recipients of the 2025 Asian Cultural Council Artist Grants",
+      "url": "https://hyperallergic.com/1012624/2025-asian-cultural-council-artist-grant-recipients/",
+      "publisher": "Hyperallergic",
+      "accessed": "2026-10-31",
+      "tier": 6,
+      "supports": [
+        "potential"
+      ]
+    },
+    {
+      "title": "News | ZHANG Ruyi has won the 2025 New York Fellowship",
+      "url": "https://www.dongallery.net/news/106-news-zhang-ruyi-has-won-the-2025/",
+      "publisher": "Don Gallery",
+      "accessed": "2026-10-31",
+      "tier": 3,
+      "supports": [
+        "biography",
+        "exhibitions",
+        "potential"
+      ]
+    },
+    {
+      "title": "Theme, participating artists revealed for 2025 Taipei Biennial",
+      "url": "https://www.artforum.com/news/theme-participating-artists-revealed-2025-taipei-biennial-1234728660/",
+      "publisher": "Artforum",
+      "accessed": "2026-10-31",
+      "tier": 6,
+      "supports": [
+        "exhibitions",
+        "potential"
+      ]
+    },
+    {
+      "title": "News | ZHANG Ruyi's participation in the 14th Taipei Biennial 2025: Whispers on the Horizon",
+      "url": "https://www.dongallery.net/news/103-news-zhang-ruyis-participation-in-the-14th-taipei/",
+      "publisher": "Don Gallery",
+      "accessed": "2026-10-31",
+      "tier": 3,
+      "supports": [
+        "works",
+        "exhibitions",
+        "potential"
+      ]
+    },
+    {
+      "title": "SITE SANTA FE – Artist: ZHANG Ruyi (Once Within a Time, 12th International)",
+      "url": "https://www.sitesantafe.org/en/artists/zhang-ruyi/",
+      "publisher": "SITE SANTA FE",
+      "accessed": "2026-10-31",
+      "tier": 2,
+      "supports": [
+        "identity",
+        "exhibitions",
+        "potential"
+      ]
+    },
+    {
+      "title": "News | ZHANG Ruyi and ZHANG Yunyao's participation in the 12th SITE SANTA FE International",
+      "url": "https://www.dongallery.net/news/107-news-zhang-ruyi-and-zhang-yunyaos-participation-santa-fe-us/",
+      "publisher": "Don Gallery",
+      "accessed": "2026-10-31",
+      "tier": 3,
+      "supports": [
+        "exhibitions",
+        "potential"
+      ]
+    },
+    {
+      "title": "Zhang Ruyi – Manifesto of Fragility, 16th Biennale de Lyon (artist page)",
+      "url": "https://www.labiennaledelyon.com/en/biennale/16e-biennale-dart-contemporain-2022/manifesto-of-fragility/zhang-ruyi",
+      "publisher": "Biennale de Lyon",
+      "accessed": "2026-10-31",
+      "tier": 2,
+      "supports": [
+        "practice",
+        "exhibitions",
+        "potential"
+      ]
+    },
+    {
+      "title": "News | ZHANG Ruyi's participation in the 16th Biennale de Lyon",
+      "url": "https://www.dongallery.net/news/6-news-zhang-ruyi-s-participation-in-the-16th-lyon-france/",
+      "publisher": "Don Gallery",
+      "accessed": "2026-10-31",
+      "tier": 3,
+      "supports": [
+        "exhibitions"
+      ]
+    },
+    {
+      "title": "News | ZHANG Ruyi's participation in 'Stay Connected: Supplying the Globe' at Tai Kwun Contemporary",
+      "url": "https://www.dongallery.net/news/118-newszhang-ruyi-s-participation-in-stay-connected-supplying-the-hong-kong/",
+      "publisher": "Don Gallery",
+      "accessed": "2026-10-31",
+      "tier": 3,
+      "supports": [
+        "works",
+        "exhibitions",
+        "potential"
+      ]
+    },
+    {
+      "title": "News | LIU Ren & ZHANG Ruyi Duo Exhibition: Everything is on time, only time was never ours. (Yuz Museum)",
+      "url": "https://www.dongallery.net/news/121-newsliu-ren-zhang-ruyi-duo-exhibition-everything-shanghai-china/",
+      "publisher": "Don Gallery (reproducing Yuz Museum exhibition text)",
+      "accessed": "2026-10-31",
+      "tier": 3,
+      "supports": [
+        "biography",
+        "practice",
+        "exhibitions",
+        "potential"
+      ]
+    },
+    {
+      "title": "VOGUE | Zhang Ruyi and LIU Ren: An Atypical Artistic Couple (CHEN Yuan, 18 June 2026)",
+      "url": "https://www.dongallery.net/press/13-voguezhang-ruyi-and-liu-ren-an-atypical-artistic/",
+      "publisher": "VOGUE (as reproduced on Don Gallery press page)",
+      "accessed": "2026-10-31",
+      "tier": 6,
+      "supports": [
+        "biography",
+        "potential"
+      ]
+    },
+    {
+      "title": "territory – Mire Lee, Liu Yujia, Gala Porras-Kim, Tan Jing, Zhang Ruyi",
+      "url": "https://spruethmagers.com/exhibitions/territory/",
+      "publisher": "Sprüth Magers",
+      "accessed": "2026-10-31",
+      "tier": 3,
+      "supports": [
+        "exhibitions",
+        "institutions",
+        "potential"
+      ]
+    },
+    {
+      "title": "News | ZHANG Ruyi's participation in 'territory' at Sprueth Magers",
+      "url": "https://www.dongallery.net/news/90-news-zhang-ruyis-participation-in-territory-at-berlin-germany/",
+      "publisher": "Don Gallery",
+      "accessed": "2026-10-31",
+      "tier": 3,
+      "supports": [
+        "exhibitions",
+        "practice"
+      ]
+    },
+    {
+      "title": "Zhang Ruyi – artist page",
+      "url": "https://blindspotgallery.com/artist/zhang-ruyi/",
+      "publisher": "Blindspot Gallery",
+      "accessed": "2026-10-31",
+      "tier": 3,
+      "supports": [
+        "institutions",
+        "exhibitions"
+      ]
+    },
+    {
+      "title": "Bonsai — ZHANG Ruyi's solo exhibition at François Ghebaly",
+      "url": "https://www.dongallery.net/news/39-bonsai-zhang-ruyi-s-solo-exhibition-at-francois/",
+      "publisher": "Don Gallery (reproducing François Ghebaly text)",
+      "accessed": "2026-10-31",
+      "tier": 3,
+      "supports": [
+        "exhibitions",
+        "practice"
+      ]
+    },
+    {
+      "title": "Zhang Ruyi wins Prix Yishu 8 Chine 2017",
+      "url": "https://www.dongallery.net/news/55-zhang-ruyi-wins-prix-yishu-8-chine-2017/",
+      "publisher": "Don Gallery",
+      "accessed": "2026-10-31",
+      "tier": 3,
+      "supports": [
+        "biography",
+        "practice",
+        "potential"
+      ]
+    },
+    {
+      "title": "ZHANG Ruyi is participating the 2017 Glenfiddich Artists in Residence Programme at Dufftown",
+      "url": "https://www.dongallery.net/news/42-zhang-ruyi-is-participating-the-2017-glenfiddich-artists/",
+      "publisher": "Don Gallery",
+      "accessed": "2026-10-31",
+      "tier": 3,
+      "supports": [
+        "biography"
+      ]
+    },
+    {
+      "title": "Review on 'Decoration: Location' by ZHANG Ruyi (artist statement and essay by Jiawei Yuan)",
+      "url": "https://www.dongallery.net/news/44-review-on-decoration-location-by-zhang-ruyi/",
+      "publisher": "Don Gallery",
+      "accessed": "2026-10-31",
+      "tier": 3,
+      "supports": [
+        "practice",
+        "exhibitions"
+      ]
+    },
+    {
+      "title": "News | ZHANG Ruyi's participation in 'Shanghai Palimpsest: Restaging the R.A.S. Library' at Rockbund Art Museum",
+      "url": "https://www.dongallery.net/news/84-news-zhang-ruyi-s-participation-in-shanghai-palimpsest-shanghai/",
+      "publisher": "Don Gallery (reproducing Rockbund Art Museum text)",
+      "accessed": "2026-10-31",
+      "tier": 3,
+      "supports": [
+        "practice",
+        "works",
+        "exhibitions"
+      ]
+    },
+    {
+      "title": "ZHANG Ruyi's participation in UCCA Dune ('Resistance of the Sleepers', 2020) – includes Chinese biography",
+      "url": "https://www.dongallery.net/news/32-zhang-ruyi-s-participation-in-ucca-dune/",
+      "publisher": "Don Gallery",
+      "accessed": "2026-10-31",
+      "tier": 3,
+      "supports": [
+        "identity",
+        "biography",
+        "works"
+      ]
+    },
+    {
+      "title": "News | ZHANG Ruyi's solo exhibition 'Modern Fossil' @SSSSTART",
+      "url": "https://www.dongallery.net/news/16-news-zhang-ruyi-s-solo-exhibition-modern-fossil-shanghai/",
+      "publisher": "Don Gallery",
+      "accessed": "2026-10-31",
+      "tier": 3,
+      "supports": [
+        "exhibitions"
+      ]
+    },
+    {
+      "title": "ZHANG Ruyi: Once Remain, Once Remould – solo exhibition",
+      "url": "https://www.dongallery.net/exhibitions/92-zhang-ruyi-once-remain-once-remould-solo-exhibition/",
+      "publisher": "Don Gallery",
+      "accessed": "2026-10-31",
+      "tier": 3,
+      "supports": [
+        "works",
+        "exhibitions"
+      ]
+    },
+    {
+      "title": "ZHANG Ruyi: Once Remain, Once Remould – press release by XIA Tian (PDF)",
+      "url": "https://dongallery.net/usr/documents/exhibitions/press_release_url/92/10-27-press.pdf",
+      "publisher": "Don Gallery",
+      "accessed": "2026-10-31",
+      "tier": 3,
+      "supports": [
+        "practice",
+        "works"
+      ]
+    },
+    {
+      "title": "ZHANG Ruyi: Cut | Off – solo exhibition (2014)",
+      "url": "https://www.dongallery.net/exhibitions/87-zhang-ruyi-cut-off-solo-exhibition/",
+      "publisher": "Don Gallery",
+      "accessed": "2026-10-31",
+      "tier": 3,
+      "supports": [
+        "biography",
+        "works",
+        "exhibitions"
+      ]
+    },
+    {
+      "title": "ZHANG Ruyi: Profile – project, Art Basel Hong Kong Discoveries 2018",
+      "url": "https://www.dongallery.net/exhibitions/90-zhang-ruyi-profile-project/",
+      "publisher": "Don Gallery",
+      "accessed": "2026-10-31",
+      "tier": 3,
+      "supports": [
+        "exhibitions"
+      ]
+    },
+    {
+      "title": "ARTnews | Once Remain, Once Remould——Zhang Ruyi at Don Gallery (interview, 17 Jan 2024)",
+      "url": "https://www.dongallery.net/press/6-artnews-once-remain-once-remouldzhang-ruyi-at/",
+      "publisher": "ARTnews 中文版 (as reproduced on Don Gallery press page)",
+      "accessed": "2026-10-31",
+      "tier": 6,
+      "supports": [
+        "practice",
+        "institutions",
+        "works"
+      ]
+    },
+    {
+      "title": "Article | ZHANG Ruyi: Fluid Cross Sections (QIU Yun, 18 Jan 2024)",
+      "url": "https://www.dongallery.net/press/5-article-zhang-ruyi-fluid-cross-sections/",
+      "publisher": "QIU Yun (as reproduced on Don Gallery press page)",
+      "accessed": "2026-10-31",
+      "tier": 6,
+      "supports": [
+        "biography",
+        "developments"
+      ]
+    },
+    {
+      "title": "王懿泉 | 采访：张如怡谈近期创作 (2016)",
+      "url": "https://www.dongallery.net/blog/43/",
+      "publisher": "Don Gallery blog",
+      "accessed": "2026-10-31",
+      "tier": 6,
+      "supports": [
+        "practice",
+        "exhibitions"
+      ]
+    },
+    {
+      "title": "ZHANG Ruyi, 2024 (Skira, ISBN 978-88-572-4889-9)",
+      "url": "https://www.dongallery.net/publications/4-zhang-ruyi/",
+      "publisher": "Don Gallery",
+      "accessed": "2026-10-31",
+      "tier": 3,
+      "supports": [
+        "biography",
+        "potential"
+      ]
+    },
+    {
+      "title": "News | ZHANG Ruyi: The Things That I (Don't) Understand – West Bund Voice panel",
+      "url": "https://www.dongallery.net/news/114-news-zhang-ruyi-the-things-that-i-west-bund-voice-panel/",
+      "publisher": "Don Gallery",
+      "accessed": "2026-10-31",
+      "tier": 3,
+      "supports": [
+        "potential"
+      ]
+    },
+    {
+      "title": "Paris Internationale 2025 – exhibitor: Don (ZHANG Ruyi & ZHANG Yunyao, booth 0.19)",
+      "url": "https://parisinternationale.com/artfairs/2025/exhibitors/don",
+      "publisher": "Paris Internationale (organizer)",
+      "accessed": "2026-10-31",
+      "tier": 2,
+      "supports": [
+        "works",
+        "potential"
+      ]
+    },
+    {
+      "title": "ZHANG Ruyi is participating 'A World in a Grain of Sand' (Fosun Foundation Collection exhibition, 2018)",
+      "url": "https://www.dongallery.net/news/36-zhang-ruyi-is-participating-a-world-in-a/",
+      "publisher": "Don Gallery",
+      "accessed": "2026-10-31",
+      "tier": 3,
+      "supports": [
+        "institutions",
+        "potential"
+      ]
+    },
+    {
+      "title": "News | ZHANG Ruyi and ZHANG Yunyao's participation in 'Pictures of the Post-80s Generation – Generational Leap' at TANK Shanghai",
+      "url": "https://www.dongallery.net/news/96-news-zhang-ruyi-and-zhang-yunyaos-participation-shanghai-china/",
+      "publisher": "Don Gallery",
+      "accessed": "2026-10-31",
+      "tier": 3,
+      "supports": [
+        "exhibitions"
+      ]
+    },
+    {
+      "title": "News | ZHANG Ruyi's participation in 'Follow the Feeling' at Times Museum",
+      "url": "https://www.dongallery.net/news/85-news-zhang-ruyi-s-participation-in-follow-the-guangzhou-china/",
+      "publisher": "Don Gallery",
+      "accessed": "2026-10-31",
+      "tier": 3,
+      "supports": [
+        "exhibitions"
+      ]
+    },
+    {
+      "title": "LIN Fanglu 林芳璐 – artist page",
+      "url": "https://www.dongallery.net/artists/136-lin-fanglu/",
+      "publisher": "Don Gallery",
+      "accessed": "2026-10-31",
+      "tier": 3,
+      "supports": [
+        "selection"
+      ]
+    },
+    {
+      "title": "YIN Yunya 尹韵雅 – artist page",
+      "url": "https://www.shanghartgallery.com/galleryarchive/artists/id/991",
+      "publisher": "ShanghART Gallery",
+      "accessed": "2026-10-31",
+      "tier": 3,
+      "supports": [
+        "selection"
+      ]
+    },
+    {
+      "title": "ZHANG Wenxin 张文心 – artist page",
+      "url": "https://www.shanghartgallery.com/galleryarchive/artists/id/990",
+      "publisher": "ShanghART Gallery",
+      "accessed": "2026-10-31",
+      "tier": 3,
+      "supports": [
+        "selection"
+      ]
+    }
+  ]
+}
