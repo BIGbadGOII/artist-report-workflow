@@ -1,0 +1,242 @@
+{
+  "metadata": {
+    "reportVersion": "2.1",
+    "generatedAt": "2026-08-05T02:20:40+08:00",
+    "informationCutoff": "2026-08-05",
+    "coverageStatus": {"zh": "有限／以创作研究为主", "en": "Limited / practice-led"},
+    "coverageDetail": {
+      "zh": "共 11 项来源，均于 2026-08-05 访问；少于常规的 12 项，因为艺术家资料主要来自本人网站和商业画廊。本文件于 2026-10-31 由 v0.1 样例迁移而来，未做新的检索。",
+      "en": "11 sources, all accessed 2026-08-05; fewer than the usual 12 because documentation is mainly artist- and gallery-supplied. Migrated from the v0.1 sample on 2026-10-31 without new research."
+    },
+    "sourceCount": 11
+  },
+  "visuals": {
+    "status": "unavailable",
+    "summary": {
+      "zh": "本报告不含图片：原始研究未保存任何经授权的本地图片。",
+      "en": "No images: the original research did not save any cleared local images."
+    },
+    "gaps": [
+      {"zh": "代表作品图像可在画廊或出版物页面查看，但未转载；版权属于艺术家或来源页面注明的权利人。", "en": "Work images are viewable on the gallery and publication pages but were not reproduced; rights remain with the artist or stated holder."},
+      {"zh": "原始研究未采集艺术家肖像、工作室、创作语境或展览现场图片。", "en": "The original research did not capture an artist portrait, studio, practice-context, or exhibition image."},
+      {"zh": "唯一可见的拍卖记录没有公开拍品图片。", "en": "The only visible auction record exposes no public lot image."}
+    ]
+  },
+  "artist": {
+    "displayName": {"zh": "Marc Chalmé", "en": "Marc Chalmé"},
+    "secondaryName": {"zh": "马克·沙尔梅", "en": "Also recorded as Marc Chalme"},
+    "birth": {"zh": "1969年，法国布列塔尼大区洛里昂", "en": "1969, Lorient, Brittany, France"},
+    "locations": {"zh": "当前工作地未公开核实", "en": "Current base not publicly verified"},
+    "nationality": {"zh": "法国（依据当前合作画廊的表述）", "en": "French (per current gallery descriptions)"},
+    "disciplines": {"zh": "绘画、素描", "en": "Painting, drawing"},
+    "heroImage": null,
+    "identityImage": null
+  },
+  "quickRead": {
+    "lead": {
+      "zh": "Marc Chalmé 是一位法国具象画家，他精心建构的室内、安静街道与风景围绕受控的光线与",
+      "en": "Marc Chalmé is a French figurative painter whose constructed interiors, quiet streets, and landscapes are organized around controlled light and"
+    },
+    "emphasis": {"zh": "仿佛暂停的时间展开。", "en": "suspended time."},
+    "body": {
+      "zh": "主要媒介为布面油画，另有素描和板上油画。有据可查的职业履历以商业画廊展览为主，曾在巴黎、纽约、波士顿、伦敦、苏黎世和圣莫里茨举办个展。本次查阅未找到可核实的公共美术馆收藏；公开拍卖资料只有一条不公开价格的 2021 年记录，无法进行价格统计或趋势分析。",
+      "en": "Recent documented works are mainly oil on canvas, with drawings and oil on board also present. His career record is primarily commercial-gallery based, with solo presentations in Paris, New York, Boston, London, Zurich, and St. Moritz. No public-museum collection record was verified, and accessible public-auction coverage consists of one price-restricted 2021 record, preventing price statistics or trend analysis."
+    }
+  },
+  "biography": {
+    "identityFacts": [
+      {"zh": "姓名：Marc Chalmé；变体：Marc Chalme。", "en": "Name: Marc Chalmé; variant: Marc Chalme."},
+      {"zh": "出生：1969年，法国布列塔尼大区洛里昂。", "en": "Born 1969 in Lorient, Brittany, France."},
+      {"zh": "国籍：法国，依据当前合作画廊的表述；未查阅公民身份文件。", "en": "Nationality: French, per current gallery descriptions; citizenship documentation was not reviewed."},
+      {"zh": "媒介：绘画、素描；主要为布面油画，另有板上油画。", "en": "Media: painting and drawing; mainly oil on canvas, with some oil on board."},
+      {"zh": "教育：曾在南特和雷恩学习艺术，之后师从 Georges Pichon；学校、学位和年份未注明。", "en": "Education: studied art in Nantes and Rennes, later with Georges Pichon; schools, degrees, and dates are not specified."},
+      {"zh": "当前代理（据艺术家联系页面）：M Fine Arts Galerie、Catto Gallery、Galerie Claudine Legrand。", "en": "Current representation (per the artist's contact page): M Fine Arts Galerie, Catto Gallery, Galerie Claudine Legrand."}
+    ],
+    "personal": [
+      {"year": "1969", "title": {"zh": "出生于洛里昂", "en": "Born in Lorient"}, "description": {"zh": "出生于法国布列塔尼大区洛里昂。", "en": "Born in Lorient, Brittany, France."}},
+      {"year": "n.d.", "title": {"zh": "南特、雷恩与 Georges Pichon", "en": "Nantes, Rennes, and Georges Pichon"}, "description": {"zh": "简历称其在南特和雷恩学习艺术，之后跟随 Georges Pichon 学习；年份和学校未注明。", "en": "Biographies state he studied art in Nantes and Rennes, then with Georges Pichon; dates and schools are not specified."}}
+    ],
+    "career": [
+      {"year": "1991", "title": {"zh": "绘画与教学", "en": "Painting and teaching"}, "description": {"zh": "简历称自 1991 年起同时从事绘画和教学；任教机构未注明。", "en": "Biographies state he has divided his time between painting and teaching since 1991; the teaching post is not specified."}},
+      {"year": "2005", "title": {"zh": "首次个展", "en": "First solo exhibition"}, "description": {"zh": "简历称首次个展于 2005 年举行；场地和日期未注明。", "en": "Biographies report a first solo exhibition in 2005; venue and dates are not specified."}},
+      {"year": "2010", "title": {"zh": "Galerie Mouvances 与 Galerie Véronèse", "en": "Galerie Mouvances and Galerie Véronèse"}, "description": {"zh": "巴黎及南特个展，列于艺术家和 Catto 的简历。", "en": "Solo shows in Paris and Nantes listed in the artist and Catto biographies."}},
+      {"year": "2013–2015", "title": {"zh": "Axelle Gallery，纽约与波士顿", "en": "Axelle Gallery, New York and Boston"}, "description": {"zh": "2013、2014、2015 年个展，列于艺术家和 Catto 的简历。", "en": "Solo shows in 2013, 2014, and 2015 listed in the artist and Catto biographies."}},
+      {"year": "2018", "title": {"zh": "《Those Who Dream by Day》，M Fine Arts", "en": "Those Who Dream by Day, M Fine Arts"}, "description": {"zh": "2018年11月于波士顿，已由画廊展览档案核实。", "en": "Boston, November 2018, verified by the gallery's exhibition archive."}},
+      {"year": "2022", "title": {"zh": "Galerie Claudine Legrand 个展；Moderne Art Fair", "en": "Galerie Claudine Legrand solo; Moderne Art Fair"}, "description": {"zh": "巴黎个展 2022-03-10 至 2022-04-02；同年列入该画廊在 Moderne Art Fair 402 号展位的艺术家名单。", "en": "Paris solo show 2022-03-10 to 2022-04-02; listed the same year among the gallery's artists at Moderne Art Fair, Stand 402."}},
+      {"year": "2023", "title": {"zh": "Catto Gallery，伦敦", "en": "Catto Gallery, London"}, "description": {"zh": "2023-11-09 至 2023-11-30，画廊称其为艺术家在英国的首次展览。", "en": "2023-11-09 to 2023-11-30, described by the gallery as his first UK exhibition."}}
+    ],
+    "interactionLead": {"zh": "生平资料难以解释创作", "en": "Biography explains little of the practice"},
+    "interactionBody": {
+      "zh": "现有简历只记录学习地点、长期兼任教学以及画廊年表，没有艺术家自述或独立资料说明这些经历如何影响创作。本报告因此不推断生平与画面之间的因果关系。",
+      "en": "Available biographies record places of study, long-term teaching, and a gallery chronology; no artist statement or independent source explains how these shaped the work, so no causal link is inferred."
+    }
+  },
+  "practice": {
+    "axisLeft": {"zh": "建构的空间", "en": "Constructed space"},
+    "axisRight": {"zh": "悬置的时间", "en": "Suspended time"},
+    "summary": {
+      "zh": "他反复使用清晰、精心建构的建筑、物件与风景，同时减少叙事行动；黄昏、夜晚、人工照明、窗户、反射、空房间与近乎无人的街道反复出现。",
+      "en": "He repeatedly uses legible, carefully constructed architecture, objects, and landscapes while minimizing narrative action; dusk, night, artificial illumination, windows, reflections, empty rooms, and partly deserted streets recur."
+    },
+    "contextImages": [],
+    "methods": [
+      {"title": {"zh": "媒介与画面建构", "en": "Medium and construction"}, "detail": {"zh": "近期作品以布面油画为主，尺寸从小幅至 160 × 200 厘米；2023 年 Catto 展览中也有素描和板上油画。", "en": "Recent works are mainly oil on canvas, from small formats to 160 × 200 cm; the 2023 Catto exhibition also included drawings and oil on board."}},
+      {"title": {"zh": "题材", "en": "Subjects"}, "detail": {"zh": "街道与建筑、风景边界、室内、静物、镜子、窗帘、人物、树木，以及夜晚或昼夜转换时的天空。", "en": "Streets and architecture, landscape edges, interiors, still lifes, mirrors, curtains, figures, trees, and night or twilight skies."}},
+      {"title": {"zh": "光线与时间", "en": "Light and time"}, "detail": {"zh": "黄昏、夜晚、人工照明、阴影与反射光持续组织画面。", "en": "Dusk, night, artificial light, shadow, and reflected light consistently organize the image."}},
+      {"title": {"zh": "人的在场与缺席", "en": "Presence and absence"}, "detail": {"zh": "较早的画廊文字提到女性、儿童和家庭片段；2023 年 Catto 展览强调人物大多已退场。证据不足以据此划分创作阶段。", "en": "Earlier gallery texts mention women, children, and domestic scenes; the 2023 Catto show stresses that figures have largely withdrawn. Evidence is insufficient to define phases from this."}}
+    ],
+    "artistVoice": {
+      "gap": {"zh": "已查阅来源中没有找到艺术家本人撰写或可归属的创作陈述。", "en": "No artist-authored or attributable statement was located in the reviewed sources."}
+    },
+    "institutionalViews": [
+      {"institution": "M Fine Arts Galerie (gallery)", "interpretation": {"zh": "画廊将熟悉的家庭和街道场景解读为带有梦境感、仿佛悬置于时间之外、有时略显诡秘的画面。", "en": "The gallery reads familiar domestic and street scenes as dreamlike, temporally suspended, and at times eerie."}, "source": {"label": "M Fine Arts Galerie — Marc Chalmé", "url": "https://www.mfinearts.com/marc-chalme"}},
+      {"institution": "Catto Gallery (gallery)", "interpretation": {"zh": "画廊以“介于两者之间的状态”解读 2023 年作品：人物退场，自然似将进入室内；并提出与 de Chirico、Magritte 的联系。这是画廊阐释，不是学术共识。", "en": "The gallery frames the 2023 works as an in-between state in which figures withdraw and nature seems to enter interiors, and suggests links to de Chirico and Magritte. This is gallery interpretation, not scholarly consensus."}, "source": {"label": "Catto Gallery — Marc Chalmé exhibition 2023", "url": "https://cattogallery.co.uk/artists/marc-chalme/marc-chalme-exhibition-2023/"}},
+      {"institution": "Galeries & Musées — Quentin Didier (independent review)", "interpretation": {"zh": "2022 年评论认为其创作完全建立在具象绘画之上，核心是细致建构的室内外空间、空旷街道以及光影互动。", "en": "A 2022 review describes a fully figurative practice centered on carefully constructed interiors and exteriors, empty streets, and the interplay of shadow and light."}, "source": {"label": "Galeries & Musées — Les cadres nocturnes du peintre Marc Chalmé", "url": "https://officiel-galeries-musees.fr/les-cadres-nocturnes-du-peintre-marc-chalme/"}}
+    ],
+    "synthesis": {
+      "zh": "系统综合：光线是画面中的主要事件，标记室内与室外、白昼与黑夜、在场与缺席之间的边界。此判断基于作品记录、一篇独立评论和两家画廊的解读，不代表艺术家本人表达的意图。",
+      "en": "System synthesis: light functions as the primary event, marking thresholds between inside and outside, day and night, presence and absence. Built from work records, one independent review, and two gallery readings; not stated artist intent."
+    }
+  },
+  "works": [
+    {"title": {"zh": "《Macondo》", "en": "Macondo"}, "year": "n.d.", "medium": {"zh": "绘画", "en": "Painting"}, "dimensions": {"zh": "89 × 116 厘米", "en": "89 × 116 cm"}, "note": {"zh": "随 2022 年独立评论刊出，作为夜间建构空间的例子。", "en": "Reproduced with the 2022 independent review as an example of nocturnal constructed space."}, "image": null},
+    {"title": {"zh": "《The Station》（《La gare》）", "en": "The Station (La gare)"}, "year": "n.d.", "medium": {"zh": "绘画", "en": "Painting"}, "dimensions": {"zh": "27 × 35 厘米", "en": "27 × 35 cm"}, "note": {"zh": "小尺幅街道／建筑场景，连接车站母题与夜间环境。", "en": "A small street/architectural scene linking the station motif to a nocturnal setting."}, "image": null},
+    {"title": {"zh": "《In the Mirror》", "en": "In the Mirror"}, "year": "2023", "medium": {"zh": "布面油画", "en": "Oil on canvas"}, "dimensions": {"zh": "97 × 130 厘米", "en": "97 × 130 cm"}, "note": {"zh": "连接室内、反射与经过安排的家庭空间；Catto 标注已售，未披露价格。", "en": "Connects interior, reflection, and staged domestic space; marked sold by Catto without a disclosed price."}, "image": null},
+    {"title": {"zh": "《Nightfall》", "en": "Nightfall"}, "year": "2023", "medium": {"zh": "布面油画", "en": "Oil on canvas"}, "dimensions": {"zh": "97 × 130 厘米", "en": "97 × 130 cm"}, "note": {"zh": "代表 Catto 展览文字中的暮色风景；截止日画廊报价 8,950 英镑，不是拍卖成交。", "en": "Represents the twilight landscapes in Catto's text; gallery asking price GBP 8,950 at cutoff, not an auction result."}, "image": null},
+    {"title": {"zh": "《Dreamers II》", "en": "Dreamers II"}, "year": "2023", "medium": {"zh": "布面油画", "en": "Oil on canvas"}, "dimensions": {"zh": "130 × 162 厘米", "en": "130 × 162 cm"}, "note": {"zh": "大尺幅展品，连接近期标题中反复出现的“梦”；标注已售，价格未披露。", "en": "Large-format work linked to the recurring dream vocabulary in recent titles; marked sold, price not disclosed."}, "image": null},
+    {"title": {"zh": "《Sisters in the Mirror》", "en": "Sisters in the Mirror"}, "year": "2023", "medium": {"zh": "布面油画", "en": "Oil on canvas"}, "dimensions": {"zh": "160 × 200 厘米", "en": "160 × 200 cm"}, "note": {"zh": "大尺幅人物／室内作品，说明 2023 年展览并非全是无人风景；标注已售。", "en": "Large figurative/interior work showing the 2023 show was not only unpopulated landscape; marked sold."}, "image": null},
+    {"title": {"zh": "《Into the Dream》（素描）", "en": "Into the Dream (drawing)"}, "year": "2023", "medium": {"zh": "素描", "en": "Drawing"}, "dimensions": {"zh": "124 × 145 厘米", "en": "124 × 145 cm"}, "note": {"zh": "说明素描是与油画并行的媒介。", "en": "Documents drawing as a parallel medium to painting."}, "image": null},
+    {"title": {"zh": "《Blue Neon》", "en": "Blue Neon"}, "year": "2023", "medium": {"zh": "板上油画", "en": "Oil on board"}, "dimensions": {"zh": "27 × 35 厘米", "en": "27 × 35 cm"}, "note": {"zh": "小尺幅板上作品与人工城市光线；截止日画廊报价 2,500 英镑。", "en": "Small board format and artificial urban light; gallery asking price GBP 2,500 at cutoff."}, "image": null}
+  ],
+  "developments": {
+    "intro": {
+      "zh": "现有来源提供了有日期的作品和展览，但没有足够的独立资料或艺术家自述来建立具有明确转变依据的创作阶段。",
+      "en": "Sources provide dated works and exhibitions but not enough independent evidence or artist statements to establish phases with documented transitions."
+    },
+    "image": null,
+    "entries": [],
+    "gapNote": {
+      "zh": "未公开核实：若把较早的人物家庭场景与 2023 年更空旷的风景划为不同阶段，会过度依赖画廊文字和不完整的作品样本，因此不设早期／中期／晚期阶段。",
+      "en": "Not publicly verified: splitting earlier figurative domestic scenes from the emptier 2023 landscapes would over-rely on gallery copy and an incomplete image sample, so no early/middle/late phases are asserted."
+    }
+  },
+  "exhibitions": {
+    "heroImages": [],
+    "currentUpcoming": [],
+    "historyGroups": [
+      {
+        "label": {"zh": "已由展览页面核实", "en": "Verified by exhibition pages"},
+        "entries": [
+          {"year": "2023", "title": {"zh": "Marc Chalmé 个展，Catto Gallery，伦敦", "en": "Marc Chalmé exhibition, Catto Gallery, London"}, "description": {"zh": "2023-11-09 至 2023-11-30；画廊称其为在英国的首次展览。", "en": "2023-11-09 to 2023-11-30; described by the gallery as his first UK exhibition."}},
+          {"year": "2022", "title": {"zh": "Moderne Art Fair，巴黎", "en": "Moderne Art Fair, Paris"}, "description": {"zh": "群展／艺博会：官方图录将其列入 Galerie Claudine Legrand 402 号展位。", "en": "Group/fair: the official catalogue lists him with Galerie Claudine Legrand at Stand 402."}},
+          {"year": "2022", "title": {"zh": "Marc Chalmé 个展，Galerie Claudine Legrand，巴黎", "en": "Marc Chalmé, Galerie Claudine Legrand, Paris"}, "description": {"zh": "2022-03-10 至 2022-04-02，展期由《Galeries & Musées》独立报道。", "en": "2022-03-10 to 2022-04-02, dates independently reported by Galeries & Musées."}},
+          {"year": "2018", "title": {"zh": "《Those Who Dream by Day》，M Fine Arts Galerie，波士顿", "en": "Those Who Dream by Day, M Fine Arts Galerie, Boston"}, "description": {"zh": "2018年11月，见画廊展览档案。", "en": "November 2018, per the gallery's exhibition archive."}}
+        ]
+      },
+      {
+        "label": {"zh": "仅列于简历", "en": "Listed in biographies only"},
+        "entries": [
+          {"year": "2022", "title": {"zh": "个展，Hugo Galerie，纽约", "en": "Solo show, Hugo Galerie, New York"}, "description": {"zh": "列于艺术家简历；未找到名称和日期。", "en": "Listed in the artist biography; no title or dates found."}},
+          {"year": "2019", "title": {"zh": "个展，Hugo Galerie，纽约", "en": "Solo show, Hugo Galerie, New York"}, "description": {"zh": "列于艺术家和 Catto 的简历。", "en": "Listed in the artist and Catto biographies."}},
+          {"year": "2017", "title": {"zh": "个展，Galerie Claudine Legrand，巴黎", "en": "Solo show, Galerie Claudine Legrand, Paris"}, "description": {"zh": "列于艺术家和 Catto 的简历。", "en": "Listed in the artist and Catto biographies."}},
+          {"year": "2013–2015", "title": {"zh": "个展，Axelle Gallery，纽约／波士顿", "en": "Solo shows, Axelle Gallery, New York / Boston"}, "description": {"zh": "2013（纽约）、2014（波士顿）、2015（纽约），列于艺术家和 Catto 的简历。", "en": "2013 (New York), 2014 (Boston), 2015 (New York), listed in the artist and Catto biographies."}},
+          {"year": "2010–2012", "title": {"zh": "个展，Galerie Mouvances／Galerie Véronèse", "en": "Solo shows, Galerie Mouvances / Galerie Véronèse"}, "description": {"zh": "2010 年巴黎及南特、2012 年巴黎，列于艺术家和 Catto 的简历。", "en": "2010 in Paris and Nantes, 2012 in Paris, listed in the artist and Catto biographies."}}
+        ]
+      },
+      {
+        "label": {"zh": "日期冲突或未解决", "en": "Conflicting or unresolved dates"},
+        "entries": [
+          {"year": "2023 / 2025", "title": {"zh": "《Dreamers》，Gallery Elle，圣莫里茨", "en": "Dreamers, Gallery Elle, St. Moritz"}, "description": {"zh": "艺术家简历标为 2025 年，Gallery Elle 目录标为 2023 年。", "en": "Artist biography says 2025; Gallery Elle's index says 2023."}},
+          {"year": "2023 / 2024", "title": {"zh": "《Still Life》，Gallery Elle，苏黎世", "en": "Still Life, Gallery Elle, Zurich"}, "description": {"zh": "群展；艺术家简历标为 2024 年，Gallery Elle 目录标为 2023 年。", "en": "Group show; artist biography says 2024, Gallery Elle's index says 2023."}}
+        ]
+      }
+    ]
+  },
+  "institutions": {
+    "intro": {
+      "zh": "在已查阅来源中未找到公共美术馆收藏、机构个展、公共委托、作品全集或重要学术专著。这仅表示本次研究范围内未找到，不证明不存在；商业画廊展览和艺博会不重新归类为机构认可。",
+      "en": "No public-museum collection, institutional exhibition, public commission, catalogue raisonné, or major monograph was found in the reviewed sources. This is a negative finding within the research scope, not proof of absence; gallery shows and fairs are not reclassified as institutional recognition."
+    },
+    "collections": [],
+    "artistVoice": {
+      "gap": {"zh": "已查阅来源中没有可归属的艺术家引语。", "en": "No attributable artist quotation was located in the reviewed sources."}
+    },
+    "galleries": [
+      {"name": "M Fine Arts Galerie, Boston", "detail": {"zh": "当前代理：艺术家联系页面列出，画廊名单仍包含该艺术家。", "en": "Current representation: named on the artist's contact page and still on the gallery roster."}, "url": "https://marcchalme.com/contact/"},
+      {"name": "Catto Gallery, London", "detail": {"zh": "当前代理：艺术家联系页面列出；画廊名单仍包含该艺术家并展示可售作品。", "en": "Current representation: named on the artist's contact page; still on the roster with available works shown."}, "url": "https://cattogallery.co.uk/artists/marc-chalme/"},
+      {"name": "Galerie Claudine Legrand, Paris", "detail": {"zh": "当前代理：艺术家联系页面列出；长期个展合作有独立资料记录。", "en": "Current representation: named on the artist's contact page; a long-running solo-show relationship is independently documented."}, "url": "https://marcchalme.com/contact/"},
+      {"name": "Gallery Elle, Zurich / St. Moritz", "detail": {"zh": "关系状态不明确：画廊仍列出该艺术家，但艺术家联系页面未列出该画廊。", "en": "Status unclear: the gallery still lists the artist, but the artist's contact page omits it."}, "url": "https://galleryelle.com/exhibitions"}
+    ],
+    "recentSignals": [
+      {"zh": "2025——《Dreamers》，Gallery Elle 圣莫里茨：年份与画廊目录（2023）冲突。", "en": "2025 — Dreamers, Gallery Elle St. Moritz: year conflicts with the gallery index (2023)."},
+      {"zh": "2025——M Fine Arts 个展：仅列于艺术家简历，无名称、日期或展览页面。", "en": "2025 — M Fine Arts solo show: artist biography only; no title, dates, or event page."},
+      {"zh": "2024——Gallery Elle 苏黎世个展：仅列于艺术家简历，画廊目录未能确认。", "en": "2024 — Gallery Elle Zurich solo show: artist biography only; not resolved by the gallery index."},
+      {"zh": "2024——Catto 个展：艺术家简历记录，但 Catto 档案只记录 2023 年 11 月的展览。", "en": "2024 — Catto solo show: listed by the artist, but Catto's archive documents only the November 2023 show."}
+    ]
+  },
+  "market": {
+    "status": {
+      "zh": "资料覆盖有限：askART 公开显示一条《Nature morte au pichet d’étain》记录（第 195 号拍品，2021-10-05），未注明拍卖行，估价与落槌价需订阅才能查看；未找到拍卖行原始记录，因此不作为结构化拍品展示。",
+      "en": "Limited coverage: askART shows one record for Nature morte au pichet d’étain (lot 195, 2021-10-05) without the auction house, and with estimate and hammer withheld behind a subscription; no primary auction-house record was found, so it is not shown as a structured lot."
+    },
+    "record": null,
+    "lots": [],
+    "comparisonTitle": {"zh": "画廊报价不是拍卖结果", "en": "Gallery asking prices are not auction results"},
+    "comparisonBody": {
+      "zh": "Catto 公开页面显示 2023 年作品的画廊报价从《Blue Neon》2,500 英镑到《Nightfall》8,950 英镑不等，多件标注已售但未公布价格。这些是一级市场报价，未与拍卖记录合并计算。",
+      "en": "Catto's public pages list 2023 asking prices from GBP 2,500 (Blue Neon) to GBP 8,950 (Nightfall), with several works marked sold without prices. These primary-market offers are not combined with auction data."
+    },
+    "aggregateStatus": {"zh": "汇总统计：不计算", "en": "Aggregate statistics: not calculated"},
+    "aggregateReason": {
+      "zh": "只有一个价格不可见的样本；数据商显示的 100% 成交率无法支持中位数、成交率或趋势分析。",
+      "en": "One price-hidden observation; the provider's displayed 100% sold rate cannot support a median, sell-through, or trend analysis."
+    }
+  },
+  "potential": {
+    "summary": {
+      "zh": "可核实的动能信号集中在商业画廊体系：三家当前代理、2023 年首次英国个展、一次艺博会展示、一篇独立评论，以及一级市场的已售标注。未核实到机构展览、奖项或公共收藏；拍卖证据只有一条不公开价格的记录。",
+      "en": "Verifiable momentum signals sit within the commercial-gallery system: three current representatives, a first UK solo show in 2023, one fair presentation, one independent review, and primary-market sold markers. No institutional exhibition, prize, or public collection was verified, and auction evidence is a single price-hidden record."
+    },
+    "signals": [
+      {"category": "representation", "title": {"zh": "三家当前代理画廊", "en": "Three current representing galleries"}, "detail": {"zh": "艺术家联系页面列出波士顿、伦敦和巴黎的三家画廊。", "en": "The artist's contact page names galleries in Boston, London, and Paris."}, "date": "2026-08-05", "sourceRefs": [{"label": "Marc Chalmé — Contact", "url": "https://marcchalme.com/contact/"}]},
+      {"category": "gallery-exhibition", "title": {"zh": "首次英国个展", "en": "First UK exhibition"}, "detail": {"zh": "Catto Gallery，伦敦，2023-11-09 至 2023-11-30。", "en": "Catto Gallery, London, 2023-11-09 to 2023-11-30."}, "date": "2023-11", "sourceRefs": [{"label": "Catto Gallery — Marc Chalmé exhibition 2023", "url": "https://cattogallery.co.uk/artists/marc-chalme/marc-chalme-exhibition-2023/"}, {"label": "Catto Gallery — Marc Chalmé", "url": "https://cattogallery.co.uk/artists/marc-chalme/"}]},
+      {"category": "art-fair", "title": {"zh": "Moderne Art Fair 2022", "en": "Moderne Art Fair 2022"}, "detail": {"zh": "官方图录将其列入 Galerie Claudine Legrand 402 号展位。", "en": "The official catalogue lists him with Galerie Claudine Legrand at Stand 402."}, "date": "2022-10", "sourceRefs": [{"label": "Moderne Art Fair 2022 catalogue", "url": "https://moderneartfair.com/wp-content/uploads/2022/10/catalogue_MAF22.pdf"}]},
+      {"category": "critical-attention", "title": {"zh": "一篇独立专业评论", "en": "One independent specialist review"}, "detail": {"zh": "Quentin Didier 于 2022-03-03 在《Galeries & Musées》发表评论。", "en": "Quentin Didier, Galeries & Musées, 2022-03-03."}, "date": "2022-03", "sourceRefs": [{"label": "Galeries & Musées — Les cadres nocturnes du peintre Marc Chalmé", "url": "https://officiel-galeries-musees.fr/les-cadres-nocturnes-du-peintre-marc-chalme/"}]},
+      {"category": "market-activity", "title": {"zh": "一级市场已售标注", "en": "Primary-market sold markers"}, "detail": {"zh": "2023 年 Catto 展览中多件作品标注已售（未公布价格）；截止日在售作品报价 2,500–8,950 英镑。", "en": "Several 2023 Catto works are marked sold (no prices disclosed); available works were listed at GBP 2,500–8,950 at cutoff."}, "date": "2023–2026", "sourceRefs": [{"label": "Catto Gallery — Marc Chalmé exhibition 2023", "url": "https://cattogallery.co.uk/artists/marc-chalme/marc-chalme-exhibition-2023/"}, {"label": "Catto Gallery — Available artwork", "url": "https://cattogallery.co.uk/artists/marc-chalme/marc-chalm%C3%A9-available-artwork.html"}]}
+    ],
+    "counterSignals": [
+      {"category": "collection", "title": {"zh": "未核实到机构记录", "en": "No institutional record verified"}, "detail": {"zh": "已查阅来源中没有公共美术馆收藏或机构展览；这是范围内的否定性发现。", "en": "No public-museum collection or institutional exhibition in the reviewed sources; a scoped negative finding."}, "date": "2026-08-05", "sourceRefs": []},
+      {"category": "market-activity", "title": {"zh": "拍卖证据极少", "en": "Minimal auction evidence"}, "detail": {"zh": "只有一条价格和拍卖行均不可见的数据库记录。", "en": "A single database record with price and auction house hidden."}, "date": "2021-10-05", "sourceRefs": [{"label": "askART — Marc Chalme Auction Records", "url": "https://www.askart.com/auction_records/Marc_Chalme/11368212/Marc_Chalme"}]},
+      {"category": "critical-attention", "title": {"zh": "独立评论单薄", "en": "Thin independent criticism"}, "detail": {"zh": "只找到一篇独立文章，其余阐释性文字大多来自画廊。", "en": "Only one independent article; most interpretive language comes from galleries."}, "date": "2022-03", "sourceRefs": [{"label": "Galeries & Musées — Les cadres nocturnes du peintre Marc Chalmé", "url": "https://officiel-galeries-musees.fr/les-cadres-nocturnes-du-peintre-marc-chalme/"}]},
+      {"category": "gallery-exhibition", "title": {"zh": "近期活动未核实或日期冲突", "en": "Recent activity unverified or conflicting"}, "detail": {"zh": "2024–2025 年的展览主要来自艺术家简历，与画廊目录冲突或缺少展览页面。", "en": "2024–2025 shows come mainly from the artist biography and conflict with gallery indexes or lack event pages."}, "date": "2024–2025", "sourceRefs": [{"label": "Marc Chalmé — Bio", "url": "https://marcchalme.com/bio/"}, {"label": "Gallery Elle — Artists and Exhibitions", "url": "https://galleryelle.com/exhibitions"}]},
+      {"category": "representation", "title": {"zh": "代理状态不一致", "en": "Inconsistent representation status"}, "detail": {"zh": "Gallery Elle 仍列出该艺术家，但艺术家联系页面未列出该画廊。", "en": "Gallery Elle lists the artist, but the artist's contact page omits it."}, "date": "2026-08-05", "sourceRefs": [{"label": "Marc Chalmé — Contact", "url": "https://marcchalme.com/contact/"}, {"label": "Gallery Elle — Artists and Exhibitions", "url": "https://galleryelle.com/exhibitions"}]}
+    ],
+    "gaps": [
+      {"zh": "原始 v0.1 研究没有检索奖项、驻留或资助；此处为空不代表不存在。", "en": "The original v0.1 research did not search prizes, residencies, or grants; their absence here is not evidence that none exist."},
+      {"zh": "本节由迁移整理已有事实而成，未做新的检索；信号反映 2026-08-05 的截止状态。", "en": "This section was assembled during migration from existing facts without new research; signals reflect the 2026-08-05 cutoff."}
+    ]
+  },
+  "evidence": [
+    {"title": {"zh": "近期展览年份冲突", "en": "Recent exhibition dates conflict"}, "category": {"zh": "冲突", "en": "Conflict"}, "detail": {"zh": "艺术家简历将《Dreamers》列为 2025 年、《Still Life》列为 2024 年，Gallery Elle 均标为 2023 年；简历中的 2024 年 Catto 个展未找到对应页面。未擅自统一。", "en": "The artist biography dates Dreamers to 2025 and Still Life to 2024; Gallery Elle dates both to 2023; a 2024 Catto solo listed by the artist has no event page. Not reconciled without evidence."}},
+      {"title": {"zh": "画廊状态不一致", "en": "Representation status differs"}, "category": {"zh": "冲突", "en": "Conflict"}, "detail": {"zh": "Gallery Elle 仍列出该艺术家，但艺术家联系页面未列出该画廊。", "en": "Gallery Elle lists the artist; the artist's contact page omits Gallery Elle."}},
+      {"title": {"zh": "缺乏机构资料", "en": "No institutional records"}, "category": {"zh": "缺口", "en": "Gap"}, "detail": {"zh": "未核实到美术馆收藏或机构展览。", "en": "No museum collection record or institutional exhibition was verified."}},
+      {"title": {"zh": "独立评论有限", "en": "Thin independent criticism"}, "category": {"zh": "缺口", "en": "Gap"}, "detail": {"zh": "只找到一篇专业媒体文章，大量阐释来自画廊。", "en": "Only one specialist article was found; much interpretation originates with galleries."}},
+      {"title": {"zh": "公开市场数据不足", "en": "Insufficient public-market sample"}, "category": {"zh": "方法限制", "en": "Method limit"}, "detail": {"zh": "一条受付费限制的记录无法支持统计、比较或趋势分析。", "en": "One price-restricted record cannot support statistics, comparisons, or trends."}},
+      {"title": {"zh": "生平资料不完整", "en": "Biography fields unspecified"}, "category": {"zh": "缺口", "en": "Gap"}, "detail": {"zh": "学校、学位、任教机构、当前工作地和 2005 年首次个展场地均未确认。", "en": "Schools, degrees, teaching post, current base, and the 2005 first-solo venue were not established."}},
+      {"title": {"zh": "来源少于 12 项", "en": "Fewer than 12 sources"}, "category": {"zh": "方法限制", "en": "Method limit"}, "detail": {"zh": "仅 11 项来源，且多为艺术家或画廊提供的资料，可能共用同一份简历文本。", "en": "Only 11 sources, mostly artist- or gallery-supplied and possibly sharing the same biography copy."}},
+      {"title": {"zh": "由 v0.1 迁移", "en": "Migrated from v0.1"}, "category": {"zh": "方法说明", "en": "Methodology"}, "detail": {"zh": "2026-10-31 从 reports/marc-chalme-artist-report.json（v0.1）及配套 Markdown 迁移，只重用其中已有事实；来源层级按 research-standard.md 的六级顺序重新标注。", "en": "Migrated on 2026-10-31 from reports/marc-chalme-artist-report.json (v0.1) and its Markdown, reusing only existing facts; source tiers were relabeled to the six-step order in research-standard.md."}}
+  ],
+  "sources": [
+    {"title": "Bio", "url": "https://marcchalme.com/bio/", "publisher": "Marc Chalmé", "accessed": "2026-08-05", "tier": 1, "supports": ["biography", "exhibitions", "institutions", "potential"]},
+    {"title": "Contact", "url": "https://marcchalme.com/contact/", "publisher": "Marc Chalmé", "accessed": "2026-08-05", "tier": 1, "supports": ["biography", "institutions", "potential"]},
+    {"title": "Marc Chalmé", "url": "https://cattogallery.co.uk/artists/marc-chalme/", "publisher": "Catto Gallery", "accessed": "2026-08-05", "tier": 3, "supports": ["biography", "exhibitions", "institutions", "potential"]},
+    {"title": "Marc Chalmé exhibition 2023", "url": "https://cattogallery.co.uk/artists/marc-chalme/marc-chalme-exhibition-2023/", "publisher": "Catto Gallery", "accessed": "2026-08-05", "tier": 3, "supports": ["practice", "works", "exhibitions", "market", "potential"]},
+    {"title": "Marc Chalmé", "url": "https://www.mfinearts.com/marc-chalme", "publisher": "M Fine Arts Galerie", "accessed": "2026-08-05", "tier": 3, "supports": ["biography", "practice", "institutions"]},
+    {"title": "Les cadres nocturnes du peintre Marc Chalmé", "url": "https://officiel-galeries-musees.fr/les-cadres-nocturnes-du-peintre-marc-chalme/", "publisher": "Galeries & Musées (Quentin Didier, 2022-03-03)", "accessed": "2026-08-05", "tier": 6, "supports": ["practice", "works", "exhibitions", "potential"]},
+    {"title": "Marc Chalme | Those Who Dream By Day", "url": "https://www.mfinearts.com/exhibtions", "publisher": "M Fine Arts Galerie", "accessed": "2026-08-05", "tier": 3, "supports": ["biography", "exhibitions"]},
+    {"title": "Artists and Exhibitions", "url": "https://galleryelle.com/exhibitions", "publisher": "Gallery Elle", "accessed": "2026-08-05", "tier": 3, "supports": ["exhibitions", "institutions", "potential"]},
+    {"title": "Marc Chalmé Available artwork", "url": "https://cattogallery.co.uk/artists/marc-chalme/marc-chalm%C3%A9-available-artwork.html", "publisher": "Catto Gallery", "accessed": "2026-08-05", "tier": 3, "supports": ["works", "market", "potential"]},
+    {"title": "Marc Chalme Auction Records", "url": "https://www.askart.com/auction_records/Marc_Chalme/11368212/Marc_Chalme", "publisher": "askART", "accessed": "2026-08-05", "tier": 5, "supports": ["market", "potential"]},
+    {"title": "Moderne Art Fair 2022 catalogue", "url": "https://moderneartfair.com/wp-content/uploads/2022/10/catalogue_MAF22.pdf", "publisher": "Moderne Art Fair", "accessed": "2026-08-05", "tier": 2, "supports": ["biography", "exhibitions", "potential"]}
+  ]
+}

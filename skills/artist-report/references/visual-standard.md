@@ -14,8 +14,9 @@ This file is the portable product contract. The Hiroshi Sugimoto report is the d
 8. **Exhibitions** — image header; current/upcoming first with exact dates and access date; historical exhibitions grouped by period.
 9. **Institutions and galleries** — verified public holdings, online-count caveats, gallery relationships, artist quote, and recent activity signals.
 10. **Public market** — prominent verified record plus 3–6 object-level lot cards when available; images, estimates, hammer/price basis, edition and dimensions; comparison warning and aggregate-data status.
-11. **Evidence and open questions** — conflicts, unavailable data, attribution boundaries, image gaps, and methodology.
-12. **References** — numbered audit trail with direct URLs and access dates.
+11. **Potential assessment** — sourced momentum signals beside sourced counter-signals/risks, assessment gaps, and the fixed no-forecast disclaimer.
+12. **Evidence and open questions** — conflicts, unavailable data, attribution boundaries, image gaps, and methodology.
+13. **References** — numbered audit trail with direct URLs and access dates.
 
 ## Visual minimums
 
@@ -79,7 +80,9 @@ Display single artworks and auction objects with `object-fit: contain` or an equ
 - Artist voice contains attributable statements and a source label.
 - Institutional views name the interpreting institution or curator.
 - System synthesis is clearly labeled and never presented as a quotation.
-- Exhibition status is derived from exact dates relative to the information cutoff.
+- Exhibition status is derived from `startDate`/`endDate` relative to the information cutoff (the renderer falls back to dates parsed from the display text only when those fields are absent).
+- Missing artist voice or practice phases render as visible “not publicly verified” blocks, never as invented text.
+- Potential signals are facts with source links; the momentum and counter-signal columns are shown side by side so neither reads as the whole story.
 - Collection entries require an institution-owned collection/record page or equivalent direct institutional evidence.
 - Market records are objects, never prose-only summaries. Preserve sale currency and distinguish estimate, hammer, and price with premium.
 

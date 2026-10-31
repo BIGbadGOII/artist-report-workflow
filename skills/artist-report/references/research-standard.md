@@ -11,6 +11,8 @@
 
 Do not use aggregators to support a claim when the underlying primary page is available. Search results are discovery aids, not sources.
 
+`sources[].tier` in `report.json` is the position in this list (1–6). Specialist market databases other than MutualArt (for example askART or artnet) are tier 5 and need the same underlying-house attribution.
+
 ## Minimum coverage
 
 - Identity: legal/display name, aliases, birth/death where applicable, nationality, locations, disciplines.
@@ -20,6 +22,7 @@ Do not use aggregators to support a claim when the underlying primary page is av
 - Exhibitions: current/upcoming first, followed by selected historical milestones.
 - Institutions: verified public collection presence and gallery relationships.
 - Market: object-level examples only; distinguish estimate, hammer, and price with premium.
+- Potential assessment: sourced momentum signals, counter-signals, and gaps (see below).
 - Evidence: contradictions, missing data, restricted access, and methodological limits.
 - Sources: normally 12–30 direct URLs; fewer is acceptable for poorly documented artists if explicitly labeled.
 
@@ -29,7 +32,7 @@ Do not use aggregators to support a claim when the underlying primary page is av
 - Attributed interpretation: name the speaker or institution.
 - System synthesis: clearly label it as synthesis and build only from cited facts.
 - Conflict: preserve both versions and explain which is used and why.
-- Missing fact: write “not publicly verified” rather than filling the gap.
+- Missing fact: write “not publicly verified” rather than filling the gap. When a whole required block is missing (artist voice, practice phases), use the schema gap mechanism: `{"gap": {"zh": …, "en": …}}` for `artistVoice`, `developments.gapNote` with fewer than four entries.
 
 ## Market discipline
 
@@ -43,6 +46,41 @@ Do not use aggregators to support a claim when the underlying primary page is av
 - A logged-in result list is not automatically a complete population. Record the applied artist identity, filters, sort order, visible result count, pagination coverage, and access date before calculating aggregate statistics.
 - Do not calculate sell-through, turnover, median, or trends from any incomplete sample, whether public or authenticated.
 - Do not infer a result when it is not visible in either public evidence or the user's authenticated session.
+
+## Potential assessment (潜力评估)
+
+`potential` answers one question: what does the public record show about the artist's current trajectory, and what does it not show? It is an evidence summary, not a forecast.
+
+Momentum signals (`potential.signals`). Each signal needs a category, a date or period, a factual bilingual description, and at least one `sourceRef` whose URL appears in `sources`. Look for:
+
+- `institutional-exhibition`: museum, kunsthalle, biennial, or public-institution shows in roughly the last five years. Commercial gallery shows go under `gallery-exhibition`; never upgrade them.
+- `prize-award`, `residency-grant`: from the awarding body's own page.
+- `representation`: current galleries per the artist and gallery sites; new or added representation with a date if published.
+- `art-fair`: verified exhibitor listings from the fair organizer.
+- `critical-attention`: named critics or publications; separate independent criticism from gallery copy.
+- `collection`: institution-owned collection records only (same evidence bar as the institutions section).
+- `market-activity`: factual market observations only — public auction results with lot references, gallery-marked sales, published asking prices labeled as primary-market offers.
+
+Counter-signals and risks (`potential.counterSignals`). Record with the same structure: missing institutional validation, thin or gallery-only criticism, sparse or unverifiable auction data, unresolved date or representation conflicts, long exhibition gaps, identity ambiguity. A scoped negative finding (“not found in the reviewed sources”) may have an empty `sourceRefs` list; say what was searched.
+
+Gaps (`potential.gaps`). State which signal categories were not researched or could not be accessed, so absence of a signal is never read as evidence.
+
+Hard limits, enforced by the validator where possible:
+
+- No price predictions, valuation, appreciation language, rankings, scores, or buy/sell/hold recommendations — in this section or anywhere else. Phrases such as “undervalued”, “investment opportunity”, “prices will rise”, “升值潜力”, “投资价值”, or “建议买入” fail `--check`.
+- Do not calculate growth rates or trends from incomplete samples (see market discipline).
+- Keep signal descriptions factual: who, what, where, when, source. Interpretation belongs in `summary`, which must stay proportional to the evidence and mention the main counter-signals.
+- The renderer always prints a fixed bilingual disclaimer under this section; do not rely on wording in the data for it.
+
+## Fair-driven artist selection
+
+When the user asks you to choose an artist from an art fair (or another pool such as a biennial list or prize shortlist) instead of naming one:
+
+1. Identify the exact edition (name, year, city, dates). Get the exhibitor or artist list from the organizer's official site or official catalogue. Gallery announcements, press round-ups, and social posts are discovery aids only; confirm each candidate against the official list or the exhibiting gallery's own fair page.
+2. Apply only the user's stated criteria (sector, medium, region, emerging vs. established). If none are given, ask one concise question or state the default you use (for example: living artist, enough public sources for a report).
+3. Shortlist 3–5 candidates. For each, record the booth/gallery, the official-list URL, why they fit the brief, how much public evidence exists, and the main risk or gap.
+4. Choose one and explain the choice in terms of fit and research coverage — never expected market performance.
+5. Save this as `<output-dir>/selection-notes.md` using `assets/selection-notes-template.md`, and cite the official list in `sources` (tier 2, exhibition organizer). The fair presentation itself can then appear as an `art-fair` signal.
 
 ## Bilingual writing
 

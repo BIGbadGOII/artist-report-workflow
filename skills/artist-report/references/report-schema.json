@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Artist Report Skill Output v2",
+  "title": "Artist Report Skill Output v2.1",
   "type": "object",
-  "required": ["metadata", "visuals", "artist", "quickRead", "biography", "practice", "works", "developments", "exhibitions", "institutions", "market", "evidence", "sources"],
+  "required": ["metadata", "visuals", "artist", "quickRead", "biography", "practice", "works", "developments", "exhibitions", "institutions", "market", "potential", "evidence", "sources"],
   "$defs": {
     "bilingual": {
       "type": "object",
@@ -23,6 +23,13 @@
       "additionalProperties": false
     },
     "nullableImage": {"oneOf": [{"$ref": "#/$defs/image"}, {"type": "null"}]},
+    "gap": {
+      "description": "Explicit 'not publicly verified' placeholder used instead of fabricating a required block.",
+      "type": "object",
+      "required": ["gap"],
+      "properties": {"gap": {"$ref": "#/$defs/bilingual"}},
+      "additionalProperties": false
+    },
     "timelineEntry": {
       "type": "object",
       "required": ["year", "title", "description"],
@@ -37,6 +44,18 @@
       "type": "object",
       "required": ["label", "url"],
       "properties": {"label": {"type": "string", "minLength": 1}, "url": {"type": "string", "minLength": 1, "format": "uri"}},
+      "additionalProperties": false
+    },
+    "signal": {
+      "type": "object",
+      "required": ["category", "title", "detail", "date", "sourceRefs"],
+      "properties": {
+        "category": {"enum": ["institutional-exhibition", "gallery-exhibition", "prize-award", "residency-grant", "representation", "art-fair", "critical-attention", "collection", "market-activity", "other"]},
+        "title": {"$ref": "#/$defs/bilingual"},
+        "detail": {"$ref": "#/$defs/bilingual"},
+        "date": {"type": "string", "minLength": 1},
+        "sourceRefs": {"type": "array", "items": {"$ref": "#/$defs/sourceRef"}}
+      },
       "additionalProperties": false
     },
     "lot": {
@@ -70,7 +89,7 @@
       "type": "object",
       "required": ["reportVersion", "generatedAt", "informationCutoff", "coverageStatus", "coverageDetail", "sourceCount"],
       "properties": {
-        "reportVersion": {"const": "2.0"},
+        "reportVersion": {"const": "2.1"},
         "generatedAt": {"type": "string", "format": "date-time"},
         "informationCutoff": {"type": "string", "format": "date"},
         "coverageStatus": {"$ref": "#/$defs/bilingual"},
@@ -138,11 +157,14 @@
             "additionalProperties": false
           }
         },
-        "artistVoice": {
-          "type": "object", "required": ["quote", "context", "source"],
-          "properties": {"quote": {"$ref": "#/$defs/bilingual"}, "context": {"$ref": "#/$defs/bilingual"}, "source": {"$ref": "#/$defs/sourceRef"}},
-          "additionalProperties": false
-        },
+        "artistVoice": {"oneOf": [
+          {
+            "type": "object", "required": ["quote", "context", "source"],
+            "properties": {"quote": {"$ref": "#/$defs/bilingual"}, "context": {"$ref": "#/$defs/bilingual"}, "source": {"$ref": "#/$defs/sourceRef"}},
+            "additionalProperties": false
+          },
+          {"$ref": "#/$defs/gap"}
+        ]},
         "institutionalViews": {
           "type": "array", "minItems": 1,
           "items": {
@@ -171,7 +193,8 @@
       "properties": {
         "intro": {"$ref": "#/$defs/bilingual"},
         "image": {"$ref": "#/$defs/nullableImage"},
-        "entries": {"type": "array", "minItems": 4, "maxItems": 6, "items": {"$ref": "#/$defs/timelineEntry"}}
+        "entries": {"type": "array", "maxItems": 6, "items": {"$ref": "#/$defs/timelineEntry"}},
+        "gapNote": {"$ref": "#/$defs/bilingual"}
       },
       "additionalProperties": false
     },
@@ -185,7 +208,8 @@
             "type": "object", "required": ["status", "title", "venue", "date", "type", "accessed"],
             "properties": {
               "status": {"enum": ["current", "upcoming"]}, "title": {"$ref": "#/$defs/bilingual"}, "venue": {"$ref": "#/$defs/bilingual"},
-              "date": {"$ref": "#/$defs/bilingual"}, "type": {"$ref": "#/$defs/bilingual"}, "accessed": {"type": "string", "format": "date"}
+              "date": {"$ref": "#/$defs/bilingual"}, "type": {"$ref": "#/$defs/bilingual"}, "accessed": {"type": "string", "format": "date"},
+              "startDate": {"type": "string", "format": "date"}, "endDate": {"oneOf": [{"type": "string", "format": "date"}, {"type": "null"}]}
             },
             "additionalProperties": false
           }
@@ -216,11 +240,14 @@
             "additionalProperties": false
           }
         },
-        "artistVoice": {
-          "type": "object", "required": ["quote", "source", "image"],
-          "properties": {"quote": {"$ref": "#/$defs/bilingual"}, "source": {"$ref": "#/$defs/sourceRef"}, "image": {"$ref": "#/$defs/nullableImage"}},
-          "additionalProperties": false
-        },
+        "artistVoice": {"oneOf": [
+          {
+            "type": "object", "required": ["quote", "source", "image"],
+            "properties": {"quote": {"$ref": "#/$defs/bilingual"}, "source": {"$ref": "#/$defs/sourceRef"}, "image": {"$ref": "#/$defs/nullableImage"}},
+            "additionalProperties": false
+          },
+          {"$ref": "#/$defs/gap"}
+        ]},
         "galleries": {
           "type": "array",
           "items": {
@@ -246,6 +273,16 @@
       },
       "additionalProperties": false
     },
+    "potential": {
+      "type": "object", "required": ["summary", "signals", "counterSignals", "gaps"],
+      "properties": {
+        "summary": {"$ref": "#/$defs/bilingual"},
+        "signals": {"type": "array", "items": {"$ref": "#/$defs/signal"}},
+        "counterSignals": {"type": "array", "items": {"$ref": "#/$defs/signal"}},
+        "gaps": {"type": "array", "items": {"$ref": "#/$defs/bilingual"}}
+      },
+      "additionalProperties": false
+    },
     "evidence": {
       "type": "array", "minItems": 3,
       "items": {
@@ -258,7 +295,7 @@
       "type": "array", "minItems": 1,
       "items": {
         "type": "object", "required": ["title", "url", "publisher", "accessed", "tier", "supports"],
-        "properties": {"title": {"type": "string", "minLength": 1}, "url": {"type": "string", "format": "uri"}, "publisher": {"type": "string", "minLength": 1}, "accessed": {"type": "string", "format": "date"}, "tier": {"type": "integer", "minimum": 1, "maximum": 5}, "supports": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}}},
+        "properties": {"title": {"type": "string", "minLength": 1}, "url": {"type": "string", "format": "uri"}, "publisher": {"type": "string", "minLength": 1}, "accessed": {"type": "string", "format": "date"}, "tier": {"type": "integer", "minimum": 1, "maximum": 6}, "supports": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}}},
         "additionalProperties": false
       }
     }
