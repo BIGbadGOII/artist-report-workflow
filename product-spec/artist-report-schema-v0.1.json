@@ -1,4 +1,5 @@
 {
+  "$comment": "LEGACY v0.1 schema, superseded by skills/artist-report/references/report-schema.json (v2.1). Not used by render_report.py.",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://example.com/schemas/artist-report-v0.1.json",
   "title": "Automated Artist Report v0.1",

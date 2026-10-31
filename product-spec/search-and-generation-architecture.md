@@ -1,3 +1,5 @@
+> **LEGACY / FUTURE DESIGN — out of scope for this repository.** Describes a hypothetical hosted backend for the v0.1 product. The working pipeline is the Codex skill in `skills/artist-report/`; see `product-spec/README.md`.
+
 # Artist search and report-generation architecture
 
 ## Product principle

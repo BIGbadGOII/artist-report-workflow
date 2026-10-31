@@ -1,3 +1,5 @@
+> **LEGACY (v0.1) — not used by the current workflow.** The canonical contract is `skills/artist-report/` (`references/report-schema.json` v2.1, `references/research-standard.md`, `references/visual-standard.md`). Kept for history only; see `product-spec/README.md`.
+
 # Automated Artist Report Specification v0.1
 
 ## 1. Product definition

@@ -53,3 +53,6 @@ product-spec/report-value-review-01.md
 
 # Local backups of former nested repository metadata
 **/.git.pre-monorepo-backup/
+
+# Rendered example reports (regenerate with render_report.py)
+examples/**/report.html

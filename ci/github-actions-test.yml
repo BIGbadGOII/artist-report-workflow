@@ -1,0 +1,20 @@
+name: test
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Validate example report
+        run: python skills/artist-report/scripts/render_report.py --check --input examples/marc-chalme-20260805/report.json
+      - name: Render example report
+        run: python skills/artist-report/scripts/render_report.py --input examples/marc-chalme-20260805/report.json --output "$RUNNER_TEMP/report.html"
